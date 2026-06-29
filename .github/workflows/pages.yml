@@ -1,0 +1,38 @@
+# ============================================================
+# pages.yml  —— 放入「公開成品 repo」嘅 .github/workflows/
+#
+# 角色：公開成品 repo 收到 push（後端 repo 推 circulars.json / 成品）即 deploy Pages。
+#       公開 repo 只有成品，無後端 → path:'.' 直接部署，無洩漏風險。
+# ============================================================
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時只跑一個部署，新 push 取代排隊中嘅舊 run
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'   # 公開 repo 只含成品，全部部署 OK
+      - id: deployment
+        uses: actions/deploy-pages@v4
