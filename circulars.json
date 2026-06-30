@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T00:14:50Z",
+  "generated_at": "2026-06-30T08:27:07Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-06-27)",
@@ -158,11 +158,7 @@
             "why": "補充學生支援、家校溝通及校內程序處理的行政參考"
           }
         ],
-        "role_notes": [
-          "偵測到 student 類訊號，將 `subject_head` 角色標記為相關。",
-          "偵測到 student 類訊號，將 `panel_chair` 角色標記為相關。",
-          "偵測到 student 類訊號，將 `teacher` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "finance",
