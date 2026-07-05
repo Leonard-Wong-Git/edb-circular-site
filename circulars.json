@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T07:54:31Z",
+  "generated_at": "2026-07-05T09:14:11Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-07-02)",
@@ -7,6 +7,8 @@
   "date_to": "2026-07-03",
   "days": 3,
   "count": 184,
+  "_copyright": "© 2026 Leonard Wong. 本通告之 AI 分析、摘要、角色分派、行動建議、資料編纂及介面屬專有內容，未經授權不得轉載、再托管、鏡像或作商業用途。EDB 通告原文版權屬香港特別行政區政府教育局。正本：https://circular.wongfu.net/",
+  "_canonical": "https://circular.wongfu.net/",
   "circulars": [
     {
       "id": 0,
