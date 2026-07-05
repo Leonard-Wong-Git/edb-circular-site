@@ -1,0 +1,27 @@
+EDB 通告智能分析系統 — 專有授權 (Proprietary License)
+Copyright © 2026 Leonard Wong. 保留一切權利 (All Rights Reserved).
+
+本授權涵蓋之「專有內容」：
+- 通告之 AI 分析、摘要、角色分派、行動建議及任何衍生結構化資料；
+- 資料之編纂、選取、排序與呈現 (compilation)；
+- 本儀表板介面、程式碼及設計（包括但不限於 edb-dashboard.html、index.html、
+  edb_scraper.py 及相關資產 assets/、icons/）。
+
+本授權「不涵蓋」之內容：
+- 香港特別行政區政府教育局 (Education Bureau, HKSAR) 發出之通告原文。
+  該等文件版權屬政府所有；本專案僅作分析與彙整，並不主張其版權。
+
+授權條款：
+1. 未經版權持有人事先書面同意，不得複製、轉載、再托管 (re-host)、鏡像 (mirror)、
+   再分發或公開展示上述「專有內容」之全部或部分。
+2. 不得移除或更改任何版權標示、canonical 來源標記（circulars.json 之 `_copyright` /
+   `_canonical` 欄位）或本授權檔案。
+3. 不得作商業用途。
+4. 正本唯一官方網址：https://circular.wongfu.net/ 。任何其他網址之副本均屬非官方，
+   內容可能過時或經竄改，使用風險自負。
+
+免責聲明：
+本內容按「現狀」(AS IS) 提供，不附任何明示或默示之保證。AI 分析僅供參考，
+一切以教育局正式發布之通告全文為準。
+
+授權查詢請透過 https://circular.wongfu.net/ 之渠道聯絡版權持有人。
