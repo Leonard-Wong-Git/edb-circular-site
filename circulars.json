@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:35:02Z",
+  "generated_at": "2026-08-24T11:30:09Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-08-21)",
@@ -23,14 +23,9 @@
       "urgency": "low",
       "scope": "both_sec_pri",
       "topics": [
-        "safety",
+        "student",
         "activity",
-        "procurement",
-        "hr",
-        "it",
-        "curriculum",
-        "finance",
-        "student"
+        "curriculum"
       ],
       "tags": [
         "和諧校園",
@@ -386,9 +381,7 @@
       "scope": "sec",
       "topics": [
         "curriculum",
-        "activity",
-        "safety",
-        "procurement"
+        "safety"
       ],
       "tags": [
         "課程更新",
@@ -568,10 +561,7 @@
             "why": "補充津貼基本原則、申請/發放安排及會計處理要求"
           }
         ],
-        "role_notes": [
-          "偵測到 curriculum 類訊號，將 `panel_chair` 角色標記為相關。",
-          "偵測到 curriculum 類訊號，將 `teacher` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "curriculum",
@@ -751,12 +741,7 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "student",
-        "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "student"
       ],
       "tags": [
         "高中數理科目",
@@ -1130,11 +1115,9 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "curriculum",
         "student",
-        "activity",
-        "safety",
-        "procurement"
+        "curriculum",
+        "activity"
       ],
       "tags": [
         "憲法基本法",
@@ -1311,9 +1294,7 @@
             "why": "補充津貼基本原則、申請/發放安排及會計處理要求"
           }
         ],
-        "role_notes": [
-          "偵測到 curriculum 類訊號，將 `panel_chair` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "curriculum",
@@ -1492,10 +1473,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "activity",
         "student",
-        "safety",
-        "procurement",
+        "activity",
         "it"
       ],
       "tags": [
@@ -1852,10 +1831,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "hr",
-        "activity",
-        "finance",
-        "procurement"
+        "hr"
       ],
       "tags": [
         "卓越教學獎",
@@ -2767,9 +2743,7 @@
       "scope": "all",
       "topics": [
         "it",
-        "activity",
-        "safety",
-        "curriculum"
+        "activity"
       ],
       "tags": [
         "人工智能教育",
@@ -3512,10 +3486,7 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "student",
-        "procurement",
-        "safety",
-        "it"
+        "student"
       ],
       "tags": [
         "學與教資源",
@@ -4219,11 +4190,9 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "curriculum",
         "activity",
-        "safety",
-        "procurement",
-        "hr"
+        "curriculum",
+        "safety"
       ],
       "tags": [
         "法治教育",
@@ -4576,9 +4545,7 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "it",
-        "activity",
-        "safety"
+        "it"
       ],
       "tags": [
         "小學資訊教育",
@@ -4907,9 +4874,7 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "activity",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "學與教資源",
@@ -5214,11 +5179,7 @@
       "scope": "both_sec_pri",
       "topics": [
         "hr",
-        "activity",
-        "curriculum",
-        "it",
-        "safety",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "校長專業發展",
@@ -5553,14 +5514,7 @@
       "scope": "all",
       "topics": [
         "student",
-        "procurement",
-        "safety",
-        "hr",
-        "it",
-        "finance",
-        "activity",
-        "exam",
-        "curriculum"
+        "finance"
       ],
       "tags": [
         "非本地兒童",
@@ -5880,11 +5834,7 @@
       "scope": "sec",
       "topics": [
         "curriculum",
-        "activity",
-        "hr",
-        "it",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "高中歷史",
@@ -6483,10 +6433,9 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "student",
         "activity",
-        "safety"
+        "curriculum",
+        "student"
       ],
       "tags": [
         "航天教育",
@@ -6804,9 +6753,6 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "hr",
-        "safety",
-        "procurement",
         "it",
         "activity"
       ],
@@ -7145,10 +7091,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "finance",
         "hr",
-        "procurement",
-        "activity"
+        "finance"
       ],
       "tags": [
         "資助學校薪酬調整",
@@ -7519,9 +7463,8 @@
       "scope": "all",
       "topics": [
         "activity",
-        "safety",
-        "procurement",
-        "curriculum"
+        "curriculum",
+        "safety"
       ],
       "tags": [
         "學生活動",
@@ -7916,10 +7859,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "hr",
-        "activity",
-        "procurement",
-        "safety"
+        "hr"
       ],
       "tags": [
         "招聘公告",
@@ -8218,11 +8158,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "student",
-        "procurement",
-        "activity",
-        "safety",
-        "finance"
+        "finance",
+        "student"
       ],
       "tags": [
         "在校課後託管",
@@ -8614,11 +8551,8 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "procurement",
-        "safety",
         "student",
-        "activity",
-        "hr"
+        "activity"
       ],
       "tags": [
         "非正規私校",
@@ -8934,11 +8868,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "finance",
-        "hr",
-        "procurement",
-        "safety",
-        "activity"
+        "finance"
       ],
       "tags": [
         "按月收費規例",
@@ -9630,10 +9560,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "activity",
-        "safety",
-        "hr"
+        "curriculum"
       ],
       "tags": [
         "德育教育基金",
@@ -10382,10 +10309,7 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "finance",
-        "activity",
-        "procurement",
-        "curriculum"
+        "finance"
       ],
       "tags": [
         "優質教育基金",
@@ -11090,10 +11014,8 @@
       "scope": "all",
       "topics": [
         "finance",
-        "procurement",
         "it",
-        "activity",
-        "safety"
+        "activity"
       ],
       "tags": [
         "學校效率津貼",
@@ -11429,11 +11351,9 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
         "student",
-        "hr",
-        "procurement",
-        "activity"
+        "curriculum",
+        "hr"
       ],
       "tags": [
         "獎學金",
@@ -11834,9 +11754,8 @@
       "scope": "all",
       "topics": [
         "safety",
-        "procurement",
-        "it",
-        "finance"
+        "finance",
+        "procurement"
       ],
       "tags": [
         "消防裝置維護",
@@ -12170,10 +12089,7 @@
       "urgency": "high",
       "scope": "sec",
       "topics": [
-        "curriculum",
-        "exam",
-        "safety",
-        "procurement"
+        "exam"
       ],
       "tags": [
         "中一入學前HKAT",
@@ -12462,10 +12378,7 @@
       "scope": "all",
       "topics": [
         "activity",
-        "safety",
-        "procurement",
-        "curriculum",
-        "it"
+        "curriculum"
       ],
       "tags": [
         "內地交流",
@@ -12803,9 +12716,7 @@
       "scope": "both_sec_pri",
       "topics": [
         "it",
-        "activity",
-        "finance",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "優質教育基金",
@@ -13192,12 +13103,9 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
         "finance",
-        "hr",
         "activity",
-        "safety",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "家庭與學校",
@@ -13610,8 +13518,7 @@
       "topics": [
         "student",
         "finance",
-        "activity",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "家校合作",
@@ -14005,10 +13912,7 @@
       "scope": "all",
       "topics": [
         "hr",
-        "it",
-        "activity",
-        "curriculum",
-        "safety"
+        "it"
       ],
       "tags": [
         "AI教學培訓",
@@ -14367,11 +14271,7 @@
       "urgency": "low",
       "scope": "both_sec_pri",
       "topics": [
-        "it",
-        "activity",
-        "safety",
-        "hr",
-        "procurement"
+        "it"
       ],
       "tags": [
         "數字教育",
@@ -14701,11 +14601,8 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "hr",
-        "activity",
         "curriculum",
-        "safety",
-        "finance"
+        "activity"
       ],
       "tags": [
         "價值觀教育",
@@ -15100,14 +14997,8 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "activity",
         "safety",
-        "procurement",
-        "it",
-        "finance",
-        "hr",
-        "exam",
-        "safety"
+        "exam"
       ],
       "tags": [
         "學與教資源",
@@ -15374,16 +15265,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "activity",
-        "safety",
-        "procurement",
-        "hr",
-        "finance",
-        "exam",
-        "curriculum",
-        "it",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "行政長官卓越教學獎",
@@ -15689,11 +15571,7 @@
       "urgency": "medium",
       "scope": "both_sec_pri",
       "topics": [
-        "hr",
-        "procurement",
-        "it",
-        "activity",
-        "safety"
+        "hr"
       ],
       "tags": [
         "圖書館主任",
@@ -16024,11 +15902,7 @@
       "topics": [
         "curriculum",
         "student",
-        "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "hr"
       ],
       "tags": [
         "數學建模",
@@ -16821,10 +16695,9 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "student",
         "finance",
-        "procurement"
+        "curriculum",
+        "student"
       ],
       "tags": [
         "多元學習津貼",
@@ -17228,10 +17101,8 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "procurement",
-        "finance",
         "it",
-        "safety"
+        "finance"
       ],
       "tags": [
         "電子學習撥款",
@@ -17602,11 +17473,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "finance",
-        "hr",
-        "safety",
-        "activity",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "午膳資助",
@@ -17946,12 +17813,8 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "student",
         "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "國家教學成果獎",
@@ -18290,13 +18153,7 @@
       "urgency": "high",
       "scope": "both_sec_pri",
       "topics": [
-        "procurement",
-        "activity",
-        "finance",
-        "safety",
-        "hr",
-        "it",
-        "student"
+        "activity"
       ],
       "tags": [
         "冠名活動",
@@ -18663,10 +18520,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "student",
-        "finance",
-        "procurement",
-        "safety"
+        "finance"
       ],
       "tags": [
         "幼稚園K1收生",
@@ -19082,8 +18936,7 @@
       "topics": [
         "safety",
         "curriculum",
-        "activity",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "國安法六周年",
@@ -19420,12 +19273,7 @@
       "urgency": "high",
       "scope": "sec",
       "topics": [
-        "student",
-        "safety",
-        "hr",
-        "it",
-        "activity",
-        "procurement"
+        "student"
       ],
       "tags": [
         "放榜日資訊",
@@ -20165,7 +20013,6 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "activity",
         "hr",
         "it",
         "curriculum"
@@ -20517,10 +20364,9 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "curriculum",
         "activity",
-        "safety",
-        "procurement"
+        "curriculum",
+        "safety"
       ],
       "tags": [
         "教育活動",
@@ -20924,10 +20770,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "procurement",
-        "activity",
-        "safety",
-        "finance"
+        "finance",
+        "activity"
       ],
       "tags": [
         "開放校園設施",
@@ -21301,8 +21145,7 @@
       "topics": [
         "hr",
         "it",
-        "safety",
-        "procurement"
+        "safety"
       ],
       "tags": [
         "電子化服務入門網站",
@@ -21615,11 +21458,7 @@
       "scope": "both_sec_pri",
       "topics": [
         "hr",
-        "activity",
-        "curriculum",
-        "it",
-        "safety",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "專業發展",
@@ -21927,11 +21766,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "hr",
-        "it",
-        "activity",
         "finance",
-        "procurement"
+        "hr"
       ],
       "tags": [
         "普通話測試",
@@ -22244,11 +22080,7 @@
       "urgency": "high",
       "scope": "sec",
       "topics": [
-        "exam",
-        "procurement",
-        "safety",
-        "it",
-        "hr"
+        "exam"
       ],
       "tags": [
         "中一入學測驗",
@@ -22622,11 +22454,7 @@
       "urgency": "high",
       "scope": "both_sec_pri",
       "topics": [
-        "curriculum",
-        "exam",
-        "safety",
-        "procurement",
-        "activity"
+        "exam"
       ],
       "tags": [
         "全港性系統評估",
@@ -23268,10 +23096,7 @@
       "scope": "all",
       "topics": [
         "student",
-        "finance",
-        "hr",
-        "activity",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "非華語學生",
@@ -23673,11 +23498,9 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "it",
-        "activity",
         "curriculum",
-        "safety",
-        "procurement"
+        "it",
+        "activity"
       ],
       "tags": [
         "數字教育周",
@@ -24005,10 +23828,8 @@
       "urgency": "high",
       "scope": "pri",
       "topics": [
-        "student",
         "finance",
-        "activity",
-        "procurement"
+        "student"
       ],
       "tags": [
         "成長的天空計劃",
@@ -24437,10 +24258,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "finance",
-        "procurement",
-        "activity",
-        "hr"
+        "finance"
       ],
       "tags": [
         "資助津貼",
@@ -25114,11 +24932,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "finance",
-        "procurement",
-        "student",
-        "safety",
-        "it"
+        "finance"
       ],
       "tags": [
         "幼稚園調整學費",
@@ -25459,12 +25273,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "finance",
-        "procurement",
-        "safety",
-        "hr",
-        "it",
-        "activity"
+        "finance"
       ],
       "tags": [
         "學費調整",
@@ -26151,11 +25960,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
         "finance",
-        "activity",
-        "procurement",
-        "safety"
+        "activity"
       ],
       "tags": [
         "全校統一津貼",
@@ -26522,14 +26328,9 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "hr",
-        "finance",
-        "procurement",
-        "safety",
-        "activity",
-        "curriculum",
         "student",
-        "it"
+        "finance",
+        "curriculum"
       ],
       "tags": [
         "非華語學生",
@@ -27261,10 +27062,8 @@
       "scope": "all",
       "topics": [
         "activity",
-        "procurement",
-        "safety",
-        "curriculum",
-        "student"
+        "student",
+        "curriculum"
       ],
       "tags": [
         "學校活動",
@@ -27690,12 +27489,7 @@
       "scope": "both_sec_pri",
       "topics": [
         "curriculum",
-        "student",
-        "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "hr"
       ],
       "tags": [
         "十五五規劃",
@@ -28426,11 +28220,9 @@
       "urgency": "immediate",
       "scope": "both_sec_pri",
       "topics": [
-        "curriculum",
-        "student",
-        "hr",
         "it",
-        "activity"
+        "curriculum",
+        "student"
       ],
       "tags": [
         "學習宗旨更新",
@@ -28794,10 +28586,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "student",
-        "procurement",
-        "activity"
+        "curriculum"
       ],
       "tags": [
         "學與教材料",
@@ -29134,11 +28923,6 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "hr",
-        "procurement",
-        "safety",
-        "activity",
-        "finance",
         "it"
       ],
       "tags": [
@@ -29468,10 +29252,8 @@
       "urgency": "high",
       "scope": "sec",
       "topics": [
-        "student",
-        "procurement",
         "activity",
-        "safety"
+        "student"
       ],
       "tags": [
         "學生交流",
@@ -29914,14 +29696,9 @@
       "urgency": "high",
       "scope": "sec",
       "topics": [
-        "curriculum",
-        "finance",
-        "hr",
-        "it",
-        "activity",
         "exam",
-        "safety",
-        "procurement"
+        "curriculum",
+        "finance"
       ],
       "tags": [
         "應用學習課程",
@@ -30325,10 +30102,7 @@
       "scope": "pri",
       "topics": [
         "curriculum",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "it"
       ],
       "tags": [
         "數學教育",
@@ -30692,11 +30466,9 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "curriculum",
         "student",
         "activity",
-        "safety",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "教育活動",
@@ -31413,14 +31185,7 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "hr",
-        "activity",
-        "safety",
-        "procurement",
-        "curriculum",
-        "student",
-        "finance",
-        "it"
+        "activity"
       ],
       "tags": [
         "師德獎勵",
@@ -31696,9 +31461,6 @@
       "scope": "all",
       "topics": [
         "activity",
-        "procurement",
-        "curriculum",
-        "safety",
         "student"
       ],
       "tags": [
@@ -32040,9 +31802,7 @@
       "topics": [
         "activity",
         "hr",
-        "safety",
-        "procurement",
-        "curriculum"
+        "safety"
       ],
       "tags": [
         "多元智能",
@@ -32404,14 +32164,9 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "safety",
-        "activity",
         "curriculum",
-        "student",
-        "hr",
-        "procurement",
-        "finance",
-        "it"
+        "safety",
+        "activity"
       ],
       "tags": [
         "國家安全教育日",
@@ -32787,12 +32542,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "activity",
-        "safety",
-        "procurement",
-        "it",
-        "finance"
+        "curriculum"
       ],
       "tags": [
         "校本支援服務",
@@ -33165,13 +32915,8 @@
       "scope": "sec",
       "topics": [
         "curriculum",
-        "student",
-        "hr",
-        "it",
-        "activity",
-        "procurement",
-        "safety",
-        "finance"
+        "finance",
+        "student"
       ],
       "tags": [
         "地理課程框架",
@@ -33559,11 +33304,9 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "activity",
-        "safety",
-        "procurement",
         "finance",
-        "student"
+        "student",
+        "activity"
       ],
       "tags": [
         "深圳內地交流",
@@ -33909,12 +33652,7 @@
       "urgency": "low",
       "scope": "both_sec_pri",
       "topics": [
-        "curriculum",
-        "student",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "學與教資源",
@@ -34238,10 +33976,7 @@
       "scope": "all",
       "topics": [
         "finance",
-        "procurement",
-        "hr",
-        "it",
-        "activity"
+        "hr"
       ],
       "tags": [
         "資助津貼",
@@ -34566,11 +34301,8 @@
       "urgency": "low",
       "scope": "both_sec_pri",
       "topics": [
-        "curriculum",
         "activity",
-        "safety",
-        "procurement",
-        "it"
+        "curriculum"
       ],
       "tags": [
         "國家文化展",
@@ -34909,9 +34641,7 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "student",
-        "safety",
-        "activity"
+        "safety"
       ],
       "tags": [
         "國家安全",
@@ -35255,11 +34985,7 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "procurement",
-        "activity",
-        "safety",
-        "curriculum",
-        "finance"
+        "procurement"
       ],
       "tags": [
         "熱帶氣旋",
@@ -35945,11 +35671,8 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "curriculum",
         "activity",
-        "safety",
-        "procurement",
-        "hr"
+        "curriculum"
       ],
       "tags": [
         "閱讀推廣",
@@ -36341,10 +36064,7 @@
       "urgency": "medium",
       "scope": "both_sec_pri",
       "topics": [
-        "procurement",
         "activity",
-        "safety",
-        "it",
         "finance"
       ],
       "tags": [
@@ -36754,13 +36474,6 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "procurement",
-        "hr",
-        "it",
-        "finance",
-        "safety",
-        "activity",
-        "exam",
         "curriculum"
       ],
       "tags": [
@@ -37175,11 +36888,8 @@
       "scope": "both_sec_pri",
       "topics": [
         "activity",
-        "safety",
-        "procurement",
-        "hr",
-        "it",
-        "curriculum"
+        "curriculum",
+        "safety"
       ],
       "tags": [
         "學生活動",
@@ -37588,11 +37298,9 @@
       "urgency": "low",
       "scope": "both_sec_pri",
       "topics": [
-        "curriculum",
         "student",
-        "finance",
         "activity",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "中小學生交流",
@@ -37963,11 +37671,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "activity",
-        "safety",
-        "procurement",
-        "finance",
-        "it"
+        "finance"
       ],
       "tags": [
         "藝團借用場地",
@@ -38363,13 +38067,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "student",
-        "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "學與教資源",
@@ -38668,10 +38366,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "hr",
         "activity",
-        "procurement",
-        "safety",
         "finance"
       ],
       "tags": [
@@ -39014,9 +38709,6 @@
       "scope": "both_sec_pri",
       "topics": [
         "it",
-        "activity",
-        "safety",
-        "procurement",
         "curriculum"
       ],
       "tags": [
@@ -39351,12 +39043,7 @@
       "topics": [
         "hr",
         "student",
-        "finance",
-        "it",
-        "activity",
-        "exam",
-        "safety",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "T-卓越@hk",
@@ -39726,13 +39413,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "activity",
-        "safety",
-        "procurement",
-        "hr",
-        "it",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "夏令營",
@@ -40093,10 +39774,7 @@
       "scope": "both_sec_pri",
       "topics": [
         "hr",
-        "activity",
-        "procurement",
-        "finance",
-        "safety"
+        "finance"
       ],
       "tags": [
         "領航計劃",
@@ -40730,10 +40408,7 @@
       "topics": [
         "curriculum",
         "student",
-        "hr",
-        "it",
-        "activity",
-        "procurement"
+        "it"
       ],
       "tags": [
         "數學建模",
@@ -41386,11 +41061,9 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "student",
         "activity",
-        "procurement",
-        "safety",
-        "hr"
+        "student",
+        "safety"
       ],
       "tags": [
         "國防教育",
@@ -41784,11 +41457,6 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "safety",
-        "procurement",
-        "hr",
-        "activity",
-        "finance",
         "it",
         "curriculum"
       ],
@@ -42116,11 +41784,7 @@
       "urgency": "medium",
       "scope": "both_sec_pri",
       "topics": [
-        "activity",
-        "it",
-        "curriculum",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "英語口語",
@@ -42698,11 +42362,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "it",
-        "activity",
-        "safety",
-        "procurement",
-        "curriculum"
+        "it"
       ],
       "tags": [
         "AI教育研討會",
@@ -43026,8 +42686,6 @@
       "scope": "all",
       "topics": [
         "activity",
-        "safety",
-        "procurement",
         "finance"
       ],
       "tags": [
@@ -43704,10 +43362,7 @@
       "urgency": "high",
       "scope": "sec",
       "topics": [
-        "hr",
-        "activity",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "家長教育",
@@ -44047,12 +43702,7 @@
       "topics": [
         "curriculum",
         "student",
-        "finance",
-        "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "应用学习调适课程",
@@ -45033,11 +44683,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "finance",
         "it",
-        "activity",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "優質教育基金",
@@ -45394,12 +45041,7 @@
       "topics": [
         "student",
         "hr",
-        "procurement",
-        "finance",
-        "it",
-        "safety",
-        "activity",
-        "exam"
+        "finance"
       ],
       "tags": [
         "資助小學",
@@ -45750,9 +45392,7 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "activity",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "戶外閱讀",
@@ -46110,10 +45750,7 @@
       "scope": "all",
       "topics": [
         "student",
-        "procurement",
-        "hr",
-        "activity",
-        "safety"
+        "activity"
       ],
       "tags": [
         "青年大使",
@@ -46413,14 +46050,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "hr",
-        "procurement",
-        "safety",
-        "activity",
         "finance",
-        "exam",
-        "it",
-        "curriculum"
+        "hr"
       ],
       "tags": [
         "退休年齡",
@@ -46804,10 +46435,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "it",
         "finance",
-        "activity",
-        "procurement"
+        "it"
       ],
       "tags": [
         "AI教學撥款",
@@ -47207,11 +46836,9 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "student",
         "finance",
-        "procurement",
-        "activity"
+        "curriculum",
+        "student"
       ],
       "tags": [
         "中學語言先導",
@@ -47611,12 +47238,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "activity",
-        "procurement",
-        "finance",
-        "safety",
-        "it",
-        "curriculum"
+        "activity"
       ],
       "tags": [
         "校外競賽",
@@ -47966,11 +47588,9 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "student",
         "activity",
-        "safety",
-        "procurement"
+        "student",
+        "curriculum"
       ],
       "tags": [
         "全民國家安全教育日",
@@ -48339,11 +47959,9 @@
       "urgency": "high",
       "scope": "both_sec_pri",
       "topics": [
-        "curriculum",
         "student",
         "activity",
-        "procurement",
-        "safety"
+        "curriculum"
       ],
       "tags": [
         "內地交流",
@@ -48759,8 +48377,7 @@
       "topics": [
         "curriculum",
         "student",
-        "activity",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "公民科閱讀",
@@ -49204,10 +48821,8 @@
       "scope": "all",
       "topics": [
         "it",
-        "activity",
-        "procurement",
-        "safety",
-        "finance"
+        "finance",
+        "activity"
       ],
       "tags": [
         "STEAM教育",
@@ -49595,9 +49210,6 @@
       "scope": "sec",
       "topics": [
         "finance",
-        "procurement",
-        "it",
-        "activity",
         "curriculum"
       ],
       "tags": [
@@ -49933,13 +49545,8 @@
       "urgency": "high",
       "scope": "both_sec_pri",
       "topics": [
-        "curriculum",
-        "student",
         "finance",
-        "hr",
-        "it",
-        "safety",
-        "procurement"
+        "hr"
       ],
       "tags": [
         "普通話測試",
@@ -50655,10 +50262,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
         "finance",
-        "procurement",
-        "safety"
+        "curriculum"
       ],
       "tags": [
         "幼稚園教育計劃",
@@ -51013,11 +50618,9 @@
       "urgency": "medium",
       "scope": "sec",
       "topics": [
-        "curriculum",
-        "student",
         "activity",
-        "safety",
-        "procurement"
+        "student",
+        "curriculum"
       ],
       "tags": [
         "中華文化",
@@ -51435,11 +51038,7 @@
       "topics": [
         "safety",
         "student",
-        "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "it"
       ],
       "tags": [
         "三層應急機制",
@@ -52125,10 +51724,9 @@
       "urgency": "low",
       "scope": "sec",
       "topics": [
-        "hr",
         "student",
-        "finance",
-        "activity"
+        "hr",
+        "finance"
       ],
       "tags": [
         "獎學金",
@@ -52755,12 +52353,8 @@
       "scope": "all",
       "topics": [
         "it",
-        "activity",
-        "safety",
-        "procurement",
-        "curriculum",
-        "student",
-        "finance"
+        "finance",
+        "activity"
       ],
       "tags": [
         "人工智能研討",
@@ -53112,10 +52706,6 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "procurement",
-        "safety",
-        "it",
-        "activity",
         "finance"
       ],
       "tags": [
@@ -53463,12 +53053,9 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "curriculum",
         "activity",
-        "finance",
-        "it",
-        "safety",
-        "procurement"
+        "curriculum",
+        "finance"
       ],
       "tags": [
         "基金宣傳",
@@ -53828,11 +53415,8 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "student",
         "finance",
-        "activity",
-        "safety",
-        "procurement"
+        "student"
       ],
       "tags": [
         "內地考察",
@@ -54209,11 +53793,9 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "it",
         "student",
-        "activity",
-        "safety",
-        "procurement"
+        "it",
+        "activity"
       ],
       "tags": [
         "數字素養",
@@ -54518,12 +54100,8 @@
       "urgency": "high",
       "scope": "sec",
       "topics": [
-        "it",
         "activity",
-        "curriculum",
-        "finance",
-        "safety",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "數學建模",
@@ -55232,13 +54810,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "safety",
-        "procurement",
-        "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "safety"
       ],
       "tags": [
         "無煙校園",
@@ -55552,8 +55124,6 @@
       "scope": "sec",
       "topics": [
         "activity",
-        "safety",
-        "procurement",
         "finance"
       ],
       "tags": [
@@ -55934,11 +55504,7 @@
       "scope": "sec",
       "topics": [
         "curriculum",
-        "hr",
-        "activity",
-        "it",
-        "safety",
-        "procurement"
+        "hr"
       ],
       "tags": [
         "數學建模",
@@ -56614,11 +56180,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "hr",
-        "activity",
-        "finance",
-        "safety",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "獎學金先導計劃",
@@ -56972,12 +56534,7 @@
       "scope": "all",
       "topics": [
         "student",
-        "activity",
-        "safety",
-        "procurement",
-        "hr",
-        "finance",
-        "it"
+        "activity"
       ],
       "tags": [
         "非華語學生",
@@ -57316,11 +56873,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "it",
-        "activity",
-        "curriculum",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "STEAM教育",
@@ -57593,13 +57146,7 @@
       "scope": "both_sec_pri",
       "topics": [
         "curriculum",
-        "student",
-        "finance",
-        "hr",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "student"
       ],
       "tags": [
         "閱讀推廣",
@@ -57978,14 +57525,8 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "student",
         "finance",
-        "hr",
-        "it",
-        "activity",
-        "exam",
-        "safety",
-        "procurement"
+        "student"
       ],
       "tags": [
         "價值觀教育",
@@ -58400,13 +57941,9 @@
       "urgency": "low",
       "scope": "both_sec_pri",
       "topics": [
-        "it",
-        "activity",
-        "curriculum",
         "student",
-        "hr",
-        "safety",
-        "procurement"
+        "activity",
+        "curriculum"
       ],
       "tags": [
         "數字教育",
@@ -59086,10 +58623,7 @@
       "urgency": "high",
       "scope": "both_sec_pri",
       "topics": [
-        "curriculum",
-        "student",
-        "safety",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "國民教育",
@@ -59402,9 +58936,7 @@
       "scope": "both_sec_pri",
       "topics": [
         "student",
-        "procurement",
         "activity",
-        "safety",
         "finance"
       ],
       "tags": [
@@ -59752,11 +59284,7 @@
       "urgency": "high",
       "scope": "kgn",
       "topics": [
-        "curriculum",
-        "finance",
-        "activity",
-        "safety",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "整合津貼",
@@ -60742,11 +60270,8 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
         "activity",
-        "safety",
-        "procurement",
-        "hr"
+        "curriculum"
       ],
       "tags": [
         "抗日勝利80周年",
@@ -61109,9 +60634,7 @@
       "topics": [
         "student",
         "activity",
-        "procurement",
-        "safety",
-        "it"
+        "safety"
       ],
       "tags": [
         "學生交流",
@@ -61855,12 +61378,7 @@
       "topics": [
         "curriculum",
         "student",
-        "finance",
-        "hr",
-        "activity",
-        "exam",
-        "safety",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "價值觀教育",
@@ -62250,10 +61768,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "finance",
-        "activity",
-        "safety",
-        "procurement"
+        "finance"
       ],
       "tags": [
         "幼稚園津貼",
@@ -62567,11 +62082,7 @@
       "scope": "sec",
       "topics": [
         "curriculum",
-        "student",
-        "it",
-        "activity",
-        "safety",
-        "procurement"
+        "student"
       ],
       "tags": [
         "化學實驗",
@@ -63250,11 +62761,8 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "activity",
-        "safety",
-        "hr",
         "student",
-        "procurement"
+        "activity"
       ],
       "tags": [
         "正向教育",
@@ -63618,11 +63126,9 @@
       "urgency": "low",
       "scope": "both_sec_pri",
       "topics": [
-        "it",
-        "student",
-        "safety",
         "activity",
-        "procurement"
+        "student",
+        "it"
       ],
       "tags": [
         "網上安全講座",
@@ -63915,10 +63421,8 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "activity",
         "student",
-        "hr",
-        "procurement",
+        "activity",
         "it"
       ],
       "tags": [
@@ -64332,10 +63836,7 @@
       "scope": "both_sec_pri",
       "topics": [
         "curriculum",
-        "activity",
-        "safety",
-        "procurement",
-        "finance"
+        "activity"
       ],
       "tags": [
         "中國歷史文化",
@@ -65343,11 +64844,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "curriculum",
-        "hr",
-        "safety",
-        "procurement",
-        "activity"
+        "hr"
       ],
       "tags": [
         "基本法測試",
@@ -65961,9 +65458,8 @@
       "scope": "all",
       "topics": [
         "curriculum",
-        "student",
-        "activity",
-        "finance"
+        "finance",
+        "student"
       ],
       "tags": [
         "理財教育",
@@ -67037,10 +66533,8 @@
       "scope": "all",
       "topics": [
         "student",
-        "procurement",
-        "it",
         "finance",
-        "safety"
+        "it"
       ],
       "tags": [
         "內地交流",
@@ -67391,11 +66885,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "activity",
-        "safety",
-        "hr",
-        "procurement",
-        "it"
+        "activity"
       ],
       "tags": [
         "敬師活動",
@@ -67724,9 +67214,7 @@
       "scope": "all",
       "topics": [
         "student",
-        "activity",
-        "procurement",
-        "safety"
+        "activity"
       ],
       "tags": [
         "國際交流",
@@ -68082,13 +67570,7 @@
       "urgency": "high",
       "scope": "sec",
       "topics": [
-        "activity",
-        "procurement",
-        "safety",
-        "hr",
-        "curriculum",
-        "exam",
-        "safety"
+        "activity"
       ],
       "tags": [
         "境內交流",
@@ -68458,8 +67940,6 @@
       "scope": "both_sec_pri",
       "topics": [
         "activity",
-        "safety",
-        "procurement",
         "finance"
       ],
       "tags": [
@@ -68845,7 +68325,6 @@
       "topics": [
         "activity",
         "student",
-        "procurement",
         "finance"
       ],
       "tags": [
@@ -69595,9 +69074,7 @@
       "scope": "all",
       "topics": [
         "student",
-        "activity",
-        "procurement",
-        "safety"
+        "activity"
       ],
       "tags": [
         "境外遊學",
@@ -69952,10 +69429,9 @@
       "urgency": "medium",
       "scope": "all",
       "topics": [
-        "curriculum",
         "safety",
         "activity",
-        "procurement"
+        "curriculum"
       ],
       "tags": [
         "國安教育",
@@ -70329,15 +69805,7 @@
       "urgency": "high",
       "scope": "all",
       "topics": [
-        "student",
-        "procurement",
-        "it",
-        "activity",
-        "safety",
-        "finance",
-        "hr",
-        "exam",
-        "curriculum"
+        "student"
       ],
       "tags": [
         "時間表調查",
@@ -71001,9 +70469,7 @@
       "topics": [
         "finance",
         "activity",
-        "hr",
-        "safety",
-        "procurement"
+        "hr"
       ],
       "tags": [
         "全校參與",
@@ -71362,14 +70828,7 @@
       "urgency": "medium",
       "scope": "kgn",
       "topics": [
-        "safety",
-        "procurement",
-        "hr",
-        "it",
-        "activity",
-        "finance",
-        "exam",
-        "curriculum"
+        "safety"
       ],
       "tags": [
         "幼稚園缺課",
@@ -71688,10 +71147,8 @@
       "scope": "both_sec_pri",
       "topics": [
         "it",
-        "safety",
         "activity",
-        "student",
-        "hr"
+        "student"
       ],
       "tags": [
         "網絡安全",
@@ -72000,11 +71457,7 @@
       "urgency": "low",
       "scope": "all",
       "topics": [
-        "safety",
-        "procurement",
-        "hr",
-        "finance",
-        "activity"
+        "hr"
       ],
       "tags": [
         "通告更新",
