@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-01T18:08:34.654297Z",
-  "feedGeneratedAt": "2026-09-01T18:08:06Z",
-  "overallStatus": "ERROR",
+  "generatedAt": "2026-09-01T18:16:03.337712Z",
+  "feedGeneratedAt": "2026-09-01T18:15:49Z",
+  "overallStatus": "WARN",
   "counts": {
     "records": 220,
-    "PASS": 18,
+    "PASS": 22,
     "BLOCKER": 0,
-    "ERROR": 2,
-    "WARN": 4,
+    "ERROR": 0,
+    "WARN": 3,
     "INFO": 0
   },
   "version": "v3.0.69",
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-01T18:08:06Z'",
+      "detail": "circulars=list generated_at='2026-09-01T18:15:49Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -76,13 +76,10 @@
       "id": "REQUIRED_FIELDS",
       "label": "必填欄位齊全",
       "severity": "ERROR",
-      "status": "ERROR",
-      "detail": "218/220 齊全（number、date、title、summary、official、topics、roles、pdf_urls）",
-      "offenders": [
-        "EDBCM023/2026",
-        "EDBCM008/2026"
-      ],
-      "offender_total": 2
+      "status": "PASS",
+      "detail": "220/220 齊全（number、date、title、summary、topics、roles、pdf_urls）",
+      "offenders": [],
+      "offender_total": 0
     },
     {
       "id": "RETIRED_SCHEMA",
@@ -92,6 +89,18 @@
       "detail": "0 筆仍帶退役欄位",
       "offenders": [],
       "offender_total": 0
+    },
+    {
+      "id": "OFFICIAL_TEXT",
+      "label": "原文長度達 40 字（來源仍可取得者）",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "218/220 有原文 · 2 筆因教育局已撤回原文而無法補回（不計為缺陷）",
+      "offenders": [
+        "EDBCM023/2026（來源：withdrawn）",
+        "EDBCM008/2026（來源：withdrawn）"
+      ],
+      "offender_total": 2
     },
     {
       "id": "DATE_VALID",
@@ -187,30 +196,12 @@
     },
     {
       "id": "CONTENT_QUALITY",
-      "label": "內容達最低門檻（摘要≥20字、原文≥40字、相關角色有重點）",
+      "label": "內容達最低門檻（摘要≥20字、相關角色有重點或行動）",
       "severity": "ERROR",
-      "status": "ERROR",
-      "detail": "203/220 達標",
-      "offenders": [
-        "EDBCM098/2026: 相關角色無重點:teacher",
-        "EDBCM087/2026: 相關角色無重點:teacher",
-        "EDBCM060/2026: 相關角色無重點:teacher",
-        "EDBCM048/2026: 相關角色無重點:supplier",
-        "EDBCM051/2026: 相關角色無重點:teacher",
-        "EDBCM026/2026: 相關角色無重點:supplier",
-        "EDBCM023/2026: 原文0字",
-        "EDBCM008/2026: 原文0字",
-        "EDBCM006/2026: 相關角色無重點:teacher",
-        "EDBCM197/2025: 相關角色無重點:teacher",
-        "EDBCM177/2025: 相關角色無重點:teacher",
-        "EDBCM195/2025: 相關角色無重點:teacher",
-        "EDBCM193/2025: 相關角色無重點:teacher,supplier",
-        "EDBCM168/2025: 相關角色無重點:teacher",
-        "EDBCM171/2025: 相關角色無重點:teacher",
-        "EDBCM155/2025: 相關角色無重點:teacher",
-        "EDBCM158/2025: 相關角色無重點:supplier"
-      ],
-      "offender_total": 17
+      "status": "PASS",
+      "detail": "220/220 達標",
+      "offenders": [],
+      "offender_total": 0
     },
     {
       "id": "EXTRACTION_NOISE",
@@ -250,8 +241,8 @@
       "id": "SOURCE_AVAILABILITY",
       "label": "原文撤回數無突變（單次 +10 即警告）",
       "severity": "WARN",
-      "status": "WARN",
-      "detail": "可用 181 · 部分 0 · 已撤回 39 · 未檢查 0 · 對比上次 +10 → +29",
+      "status": "PASS",
+      "detail": "可用 181 · 部分 0 · 已撤回 39 · 未檢查 0 · 對比上次 +39 → +0",
       "offenders": [],
       "offender_total": 0
     },
@@ -317,7 +308,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.68 → 本次 v3.0.69",
+      "detail": "上次 v3.0.69 → 本次 v3.0.69",
       "offenders": [],
       "offender_total": 0
     }
