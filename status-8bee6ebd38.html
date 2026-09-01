@@ -200,10 +200,14 @@ function render(feed, qc, feedErr, qcErr){
   else                          setBanner('s-ok','✅ 全部正常','資料新鮮，所有檢查通過。');
 
   var c = (qc && qc.counts) || {};
+  var ss = (qc && qc.sourceStatus) || {};
   var metrics = [
     ['記錄數', feed ? (feed.circulars || []).length : '—'],
     ['資料更新', fmtAge(age)],
     ['版本', (qc && qc.version) || '—'],
+    // 教育局按滾動窗口撤走舊通告原文，呢個數會慢慢上升 —— 屬常態，唔係故障。
+    // 值得留意嘅係「一轉之內暴增」，嗰個由 QC 嘅 SOURCE_AVAILABILITY 負責告警。
+    ['原文已撤回', ss.withdrawn != null ? ss.withdrawn : '—'],
     ['通過', c.PASS != null ? c.PASS : '—'],
     ['警告', c.WARN != null ? c.WARN : '—'],
     ['錯誤', c.ERROR != null ? c.ERROR : '—'],
@@ -237,6 +241,7 @@ function render(feed, qc, feedErr, qcErr){
     feedAgeHours: age == null ? null : +age.toFixed(2),
     freshness: stale ? 'STALE' : (aging ? 'AGING' : 'FRESH'),
     records: feed ? (feed.circulars || []).length : null,
+    sourceStatus: qc ? (qc.sourceStatus || null) : null,
     feedGeneratedAt: feed ? feed.generated_at : null,
     qc: qc ? {generatedAt: qc.generatedAt, overallStatus: qc.overallStatus,
               version: qc.version, counts: qc.counts,

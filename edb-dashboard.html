@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
-<title>EDB 通告智能分析系統 v3.0.67</title>
+<title>EDB 通告智能分析系統 v3.0.68</title>
 
 <!-- PWA / Add to Home Screen -->
 <link rel="manifest" href="manifest.json">
@@ -568,6 +568,10 @@ a{color:var(--accent);text-decoration:none;}
 .gb-amount{font-size:17px;font-weight:800;}
 .gb-note{font-size:11px;color:var(--text-muted);margin-top:2px;}
 .pdf-links{display:flex;gap:7px;flex-wrap:wrap;}
+.pdf-withdrawn{display:block;margin:0 0 8px;padding:9px 12px;border-radius:8px;
+  background:var(--warn-bg,#fdf3e2);border:1px solid var(--warn,#b26a00);
+  color:var(--warn,#b26a00);font-size:13px;line-height:1.55}
+.pdf-withdrawn-note{display:block;margin-top:3px;opacity:.85;font-size:12px}
 .pdf-btn{
   display:inline-flex;align-items:center;gap:5px;padding:5px 11px;
   border-radius:6px;background:var(--surface2);border:1px solid var(--border);
@@ -788,7 +792,7 @@ input[type="range"]{width:100px;accent-color:var(--accent);cursor:pointer;}
    ============================================================ */
 .embed-attribution{display:none;}
 /* ============================================================
-   MIRROR / RE-HOST WARNING (v3.0.67) — non-canonical host self-check
+   MIRROR / RE-HOST WARNING (v3.0.68) — non-canonical host self-check
    shown by JS when location.hostname is off the canonical domain
    ============================================================ */
 .mirror-warning{display:none;}
@@ -1030,7 +1034,7 @@ body.is-embedded .embed-attribution:hover{
     </div>
     <div class="dev-card">
       <div class="dev-card-title">ℹ️ 版本資訊</div>
-      <div class="dev-row"><span>Dashboard 版本</span><span id="devVersion">v3.0.67</span></div>
+      <div class="dev-row"><span>Dashboard 版本</span><span id="devVersion">v3.0.68</span></div>
       <div class="dev-row"><span>Build Date</span><span>2026-03-16</span></div>
       <div class="dev-row"><span>知識庫更新</span><span>2026-03-09 20:48 UTC</span></div>
       <div class="dev-row"><span>資料筆數</span><span id="devCount">—</span></div>
@@ -1067,7 +1071,7 @@ body.is-embedded .embed-attribution:hover{
 <header class="header">
   <div class="brand" onclick="switchTab('home',document.getElementById('tabHome'))" style="cursor:pointer;" title="返回首頁">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="13" x2="12" y2="17"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg>
-    <span>EDB 通告智能分析系統<span class="brand-sub" id="brandVersion"> v3.0.67</span></span>
+    <span>EDB 通告智能分析系統<span class="brand-sub" id="brandVersion"> v3.0.68</span></span>
   </div>
 
   <select class="role-select" id="roleSelect" onchange="setRole(this.value)">
@@ -1539,7 +1543,7 @@ body.is-embedded .embed-attribution:hover{
         </div>
         <div class="setting-row">
           <div class="setting-info"><div class="setting-lbl">版本</div></div>
-          <span id="versionLabel" style="font-size:12px;cursor:pointer;color:var(--text-muted)" onclick="devVersionClick()" title="連按5次開啟開發者工具">v3.0.67</span>
+          <span id="versionLabel" style="font-size:12px;cursor:pointer;color:var(--text-muted)" onclick="devVersionClick()" title="連按5次開啟開發者工具">v3.0.68</span>
         </div>
       </div>
 
@@ -1552,6 +1556,15 @@ body.is-embedded .embed-attribution:hover{
             <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:7px">📊 通告總覽</div>
             <div style="font-size:12px;color:var(--text-muted);line-height:1.8">
               卡片或列表模式瀏覽所有 EDB 通告（EDBCM、EDBCL、EDBC）。點擊通告開啟詳情面板，含 AI 摘要、行動清單、截止日、角色分工、PDF 連結。支援多維篩選（類型、學校類別、主題、影響級別、行動類型）及全文搜尋。紅色頂欄 = 高影響必須行動。
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:7px">📌 原文可用性</div>
+            <div style="font-size:12px;color:var(--text-muted);line-height:1.8">
+              教育局不會永久保留通告 PDF：每月系列（如「申請參加學生教育活動及比賽」）大約只保留最近三期，
+              年度系列（如各內地交流計劃）出版新學年版本後即撤走舊版。詳情面板會標示「教育局已撤回本通告原文」，
+              不再提供失效連結；本站的 AI 摘要、角色重點與關鍵日期不受影響，仍完整保留。
             </div>
           </div>
 
@@ -1595,7 +1608,7 @@ body.is-embedded .embed-attribution:hover{
         <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border);font-size:11px;color:var(--text-muted);line-height:1.7">
           ⚠️ <strong>免責聲明：</strong>本系統 AI 摘要及分析由人工智能生成，僅供輔助參考，一切以
           <a href="https://www.edb.gov.hk/tc/circular/index.html" target="_blank" rel="noopener">教育局官方通告</a>為準。
-          &nbsp;|&nbsp; 系統設計：Leonard Wong &nbsp;|&nbsp; v3.0.67
+          &nbsp;|&nbsp; 系統設計：Leonard Wong &nbsp;|&nbsp; v3.0.68
         </div>
       </div>
 
@@ -1642,7 +1655,7 @@ body.is-embedded .embed-attribution:hover{
      ============================================================ -->
 <footer class="site-footer">
   <div>⚠️ <strong>免責聲明：</strong>本系統資料來源於<a href="https://www.edb.gov.hk" target="_blank" rel="noopener">香港特別行政區政府教育局（EDB）</a>官方網站，僅供參考及輔助管理用途，一切以教育局官方公告為準。本系統並非教育局官方產品。</div>
-  <div style="margin-top:4px;color:var(--border)">系統設計：Leonard Wong &nbsp;|&nbsp; EDB 通告智能分析系統 v3.0.67 &nbsp;|&nbsp; &copy; 2026</div>
+  <div style="margin-top:4px;color:var(--border)">系統設計：Leonard Wong &nbsp;|&nbsp; EDB 通告智能分析系統 v3.0.68 &nbsp;|&nbsp; &copy; 2026</div>
 </footer>
 
 <!-- Embed mode attribution corner (visible only when iframe'd) -->
@@ -1655,9 +1668,9 @@ body.is-embedded .embed-attribution:hover{
 /* ============================================================
    VERSION
    ============================================================ */
-const VERSION = 'v3.0.67';
+const VERSION = 'v3.0.68';
 
-/* ── Non-canonical host self-check (v3.0.67) ───────────────────
+/* ── Non-canonical host self-check (v3.0.68) ───────────────────
    When the dashboard is re-hosted off the canonical domain, surface a
    "non-official mirror" banner pointing back to circular.wongfu.net.
    Allowlist covers the live domain + local dev + file:// preview
@@ -2967,6 +2980,17 @@ function buildPdfLinks(d){
     { label:'📄 English',  flag:'E' },
     { label:'📄 简体中文', flag:'S' },
   ];
+
+  // 教育局唔會永久保留通告 PDF：每月系列大約只留最近三期，年度系列出咗新學年版本
+  // 就會撤走舊版。2026-09-01 實測 220 份入面 39 份嘅原文已經全部撤走（三個語言版本
+  // 一齊消失）。管線每轉會探測連結並寫入 `source_status`，呢度據此顯示說明，
+  // 唔好再送讀者去 404 —— 我哋嘅摘要同角色分析仍然完整保留。
+  const src = d.source_status || null;
+  if(src && src.state === 'withdrawn'){
+    return `<div class="pdf-withdrawn">📌 教育局已撤回本通告原文，本站保留 AI 分析摘要。`
+      + `<span class="pdf-withdrawn-note">教育局一般只保留近期通告；本頁的摘要、角色重點與關鍵日期不受影響。</span></div>`
+      + `<a class="pdf-btn" href="https://www.edb.gov.hk/tc/circular/index.html" target="_blank" rel="noopener">🔗 教育局通告頁面</a>`;
+  }
 
   if(urls.length > 0){
     // Use actual URLs scraped from EDB listing page (sorted C/E/S already)

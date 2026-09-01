@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T13:45:12Z",
+  "generated_at": "2026-09-01T17:04:45Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-08-29)",
@@ -344,7 +344,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26145C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26145E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26145S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 1,
@@ -626,7 +632,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26141C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26141E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26141S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 2,
@@ -913,7 +925,13 @@
       ],
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26173E.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 1,
+        "total": 1
+      }
     },
     {
       "id": 3,
@@ -1185,7 +1203,13 @@
       ],
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26172E.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 1,
+        "total": 1
+      }
     },
     {
       "id": 4,
@@ -1441,7 +1465,13 @@
       ],
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26171E.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 1,
+        "total": 1
+      }
     },
     {
       "id": 5,
@@ -1833,7 +1863,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26163C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26163E.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 6,
@@ -2160,7 +2196,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26144C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26144E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26144S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 7,
@@ -2531,7 +2573,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26123C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26123S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 8,
@@ -2851,7 +2899,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26160C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26160E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26160S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 9,
@@ -3265,7 +3319,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26128C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26128E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26128S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 10,
@@ -3627,7 +3687,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26121C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26121E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26121S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 11,
@@ -3890,7 +3956,13 @@
       ],
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26166E.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 1,
+        "total": 1
+      }
     },
     {
       "id": 12,
@@ -4222,7 +4294,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26165C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26165E.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 13,
@@ -4550,7 +4628,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26125C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26125E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26125S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 14,
@@ -4848,7 +4932,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26015C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26015E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26015S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 15,
@@ -5210,7 +5300,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26156C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26156E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26156S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 16,
@@ -5567,7 +5663,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26108C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26108E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26108S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 17,
@@ -5927,7 +6029,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26152C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26152E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26152S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 18,
@@ -6301,7 +6409,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26014C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26014E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26014S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 19,
@@ -6659,7 +6773,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26138C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26138E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26138S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 20,
@@ -7016,7 +7136,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26122C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26122E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26122S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 21,
@@ -7344,7 +7470,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26143C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26143E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26143S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 22,
@@ -7602,7 +7734,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26099C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26099E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26099S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 23,
@@ -7926,7 +8064,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26135C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26135E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26135S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 24,
@@ -8294,7 +8438,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26114C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26114E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26114S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 25,
@@ -8669,7 +8819,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26118C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26118E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26118S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 26,
@@ -9036,7 +9192,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26120C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26120E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26120S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 27,
@@ -9373,7 +9535,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26116C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26116E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26116S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 28,
@@ -9727,7 +9895,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26111C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26111E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26111S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 29,
@@ -10057,7 +10231,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26113C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26113E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26113S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 30,
@@ -10362,7 +10542,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26103C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26103E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26103S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 31,
@@ -10696,7 +10882,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26112C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26112E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26112S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 32,
@@ -11015,7 +11207,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26013C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26013E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26013S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 33,
@@ -11310,7 +11508,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26085C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26085S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 34,
@@ -11614,7 +11818,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26109C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26109E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26109S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 35,
@@ -11933,7 +12143,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26115C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26115E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26115S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 36,
@@ -12271,7 +12487,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26098C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26098E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26098S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 37,
@@ -12642,7 +12864,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26094C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26094E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26094S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 38,
@@ -13038,7 +13266,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26092C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26092E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26092S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 39,
@@ -13338,7 +13572,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26106C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26106E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26106S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 40,
@@ -13732,7 +13972,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26093C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26093E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26093S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 41,
@@ -14048,7 +14294,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26087C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26087E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26087S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 42,
@@ -14330,7 +14582,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26086C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26086E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26086S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 43,
@@ -14740,7 +14998,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26102C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26102E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26102S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 44,
@@ -15125,7 +15389,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26104C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26104E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26104S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 45,
@@ -15490,7 +15760,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26110C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26110S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 46,
@@ -15912,7 +16188,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26096C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26096E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26096S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 47,
@@ -16193,7 +16475,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26060C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26060E.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 48,
@@ -16530,7 +16818,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26008C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26008E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26008S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 49,
@@ -16931,7 +17225,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26066C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26066E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26066S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 50,
@@ -17265,7 +17565,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26012C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26012E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26012S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 51,
@@ -17555,7 +17861,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26101C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26101E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26101S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 52,
@@ -17894,7 +18206,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26057C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26057E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26057S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 53,
@@ -18283,7 +18601,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26078C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26078E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26078S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 54,
@@ -18695,7 +19019,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26070C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26070E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26070S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 55,
@@ -19089,7 +19419,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26009C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26009E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26009S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 56,
@@ -19449,7 +19785,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26107C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26107E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26107S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 57,
@@ -19781,7 +20123,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26011C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26011E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26011S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 58,
@@ -20177,7 +20525,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26076C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26076E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26076S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 59,
@@ -20445,7 +20799,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26082C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26082E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26082S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 60,
@@ -20751,7 +21111,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26077C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26077E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26077S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 61,
@@ -21081,7 +21447,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26084C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26084E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26084S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 62,
@@ -21521,7 +21893,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26010C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26010E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26010S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 63,
@@ -21873,7 +22251,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26105C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26105S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 2
+      }
     },
     {
       "id": 64,
@@ -22278,7 +22662,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26089C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26089E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26089S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 65,
@@ -22650,7 +23040,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26073C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26073E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26073S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 66,
@@ -22990,7 +23386,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26081C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26081E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26081S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 67,
@@ -23329,7 +23731,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26100C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26100S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 68,
@@ -23698,7 +24106,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26091C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26091E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26091S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 69,
@@ -24112,7 +24526,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26080C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26080E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26080S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 70,
@@ -24451,7 +24871,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26054C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26054E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26054S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 71,
@@ -24794,7 +25220,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26090C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26090E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26090S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 72,
@@ -25193,7 +25625,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26088C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26088E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26088S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 73,
@@ -25544,7 +25982,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26095C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26095E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26095S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 74,
@@ -25949,7 +26393,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26071C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26071E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26071S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 75,
@@ -26322,7 +26772,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26007C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26007E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26007S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 76,
@@ -26635,7 +27091,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26072C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26072E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26072S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 77,
@@ -26944,7 +27406,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26079C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26079E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26079S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 78,
@@ -27259,7 +27727,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26083C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26083E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26083S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 79,
@@ -27633,7 +28107,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26062C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26062E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26062S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 80,
@@ -27932,7 +28412,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26074C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26074E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26074S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 81,
@@ -28272,7 +28758,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26065C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26065E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26065S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 82,
@@ -28676,7 +29168,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26075C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26075E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26075S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 83,
@@ -29006,7 +29504,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26058C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26058E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26058S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 84,
@@ -29437,7 +29941,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26018C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26018E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26018S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 85,
@@ -29793,7 +30303,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26063C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26063E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26063S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 86,
@@ -30109,7 +30625,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26024C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26024E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26024S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 87,
@@ -30450,7 +30972,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26002C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26002E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26002S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 88,
@@ -30793,7 +31321,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26001C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26001E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26001S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 89,
@@ -31136,7 +31670,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26068C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26068E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26068S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 90,
@@ -31504,7 +32044,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26006C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26006E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26006S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 91,
@@ -31921,7 +32467,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26004C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26004E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26004S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 92,
@@ -32234,7 +32786,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26067C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26067E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26067S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 93,
@@ -32661,7 +33219,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26059C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26059E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26059S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 94,
@@ -33029,7 +33593,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26061C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26061E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26061S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 95,
@@ -33391,7 +33961,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26003C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26003E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26003S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 96,
@@ -33755,7 +34331,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26005C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26005E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26005S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 97,
@@ -34093,7 +34675,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26052C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26052E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26052S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 98,
@@ -34422,7 +35010,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26055C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26055E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26055S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 99,
@@ -34867,7 +35461,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26053C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26053E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26053S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 100,
@@ -35272,7 +35872,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26049C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26049E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26049S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 101,
@@ -35636,7 +36242,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26050C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26050E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26050S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 102,
@@ -35986,7 +36598,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26042C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26042E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26042S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 103,
@@ -36354,7 +36972,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26048C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26048E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26048S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 104,
@@ -36630,7 +37254,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26056C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26056S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 105,
@@ -36969,7 +37599,13 @@
       "pdf_urls": [
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26051C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26051S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 2,
+        "total": 2
+      }
     },
     {
       "id": 106,
@@ -37333,7 +37969,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26039C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26039E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26039S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 107,
@@ -37711,7 +38353,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26029C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26029E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26029S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 108,
@@ -38084,7 +38732,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26009C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26009E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26009S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 109,
@@ -38472,7 +39126,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26002C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26002E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBC/EDBC26002S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 110,
@@ -38820,7 +39480,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26046C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26046E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26046S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 111,
@@ -39144,7 +39810,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26038C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26038E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26038S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "withdrawn",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 0,
+        "total": 3
+      }
     },
     {
       "id": 112,
@@ -39470,7 +40142,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26034C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26034E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26034S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 113,
@@ -39809,7 +40487,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26043C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26043E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26043S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 114,
@@ -40154,7 +40838,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26041C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26041E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26041S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 115,
@@ -40452,7 +41142,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26045C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26045E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26045S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 116,
@@ -40838,7 +41534,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26030C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26030E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26030S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 117,
@@ -41230,7 +41932,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26026C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26026E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26026S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 118,
@@ -41641,7 +42349,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26036C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26036E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26036S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 119,
@@ -42055,7 +42769,13 @@
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26040C.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26040E.pdf",
         "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26040S.pdf"
-      ]
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-09-01T17:04:46.255939Z",
+        "alive": 3,
+        "total": 3
+      }
     },
     {
       "id": 120,

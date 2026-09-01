@@ -1,23 +1,29 @@
 {
-  "generatedAt": "2026-09-01T13:45:23.046111Z",
-  "feedGeneratedAt": "2026-09-01T13:45:12Z",
+  "generatedAt": "2026-09-01T17:05:20.535813Z",
+  "feedGeneratedAt": "2026-09-01T17:04:45Z",
   "overallStatus": "ERROR",
   "counts": {
     "records": 220,
-    "PASS": 16,
+    "PASS": 18,
     "BLOCKER": 0,
     "ERROR": 2,
     "WARN": 3,
     "INFO": 0
   },
-  "version": "v3.0.67",
+  "version": "v3.0.68",
+  "sourceStatus": {
+    "available": 110,
+    "partial": 0,
+    "withdrawn": 10,
+    "unknown": 100
+  },
   "checks": [
     {
       "id": "FEED_STRUCTURE",
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-01T13:45:12Z'",
+      "detail": "circulars=list generated_at='2026-09-01T17:04:45Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -241,6 +247,24 @@
       "offender_total": 6
     },
     {
+      "id": "SOURCE_AVAILABILITY",
+      "label": "原文撤回數無突變（單轉 +10 即警告）",
+      "severity": "WARN",
+      "status": "PASS",
+      "detail": "可用 110 · 部分 0 · 已撤回 10 · 未檢查 100",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "SOURCE_RECENT_DEAD",
+      "label": "30 日內嘅通告原文仍然在線",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "0 份近期通告原文全數失效",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
       "id": "GRANT_INFO",
       "label": "資助資料一致（type 合規、applicable 有金額或標籤）",
       "severity": "WARN",
@@ -275,7 +299,7 @@
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.0.67 · 6/6 個標記命中",
+      "detail": "v3.0.68 · 6/6 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -284,7 +308,7 @@
       "label": "版本唔可以倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.67 → 今次 v3.0.67",
+      "detail": "上次 v3.0.67 → 今次 v3.0.68",
       "offenders": [],
       "offender_total": 0
     }
