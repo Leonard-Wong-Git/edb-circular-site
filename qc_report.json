@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-01T18:03:10.803652Z",
-  "feedGeneratedAt": "2026-09-01T18:02:37Z",
+  "generatedAt": "2026-09-01T18:08:34.654297Z",
+  "feedGeneratedAt": "2026-09-01T18:08:06Z",
   "overallStatus": "ERROR",
   "counts": {
     "records": 220,
     "PASS": 18,
     "BLOCKER": 0,
     "ERROR": 2,
-    "WARN": 3,
+    "WARN": 4,
     "INFO": 0
   },
-  "version": "v3.0.68",
+  "version": "v3.0.69",
   "sourceStatus": {
-    "available": 110,
+    "available": 181,
     "partial": 0,
-    "withdrawn": 10,
-    "unknown": 100
+    "withdrawn": 39,
+    "unknown": 0
   },
   "checks": [
     {
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-01T18:02:37Z'",
+      "detail": "circulars=list generated_at='2026-09-01T18:08:06Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -250,8 +250,17 @@
       "id": "SOURCE_AVAILABILITY",
       "label": "原文撤回數無突變（單次 +10 即警告）",
       "severity": "WARN",
+      "status": "WARN",
+      "detail": "可用 181 · 部分 0 · 已撤回 39 · 未檢查 0 · 對比上次 +10 → +29",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "SOURCE_ANNOTATION_PROGRESS",
+      "label": "原文檢查標註逐轉收斂至零",
+      "severity": "WARN",
       "status": "PASS",
-      "detail": "可用 110 · 部分 0 · 已撤回 10 · 未檢查 100 · 對比上次 +10 → +0",
+      "detail": "全部記錄已檢查",
       "offenders": [],
       "offender_total": 0
     },
@@ -299,7 +308,7 @@
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.0.68 · 6/6 個標記命中",
+      "detail": "v3.0.69 · 6/6 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -308,7 +317,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.68 → 本次 v3.0.68",
+      "detail": "上次 v3.0.68 → 本次 v3.0.69",
       "offenders": [],
       "offender_total": 0
     }
