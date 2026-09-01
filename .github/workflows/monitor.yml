@@ -1,0 +1,118 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# 外部健康探測（KD#57 · 層二）
+#
+# 裝喺「公開」repo（edb-circular-site），唔係後端。兩個原因：
+#   1. 公開 repo 嘅 Actions 分鐘數免費無上限；私有 repo 每次執行按分鐘進位計費，
+#      半小時一探 = 每月約 1440 分鐘，會食走免費額度嘅七成。
+#   2. 呢度只需要由外面打 HTTPS，唔需要任何 secret。
+#
+# 呢個 workflow 係「無狀態」嘅：唔寫檔、唔 commit、唔會觸發 Pages 部署。
+# 「記錄數唔可以跌」由發佈前嘅 QC 閘負責攔截（predict + prevent），
+# 唔喺呢度做（report-after-the-fact），避免同一件事兩處實作。
+#
+# 通知：任何一項紅色 → 整個 workflow 失敗 → GitHub 自動電郵 repo 擁有者。
+#
+# ⚠️ 已知盲點（誠實記錄）：本探測跑喺 GitHub Actions 上面。GitHub Actions 全站
+#    當機時，佢會同被監察嘅站一齊死而且唔會出聲。狀態頁嘅客戶端新鮮度計算補到
+#    「你一開頁就見到紅」，但補唔到「主動通知你」。要補實就要外部第三方服務。
+# ─────────────────────────────────────────────────────────────────────────────
+name: Health Probe
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: health-probe
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  SITE: https://circular.wongfu.net
+  STATUS_PAGE: status-8bee6ebd38.html
+  # 排程約每 8 小時一轉：14 小時 = 錯過一轉（警告）；24 小時 = 錯過兩轉以上（失敗）。
+  WARN_HOURS: '14'
+  FAIL_HOURS: '24'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HTTP reachability
+        run: |
+          fail=0
+          for path in "/" "/circulars.json" "/qc_report.json" "/$STATUS_PAGE"; do
+            code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 25 "$SITE$path" || echo 000)
+            if [ "$code" = "200" ]; then
+              echo "✅ $path → $code"
+            else
+              echo "::error::$path → HTTP $code"
+              fail=1
+            fi
+          done
+          exit $fail
+
+      - name: TLS certificate expiry
+        continue-on-error: true      # 憑證由 GitHub 自動續期；早期預警而非攔截
+        run: |
+          end=$(echo | openssl s_client -servername circular.wongfu.net \
+                  -connect circular.wongfu.net:443 2>/dev/null \
+                | openssl x509 -noout -enddate | cut -d= -f2)
+          days=$(( ( $(date -d "$end" +%s) - $(date +%s) ) / 86400 ))
+          echo "憑證到期：$end（$days 日後）"
+          [ "$days" -ge 14 ] || { echo "::warning::TLS 憑證 $days 日內到期"; exit 1; }
+
+      - name: Feed freshness + QC status
+        run: |
+          curl -sS --max-time 30 "$SITE/circulars.json" -o /tmp/feed.json
+          curl -sS --max-time 30 "$SITE/qc_report.json" -o /tmp/qc.json || echo '{}' > /tmp/qc.json
+          python3 - <<'PY'
+          import json, os, sys
+          from datetime import datetime, timezone
+
+          warn_h = float(os.environ["WARN_HOURS"]); fail_h = float(os.environ["FAIL_HOURS"])
+          problems, warnings = [], []
+
+          try:
+              feed = json.load(open("/tmp/feed.json"))
+          except Exception as exc:
+              print(f"::error::circulars.json 解析唔到：{exc}")
+              sys.exit(1)
+
+          records = len(feed.get("circulars") or [])
+          if records == 0:
+              problems.append("feed 得 0 筆記錄")
+
+          stamp = feed.get("generated_at")
+          try:
+              age = (datetime.now(timezone.utc)
+                     - datetime.fromisoformat(str(stamp).replace("Z", "+00:00"))
+                       .astimezone(timezone.utc)).total_seconds() / 3600
+          except Exception:
+              problems.append(f"generated_at 解析唔到：{stamp!r}")
+              age = None
+
+          if age is not None:
+              print(f"資料新鮮度：{age:.1f} 小時前（警告 {warn_h}h / 失敗 {fail_h}h）")
+              if age >= fail_h:
+                  problems.append(f"資料已 {age:.1f} 小時未更新 —— 排程或發佈斷咗")
+              elif age >= warn_h:
+                  warnings.append(f"資料 {age:.1f} 小時未更新 —— 可能錯過一轉")
+
+          qc = json.load(open("/tmp/qc.json"))
+          status = qc.get("overallStatus")
+          print(f"記錄數：{records} · QC 狀態：{status or '（未有報告）'}")
+          if status == "BLOCKER":
+              problems.append("QC 報告顯示 BLOCKER —— 上一轉發佈帶住攔截級問題")
+          elif status == "ERROR":
+              warnings.append("QC 報告有 ERROR 級問題（未達攔截門檻）")
+
+          for w in warnings:
+              print(f"::warning::{w}")
+          for p in problems:
+              print(f"::error::{p}")
+          sys.exit(1 if problems else 0)
+          PY
