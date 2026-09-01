@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T17:05:20.535813Z",
-  "feedGeneratedAt": "2026-09-01T17:04:45Z",
+  "generatedAt": "2026-09-01T18:03:10.803652Z",
+  "feedGeneratedAt": "2026-09-01T18:02:37Z",
   "overallStatus": "ERROR",
   "counts": {
     "records": 220,
@@ -23,13 +23,13 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-01T17:04:45Z'",
+      "detail": "circulars=list generated_at='2026-09-01T18:02:37Z'",
       "offenders": [],
       "offender_total": 0
     },
     {
       "id": "COUNT_HEADER",
-      "label": "頂層 count 同實際筆數一致",
+      "label": "頂層 count 與實際筆數一致",
       "severity": "BLOCKER",
       "status": "PASS",
       "detail": "count=220 實際=220",
@@ -38,10 +38,10 @@
     },
     {
       "id": "COUNT_MONOTONIC",
-      "label": "記錄數只可升唔可跌（對比上一版）",
+      "label": "記錄數只可增加不可減少（對比上一版）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上一版=220 今次=220 · 冇記錄消失",
+      "detail": "上一版=220 本次=220 · 沒有記錄消失",
       "offenders": [],
       "offender_total": 0
     },
@@ -95,7 +95,7 @@
     },
     {
       "id": "DATE_VALID",
-      "label": "通告日期可解析、非未來、唔早過 2015-01-01",
+      "label": "通告日期可解析、非未來、不早於 2015-01-01",
       "severity": "ERROR",
       "status": "PASS",
       "detail": "220/220 合理",
@@ -104,7 +104,7 @@
     },
     {
       "id": "KEY_DATES",
-      "label": "關鍵日期可解析、類型合規、唔早過通告日",
+      "label": "關鍵日期可解析、類型合規、不早於通告日期",
       "severity": "WARN",
       "status": "WARN",
       "detail": "405 個關鍵日期 · 16 項有問題",
@@ -139,10 +139,10 @@
     },
     {
       "id": "TOPIC_EVIDENCE",
-      "label": "主題喺已存文本嘅關鍵字佐證率（上限估計，非錯誤數）",
+      "label": "主題於現存文本的關鍵字佐證率（上限估計，非錯誤數）",
       "severity": "INFO",
       "status": "PASS",
-      "detail": "381/460 有佐證 · 79 個喺節錄中搵唔到（全文未持久化，故屬上限）",
+      "detail": "381/460 有佐證 · 79 個於節錄中未能找到（全文未持久化，故屬上限）",
       "offenders": [
         "EDBCM141/2026:procurement",
         "EDBCM173/2026:finance",
@@ -235,7 +235,7 @@
       "label": "PDF 連結可達（抽樣）",
       "severity": "WARN",
       "status": "WARN",
-      "detail": "抽 15 條 · 6 條唔通",
+      "detail": "抽驗 15 條 · 6 條無法連通",
       "offenders": [
         "EDBCM008/2026: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26008E.pdf",
         "EDBCM059/2026: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26059S.pdf",
@@ -248,16 +248,16 @@
     },
     {
       "id": "SOURCE_AVAILABILITY",
-      "label": "原文撤回數無突變（單轉 +10 即警告）",
+      "label": "原文撤回數無突變（單次 +10 即警告）",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "可用 110 · 部分 0 · 已撤回 10 · 未檢查 100",
+      "detail": "可用 110 · 部分 0 · 已撤回 10 · 未檢查 100 · 對比上次 +10 → +0",
       "offenders": [],
       "offender_total": 0
     },
     {
       "id": "SOURCE_RECENT_DEAD",
-      "label": "30 日內嘅通告原文仍然在線",
+      "label": "30 日內的通告原文仍然在線",
       "severity": "ERROR",
       "status": "PASS",
       "detail": "0 份近期通告原文全數失效",
@@ -305,10 +305,10 @@
     },
     {
       "id": "VERSION_MONOTONIC",
-      "label": "版本唔可以倒退",
+      "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.67 → 今次 v3.0.68",
+      "detail": "上次 v3.0.68 → 本次 v3.0.68",
       "offenders": [],
       "offender_total": 0
     }

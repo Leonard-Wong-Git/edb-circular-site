@@ -1290,9 +1290,9 @@ body.is-embedded .embed-attribution:hover{
       <div class="home-section-title">🎨 設計取捨</div>
       <div style="display:grid;grid-template-columns:1fr;gap:10px;font-size:13px;line-height:1.7;">
         <div><strong>單一 HTML / 無框架</strong> — <span style="color:var(--text-muted);">純 HTML / CSS / JS，零 build step，GitHub Pages 直接 host。換代成本低、可離線存取。</span></div>
-        <div><strong>Deterministic 二次審查而非完全信 AI</strong> — <span style="color:var(--text-muted);">LLM 對 sparse 通告易產生 placeholder。Rule-based 第二層守住「只信原文」嘅底線。</span></div>
+        <div><strong>Deterministic 二次審查而非完全信 AI</strong> — <span style="color:var(--text-muted);">LLM 對 sparse 通告易產生 placeholder。Rule-based 第二層守住「只信原文」的底線。</span></div>
         <div><strong>角色契約獨立於 K1</strong> — <span style="color:var(--text-muted);">K1 公開知識庫可換 schema；用 compatibility layer 接住，校長 / 副校 / 科主任 / 主任 / 教師 / EO / 供應商 7 角色獨立演進。</span></div>
-        <div><strong>Cron 增量更新 + School-year 全量 baseline</strong> — <span style="color:var(--text-muted);">3×/日 cron 用 days-3 增量；學年初手動 trigger 全量重整。<code style="background:rgba(255,255,255,0.06);padding:2px 6px;border-radius:4px;color:var(--accent2);">PHASE 4 merge</code> 確保 days-3 唔覆蓋學年資料。</span></div>
+        <div><strong>Cron 增量更新 + School-year 全量 baseline</strong> — <span style="color:var(--text-muted);">3×/日 cron 用 days-3 增量；學年初手動 trigger 全量重整。<code style="background:rgba(255,255,255,0.06);padding:2px 6px;border-radius:4px;color:var(--accent2);">PHASE 4 merge</code> 確保 days-3 不會覆蓋學年資料。</span></div>
       </div>
     </div>
 
@@ -2981,10 +2981,10 @@ function buildPdfLinks(d){
     { label:'📄 简体中文', flag:'S' },
   ];
 
-  // 教育局唔會永久保留通告 PDF：每月系列大約只留最近三期，年度系列出咗新學年版本
-  // 就會撤走舊版。2026-09-01 實測 220 份入面 39 份嘅原文已經全部撤走（三個語言版本
-  // 一齊消失）。管線每轉會探測連結並寫入 `source_status`，呢度據此顯示說明，
-  // 唔好再送讀者去 404 —— 我哋嘅摘要同角色分析仍然完整保留。
+  // 教育局不會永久保留通告 PDF：每月系列大約只保留最近三期，年度系列出版新學年
+  // 版本後即撤走舊版。2026-09-01 實測 220 份之中 39 份的原文已全數撤走（三個語言
+  // 版本同時消失）。管線每次執行會探測連結並寫入 `source_status`，此處據此顯示
+  // 說明，不再將讀者導向 404 —— 本站的摘要與角色分析仍然完整保留。
   const src = d.source_status || null;
   if(src && src.state === 'withdrawn'){
     return `<div class="pdf-withdrawn">📌 教育局已撤回本通告原文，本站保留 AI 分析摘要。`
