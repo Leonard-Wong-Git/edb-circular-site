@@ -1,0 +1,292 @@
+{
+  "generatedAt": "2026-09-01T11:32:01.003860Z",
+  "feedGeneratedAt": "2026-09-01T11:31:49Z",
+  "overallStatus": "ERROR",
+  "counts": {
+    "records": 220,
+    "PASS": 16,
+    "BLOCKER": 0,
+    "ERROR": 2,
+    "WARN": 3,
+    "INFO": 0
+  },
+  "version": "v3.0.67",
+  "checks": [
+    {
+      "id": "FEED_STRUCTURE",
+      "label": "Feed 結構完整（circulars 陣列 + generated_at）",
+      "severity": "BLOCKER",
+      "status": "PASS",
+      "detail": "circulars=list generated_at='2026-09-01T11:31:49Z'",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "COUNT_HEADER",
+      "label": "頂層 count 同實際筆數一致",
+      "severity": "BLOCKER",
+      "status": "PASS",
+      "detail": "count=220 實際=220",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "COUNT_MONOTONIC",
+      "label": "記錄數只可升唔可跌（對比上一版）",
+      "severity": "BLOCKER",
+      "status": "PASS",
+      "detail": "上一版=220 今次=220 · 冇記錄消失",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "FRESHNESS",
+      "label": "資料新鮮度",
+      "severity": "WARN",
+      "status": "PASS",
+      "detail": "0.0 小時前（門檻 14.0h）",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "NO_DUPLICATES",
+      "label": "通告編號唯一",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "220 筆 · 220 個唯一編號",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "NUMBER_FORMAT",
+      "label": "編號格式合規（EDBC/EDBCM nnn/yyyy）",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "220/220 合規",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "REQUIRED_FIELDS",
+      "label": "必填欄位齊全",
+      "severity": "ERROR",
+      "status": "ERROR",
+      "detail": "218/220 齊全（number、date、title、summary、official、topics、roles、pdf_urls）",
+      "offenders": [
+        "EDBCM023/2026",
+        "EDBCM008/2026"
+      ],
+      "offender_total": 2
+    },
+    {
+      "id": "RETIRED_SCHEMA",
+      "label": "退役欄位已絕跡（k1_facts / relevant_facts）",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "0 筆仍帶退役欄位",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "DATE_VALID",
+      "label": "通告日期可解析、非未來、唔早過 2015-01-01",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "220/220 合理",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "KEY_DATES",
+      "label": "關鍵日期可解析、類型合規、唔早過通告日",
+      "severity": "WARN",
+      "status": "WARN",
+      "detail": "405 個關鍵日期 · 16 項有問題",
+      "offenders": [
+        "EDBCM128/2026: date='2027-01-新增'",
+        "EDBCM125/2026: 截止 2026-07-27 早過通告 2026-08-26",
+        "EDBC015/2026: date=''",
+        "EDBCM094/2026: 截止 2026-04-01 早過通告 2026-07-03",
+        "EDBCM094/2026: 截止 2026-07-01 早過通告 2026-07-03",
+        "EDBCM078/2026: date='2027-02'",
+        "EDBCM018/2026: date='null'",
+        "EDBCM059/2026: 截止 2026-04-01 早過通告 2026-05-04",
+        "EDBCM037/2026: date=''",
+        "EDBCM035/2026: date='2027-02'",
+        "EDBCM035/2026: date='2027-12'",
+        "EDBCM035/2026: date='2027-02'",
+        "EDBCM035/2026: date='null'",
+        "EDBCM174/2025: date='null'",
+        "EDBCM139/2025: date='2026-02-'",
+        "EDBCM139/2025: date='2026-05-'"
+      ],
+      "offender_total": 16
+    },
+    {
+      "id": "TOPICS_VALID",
+      "label": "主題 1–3 個、屬 enum、無重複",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "220/220 合規",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "TOPIC_EVIDENCE",
+      "label": "主題喺已存文本嘅關鍵字佐證率（上限估計，非錯誤數）",
+      "severity": "INFO",
+      "status": "PASS",
+      "detail": "381/460 有佐證 · 79 個喺節錄中搵唔到（全文未持久化，故屬上限）",
+      "offenders": [
+        "EDBCM141/2026:procurement",
+        "EDBCM173/2026:finance",
+        "EDBCM172/2026:finance",
+        "EDBCM171/2026:finance",
+        "EDBCM163/2026:safety",
+        "EDBCM144/2026:procurement",
+        "EDBCM160/2026:curriculum",
+        "EDBCM121/2026:procurement",
+        "EDBCM166/2026:finance",
+        "EDBCM156/2026:it",
+        "EDBCM108/2026:it",
+        "EDBCM138/2026:activity",
+        "EDBCM143/2026:hr",
+        "EDBCM143/2026:curriculum",
+        "EDBCM114/2026:curriculum",
+        "EDBCM103/2026:it",
+        "EDBCM085/2026:hr",
+        "EDBCM106/2026:exam",
+        "EDBCM093/2026:activity",
+        "EDBCM086/2026:finance"
+      ],
+      "offender_total": 79
+    },
+    {
+      "id": "ROLE_COVERAGE",
+      "label": "七個角色齊全、r 為布林值",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "220/220 結構正確",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "ROLE_RELEVANCE",
+      "label": "每份通告至少一個相關角色",
+      "severity": "WARN",
+      "status": "PASS",
+      "detail": "0 筆全部角色皆不相關",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "CONTENT_QUALITY",
+      "label": "內容達最低門檻（摘要≥20字、原文≥40字、相關角色有重點）",
+      "severity": "ERROR",
+      "status": "ERROR",
+      "detail": "203/220 達標",
+      "offenders": [
+        "EDBCM098/2026: 相關角色無重點:teacher",
+        "EDBCM087/2026: 相關角色無重點:teacher",
+        "EDBCM060/2026: 相關角色無重點:teacher",
+        "EDBCM048/2026: 相關角色無重點:supplier",
+        "EDBCM051/2026: 相關角色無重點:teacher",
+        "EDBCM026/2026: 相關角色無重點:supplier",
+        "EDBCM023/2026: 原文0字",
+        "EDBCM008/2026: 原文0字",
+        "EDBCM006/2026: 相關角色無重點:teacher",
+        "EDBCM197/2025: 相關角色無重點:teacher",
+        "EDBCM177/2025: 相關角色無重點:teacher",
+        "EDBCM195/2025: 相關角色無重點:teacher",
+        "EDBCM193/2025: 相關角色無重點:teacher,supplier",
+        "EDBCM168/2025: 相關角色無重點:teacher",
+        "EDBCM171/2025: 相關角色無重點:teacher",
+        "EDBCM155/2025: 相關角色無重點:teacher",
+        "EDBCM158/2025: 相關角色無重點:supplier"
+      ],
+      "offender_total": 17
+    },
+    {
+      "id": "EXTRACTION_NOISE",
+      "label": "原文無抽取工具警告污染（KD#54 回歸）",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "0 筆帶污染",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "PDF_LINKS_DOMAIN",
+      "label": "PDF 連結全部指向 edb.gov.hk",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "631/631 連結域名正確",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "PDF_LINKS_REACHABLE",
+      "label": "PDF 連結可達（抽樣）",
+      "severity": "WARN",
+      "status": "WARN",
+      "detail": "抽 15 條 · 6 條唔通",
+      "offenders": [
+        "EDBCM008/2026: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26008E.pdf",
+        "EDBCM059/2026: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26059S.pdf",
+        "EDBCM187/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25187E.pdf",
+        "EDBCM198/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25198S.pdf",
+        "EDBCM179/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25179S.pdf",
+        "EDBCM149/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25149E.pdf"
+      ],
+      "offender_total": 6
+    },
+    {
+      "id": "GRANT_INFO",
+      "label": "資助資料一致（type 合規、applicable 有金額或標籤）",
+      "severity": "WARN",
+      "status": "WARN",
+      "detail": "195/220 一致",
+      "offenders": [
+        "EDBCM121/2026: applicable 但無金額亦無標籤",
+        "EDBCM118/2026: applicable 但無金額亦無標籤",
+        "EDBCM078/2026: applicable 但無金額亦無標籤",
+        "EDBCM070/2026: applicable 但無金額亦無標籤",
+        "EDBCM084/2026: applicable 但無金額亦無標籤",
+        "EDBCM081/2026: applicable 但無金額亦無標籤",
+        "EDBCM091/2026: applicable 但無金額亦無標籤",
+        "EDBCM063/2026: applicable 但無金額亦無標籤",
+        "EDBCM024/2026: applicable 但無金額亦無標籤",
+        "EDBCM053/2026: applicable 但無金額亦無標籤",
+        "EDBCM049/2026: applicable 但無金額亦無標籤",
+        "EDBCM048/2026: applicable 但無金額亦無標籤",
+        "EDBCM037/2026: applicable 但無金額亦無標籤",
+        "EDBCM017/2026: applicable 但無金額亦無標籤",
+        "EDBCM011/2026: applicable 但無金額亦無標籤",
+        "EDBCM003/2026: applicable 但無金額亦無標籤",
+        "EDBCM216/2025: applicable 但無金額亦無標籤",
+        "EDBCM208/2025: applicable 但無金額亦無標籤",
+        "EDBCM192/2025: applicable 但無金額亦無標籤",
+        "EDBCM190/2025: applicable 但無金額亦無標籤"
+      ],
+      "offender_total": 25
+    },
+    {
+      "id": "VERSION_CONSISTENT",
+      "label": "Dashboard 版本標記全部一致（無漂移）",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "v3.0.67 · 6/6 個標記命中",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "VERSION_MONOTONIC",
+      "label": "版本唔可以倒退",
+      "severity": "BLOCKER",
+      "status": "PASS",
+      "detail": "今次 v3.0.67",
+      "offenders": [],
+      "offender_total": 0
+    }
+  ]
+}

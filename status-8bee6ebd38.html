@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>系統健康檢查 — EDB 通告智能分析系統</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#fff; --ink:#1a1d21; --muted:#6b727c; --line:#e3e6ea;
+    --ok:#0f8a45; --warn:#b26a00; --err:#c0392b; --block:#8e1b1b; --accent:#1f5fa8;
+    --okbg:#e8f6ee; --warnbg:#fdf3e2; --errbg:#fdecea; --blockbg:#f8dcdc;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#14171a; --card:#1c2024; --ink:#e8eaed; --muted:#9aa3ad; --line:#2c3238;
+      --ok:#4ade80; --warn:#fbbf24; --err:#f87171; --block:#fca5a5; --accent:#7cb0f0;
+      --okbg:#12301f; --warnbg:#33270c; --errbg:#3a1a18; --blockbg:#4a1414;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:20px 16px 60px;background:var(--bg);color:var(--ink);
+    font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang HK","Noto Sans TC",sans-serif}
+  .wrap{max-width:1000px;margin:0 auto}
+  h1{font-size:20px;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:13px;margin-bottom:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px}
+  h2{font-size:15px;margin:0 0 12px;display:flex;align-items:center;gap:8px}
+  .banner{padding:18px;border-radius:10px;margin-bottom:16px;border:1px solid transparent}
+  .banner .big{font-size:19px;font-weight:700}
+  .banner .why{font-size:13px;margin-top:6px;opacity:.9}
+  .s-ok{background:var(--okbg);border-color:var(--ok);color:var(--ok)}
+  .s-warn{background:var(--warnbg);border-color:var(--warn);color:var(--warn)}
+  .s-err{background:var(--errbg);border-color:var(--err);color:var(--err)}
+  .s-block{background:var(--blockbg);border-color:var(--block);color:var(--block)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+  .metric{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px}
+  .metric .v{font-size:22px;font-weight:700;line-height:1.2}
+  .metric .k{font-size:12px;color:var(--muted);margin-top:2px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:12px}
+  .tw{overflow-x:auto}
+  details{margin-top:6px}
+  summary{cursor:pointer;color:var(--accent);font-size:12px}
+  .off{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;
+    color:var(--muted);margin:4px 0 0 14px;white-space:pre-wrap;word-break:break-all}
+  .pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:11px;font-weight:700;white-space:nowrap}
+  .p-PASS{background:var(--okbg);color:var(--ok)}
+  .p-INFO{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+  .p-WARN{background:var(--warnbg);color:var(--warn)}
+  .p-ERROR{background:var(--errbg);color:var(--err)}
+  .p-BLOCKER{background:var(--blockbg);color:var(--block)}
+  .cmd{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+  .cmd:last-child{border-bottom:0}
+  .cmd .txt{flex:1;min-width:0}
+  .cmd .lbl{font-size:13px;font-weight:600}
+  .cmd .desc{font-size:12px;color:var(--muted)}
+  .cmd code{display:block;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;
+    background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px;margin-top:5px;
+    white-space:pre-wrap;word-break:break-all}
+  button{cursor:pointer;background:var(--accent);color:#fff;border:0;border-radius:6px;
+    padding:6px 12px;font-size:12px;font-weight:600;white-space:nowrap}
+  button:hover{opacity:.88}
+  .danger{background:var(--err)}
+  pre.json{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;
+    overflow-x:auto;font-size:11.5px;line-height:1.5;margin:0}
+  .foot{color:var(--muted);font-size:12px;text-align:center;margin-top:28px}
+  .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);
+    color:var(--bg);padding:9px 18px;border-radius:99px;font-size:13px;opacity:0;
+    transition:opacity .2s;pointer-events:none}
+  .toast.on{opacity:1}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🏥 系統健康檢查</h1>
+  <div class="sub">
+    每次排程發佈時自動產生 · 不與主 Dashboard 互連 · 僅供管理者及 AI Agent 查閱<br>
+    <strong>新鮮度由你的瀏覽器即時計算</strong>，即使整條 pipeline 已死、本頁不再更新，下方仍會轉紅。
+  </div>
+
+  <div id="banner" class="banner s-warn"><div class="big">⏳ 載入中…</div></div>
+
+  <div class="card">
+    <h2>📊 核心指標</h2>
+    <div class="grid" id="metrics"></div>
+  </div>
+
+  <div class="card">
+    <h2>🔍 完整檢查清單</h2>
+    <div class="tw"><table>
+      <thead><tr><th style="width:1%">狀態</th><th>檢查</th><th>詳情</th></tr></thead>
+      <tbody id="checks"><tr><td colspan="3" style="color:var(--muted)">載入中…</td></tr></tbody>
+    </table></div>
+  </div>
+
+  <div class="card">
+    <h2>🛠️ 運維指令（點擊複製，喺終端機貼上執行）</h2>
+    <div id="cmds"></div>
+  </div>
+
+  <div class="card">
+    <h2>⚙️ 機器可讀狀態（供 AI Agent 讀取）</h2>
+    <div class="sub" style="margin-bottom:10px">
+      同樣內容可直接抓取：<code style="font-size:12px">circular.wongfu.net/qc_report.json</code>
+    </div>
+    <pre class="json" id="raw">載入中…</pre>
+  </div>
+
+  <div class="foot" id="foot"></div>
+</div>
+<div class="toast" id="toast">已複製到剪貼簿</div>
+
+<script>
+'use strict';
+var BACKEND = 'Leonard-Wong-Git/EDB-AI-Circular-System';
+var PUBLIC  = 'Leonard-Wong-Git/edb-circular-site';
+// 排程約每 8 小時一轉。14 小時 = 錯過一轉；24 小時 = 錯過兩轉以上。
+var WARN_H = 14, ERR_H = 24;
+
+function h(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function ago(iso){
+  var t = Date.parse(iso);
+  if (isNaN(t)) return null;
+  return (Date.now() - t) / 36e5;      // 用瀏覽器時鐘，唔係生成時寫死嘅數字
+}
+function fmtAge(hrs){
+  if (hrs == null) return '無法解析';
+  if (hrs < 1) return Math.round(hrs*60) + ' 分鐘前';
+  if (hrs < 48) return hrs.toFixed(1) + ' 小時前';
+  return (hrs/24).toFixed(1) + ' 日前';
+}
+function toast(m){var t=document.getElementById('toast');t.textContent=m;t.classList.add('on');
+  setTimeout(function(){t.classList.remove('on');},1600);}
+function copy(text){
+  if (navigator.clipboard && window.isSecureContext){
+    navigator.clipboard.writeText(text).then(function(){toast('已複製到剪貼簿');},
+      function(){toast('複製失敗，請手動選取');});
+  } else { toast('此環境唔支援自動複製，請手動選取'); }
+}
+
+var COMMANDS = [
+  {l:'手動觸發抓取 + 發佈', d:'等同一次排程。會行 QC 閘，攔截級唔過就唔會發佈。',
+   c:'gh workflow run "Scrape + Publish Artifact" --repo ' + BACKEND},
+  {l:'查看後端排程紀錄', d:'最近 10 轉抓取 + 發佈嘅結果。',
+   c:'gh run list --repo ' + BACKEND + ' --limit 10'},
+  {l:'查看公開站部署紀錄', d:'Pages 有冇成功部署 —— 後端綠燈唔代表已經上線。',
+   c:'gh run list --repo ' + PUBLIC + ' --limit 10'},
+  {l:'本機對線上資料跑一次 QC', d:'唔使等排程，即刻知線上 feed 而家咩狀態。',
+   c:'curl -s https://circular.wongfu.net/circulars.json -o /tmp/live.json && \\\n' +
+     'python3.13 dev/tools/qc_circulars.py --json /tmp/live.json --dashboard edb-dashboard.html'},
+  {l:'⚠️ 由歷史版本還原 feed', d:'資料倒退時用。先睇歷史揀 SHA，再還原。2026-09-01 用過。', danger:true,
+   c:'cd ~/Documents/EDB-AI-Circular-System && git log --oneline -20 -- circulars.json\n' +
+     '# 揀好 <SHA> 之後：\n' +
+     'git fetch origin main && git reset --hard origin/main && \\\n' +
+     'git checkout <SHA> -- circulars.json && \\\n' +
+     'git commit -m "fix: restore feed" && git push origin main'},
+  {l:'⚠️ 暫停排程', d:'懷疑管線出事、想停低查清楚先。', danger:true,
+   c:'gh workflow disable "Scrape + Publish Artifact" --repo ' + BACKEND},
+  {l:'恢復排程', d:'查清楚之後開返。',
+   c:'gh workflow enable "Scrape + Publish Artifact" --repo ' + BACKEND}
+];
+
+function renderCommands(){
+  document.getElementById('cmds').innerHTML = COMMANDS.map(function(x,i){
+    return '<div class="cmd"><div class="txt"><div class="lbl">' + h(x.l) + '</div>' +
+      '<div class="desc">' + h(x.d) + '</div><code>' + h(x.c) + '</code></div>' +
+      '<button class="' + (x.danger?'danger':'') + '" data-i="' + i + '">複製</button></div>';
+  }).join('');
+  document.getElementById('cmds').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    copy(COMMANDS[+b.getAttribute('data-i')].c);
+  });
+}
+
+function setBanner(cls, big, why){
+  var el = document.getElementById('banner');
+  el.className = 'banner ' + cls;
+  el.innerHTML = '<div class="big">' + h(big) + '</div>' +
+                 (why ? '<div class="why">' + h(why) + '</div>' : '');
+}
+
+function render(feed, qc, feedErr, qcErr){
+  // ── 新鮮度：客戶端即時計算，唔倚賴任何生成時寫死嘅數字 ──
+  var age = feed ? ago(feed.generated_at) : null;
+  var stale = age == null || age >= ERR_H;
+  var aging = age != null && age >= WARN_H && age < ERR_H;
+
+  var worst = qc ? qc.overallStatus : null;
+  if (feedErr)        setBanner('s-block','⛔ 攞唔到資料檔','circulars.json 抓取失敗 —— 網站可能出事：' + feedErr);
+  else if (stale)     setBanner('s-block','⛔ 資料已停止更新','最後更新 ' + fmtAge(age) + '（門檻 ' + ERR_H + ' 小時）—— 排程或發佈已經斷咗。');
+  else if (aging)     setBanner('s-warn','⚠️ 資料偏舊','最後更新 ' + fmtAge(age) + '（門檻 ' + WARN_H + ' 小時）—— 可能錯過咗一轉排程。');
+  else if (qcErr)     setBanner('s-warn','⚠️ 資料新鮮，但攞唔到 QC 報告','qc_report.json：' + qcErr);
+  else if (worst === 'BLOCKER') setBanner('s-block','⛔ QC 攔截級問題', '見下方檢查清單。');
+  else if (worst === 'ERROR')   setBanner('s-err','❌ QC 有錯誤級問題','資料仍然發佈咗（初期只攔 BLOCKER），但下面啲項目要跟進。');
+  else if (worst === 'WARN')    setBanner('s-warn','⚠️ QC 有警告','資料正常，有次要項目可以跟進。');
+  else                          setBanner('s-ok','✅ 全部正常','資料新鮮，所有檢查通過。');
+
+  var c = (qc && qc.counts) || {};
+  var metrics = [
+    ['記錄數', feed ? (feed.circulars || []).length : '—'],
+    ['資料更新', fmtAge(age)],
+    ['版本', (qc && qc.version) || '—'],
+    ['通過', c.PASS != null ? c.PASS : '—'],
+    ['警告', c.WARN != null ? c.WARN : '—'],
+    ['錯誤', c.ERROR != null ? c.ERROR : '—'],
+    ['攔截', c.BLOCKER != null ? c.BLOCKER : '—']
+  ];
+  document.getElementById('metrics').innerHTML = metrics.map(function(m){
+    return '<div class="metric"><div class="v">' + h(m[1]) + '</div><div class="k">' + h(m[0]) + '</div></div>';
+  }).join('');
+
+  var body = document.getElementById('checks');
+  if (!qc || !qc.checks){
+    body.innerHTML = '<tr><td colspan="3" style="color:var(--muted)">未有 QC 報告（' +
+      h(qcErr || '檔案不存在') + '）—— 下一轉排程會產生。</td></tr>';
+  } else {
+    body.innerHTML = qc.checks.map(function(f){
+      var off = '';
+      if (f.status !== 'PASS' && f.offenders && f.offenders.length){
+        var more = f.offender_total > f.offenders.length
+          ? '\n… 另外 ' + (f.offender_total - f.offenders.length) + ' 項' : '';
+        off = '<details><summary>展開 ' + f.offender_total + ' 項</summary><div class="off">' +
+              h(f.offenders.join('\n') + more) + '</div></details>';
+      }
+      return '<tr><td><span class="pill p-' + h(f.status) + '">' + h(f.status) + '</span></td>' +
+             '<td>' + h(f.label) + '<br><span style="color:var(--muted);font-size:11px">' + h(f.id) + '</span></td>' +
+             '<td>' + h(f.detail) + off + '</td></tr>';
+    }).join('');
+  }
+
+  document.getElementById('raw').textContent = JSON.stringify({
+    viewedAt: new Date().toISOString(),
+    feedAgeHours: age == null ? null : +age.toFixed(2),
+    freshness: stale ? 'STALE' : (aging ? 'AGING' : 'FRESH'),
+    records: feed ? (feed.circulars || []).length : null,
+    feedGeneratedAt: feed ? feed.generated_at : null,
+    qc: qc ? {generatedAt: qc.generatedAt, overallStatus: qc.overallStatus,
+              version: qc.version, counts: qc.counts,
+              failing: qc.checks.filter(function(f){return f.status !== 'PASS' && f.status !== 'INFO';})
+                                .map(function(f){return {id: f.id, status: f.status, detail: f.detail};})}
+            : null
+  }, null, 2);
+
+  document.getElementById('foot').textContent =
+    'QC 報告產生於 ' + ((qc && qc.generatedAt) || '—') + ' · 本頁載入於 ' + new Date().toISOString();
+}
+
+function grab(url){
+  return fetch(url, {cache:'no-store'}).then(function(r){
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  });
+}
+
+renderCommands();
+Promise.all([
+  grab('./circulars.json').then(function(d){return {d:d};}, function(e){return {e:e.message};}),
+  grab('./qc_report.json').then(function(d){return {d:d};}, function(e){return {e:e.message};})
+]).then(function(res){
+  render(res[0].d, res[1].d, res[0].e, res[1].e);
+});
+</script>
+</body>
+</html>
