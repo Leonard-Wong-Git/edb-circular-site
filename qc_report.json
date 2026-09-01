@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T18:16:03.337712Z",
-  "feedGeneratedAt": "2026-09-01T18:15:49Z",
+  "generatedAt": "2026-09-01T19:08:13.504744Z",
+  "feedGeneratedAt": "2026-09-01T19:07:59Z",
   "overallStatus": "WARN",
   "counts": {
     "records": 220,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-01T18:15:49Z'",
+      "detail": "circulars=list generated_at='2026-09-01T19:07:59Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -113,29 +113,15 @@
     },
     {
       "id": "KEY_DATES",
-      "label": "關鍵日期可解析、類型合規、不早於通告日期",
+      "label": "關鍵日期可解析、類型合規、申請截止不早於通告日",
       "severity": "WARN",
       "status": "WARN",
-      "detail": "405 個關鍵日期 · 16 項有問題",
+      "detail": "405 個關鍵日期 · 2 項有問題",
       "offenders": [
-        "EDBCM128/2026: date='2027-01-新增'",
-        "EDBCM125/2026: 截止 2026-07-27 早過通告 2026-08-26",
-        "EDBC015/2026: date=''",
-        "EDBCM094/2026: 截止 2026-04-01 早過通告 2026-07-03",
-        "EDBCM094/2026: 截止 2026-07-01 早過通告 2026-07-03",
-        "EDBCM078/2026: date='2027-02'",
-        "EDBCM018/2026: date='null'",
-        "EDBCM059/2026: 截止 2026-04-01 早過通告 2026-05-04",
-        "EDBCM037/2026: date=''",
-        "EDBCM035/2026: date='2027-02'",
-        "EDBCM035/2026: date='2027-12'",
-        "EDBCM035/2026: date='2027-02'",
-        "EDBCM035/2026: date='null'",
-        "EDBCM174/2025: date='null'",
-        "EDBCM139/2025: date='2026-02-'",
-        "EDBCM139/2025: date='2026-05-'"
+        "EDBCM125/2026: 申請截止日 2026-07-27 早於通告日 2026-08-26",
+        "EDBCM094/2026: 發放日 2026-07-01 早於通告日 2026-07-03"
       ],
-      "offender_total": 16
+      "offender_total": 2
     },
     {
       "id": "TOPICS_VALID",
@@ -242,7 +228,7 @@
       "label": "原文撤回數無突變（單次 +10 即警告）",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "可用 181 · 部分 0 · 已撤回 39 · 未檢查 0 · 對比上次 +39 → +0",
+      "detail": "可用 181 · 部分 0 · 已撤回 39 · 未檢查 0 · 對比上次 39 → 39",
       "offenders": [],
       "offender_total": 0
     },
@@ -266,33 +252,18 @@
     },
     {
       "id": "GRANT_INFO",
-      "label": "資助資料一致（type 合規、applicable 有金額或標籤）",
+      "label": "資助資料一致（type 合規、applicable 有金額、標籤或說明）",
       "severity": "WARN",
       "status": "WARN",
-      "detail": "195/220 一致",
+      "detail": "215/220 一致",
       "offenders": [
-        "EDBCM121/2026: applicable 但無金額亦無標籤",
-        "EDBCM118/2026: applicable 但無金額亦無標籤",
-        "EDBCM078/2026: applicable 但無金額亦無標籤",
-        "EDBCM070/2026: applicable 但無金額亦無標籤",
-        "EDBCM084/2026: applicable 但無金額亦無標籤",
-        "EDBCM081/2026: applicable 但無金額亦無標籤",
-        "EDBCM091/2026: applicable 但無金額亦無標籤",
-        "EDBCM063/2026: applicable 但無金額亦無標籤",
-        "EDBCM024/2026: applicable 但無金額亦無標籤",
-        "EDBCM053/2026: applicable 但無金額亦無標籤",
-        "EDBCM049/2026: applicable 但無金額亦無標籤",
-        "EDBCM048/2026: applicable 但無金額亦無標籤",
-        "EDBCM037/2026: applicable 但無金額亦無標籤",
-        "EDBCM017/2026: applicable 但無金額亦無標籤",
-        "EDBCM011/2026: applicable 但無金額亦無標籤",
-        "EDBCM003/2026: applicable 但無金額亦無標籤",
-        "EDBCM216/2025: applicable 但無金額亦無標籤",
-        "EDBCM208/2025: applicable 但無金額亦無標籤",
-        "EDBCM192/2025: applicable 但無金額亦無標籤",
-        "EDBCM190/2025: applicable 但無金額亦無標籤"
+        "EDBCM078/2026: applicable 但無金額、標籤或說明",
+        "EDBCM053/2026: applicable 但無金額、標籤或說明",
+        "EDBCM011/2026: applicable 但無金額、標籤或說明",
+        "EDBCM208/2025: applicable 但無金額、標籤或說明",
+        "EDBCM190/2025: applicable 但無金額、標籤或說明"
       ],
-      "offender_total": 25
+      "offender_total": 5
     },
     {
       "id": "VERSION_CONSISTENT",

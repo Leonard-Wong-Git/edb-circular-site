@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T18:15:49Z",
+  "generated_at": "2026-09-01T19:07:59Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-08-29)",
@@ -347,7 +347,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-01T18:15:49.889398Z",
+        "checked": "2026-09-01T19:08:00.314170Z",
         "alive": 3,
         "total": 3
       }
@@ -635,7 +635,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-01T18:15:49.889398Z",
+        "checked": "2026-09-01T19:08:00.314170Z",
         "alive": 3,
         "total": 3
       }
@@ -928,7 +928,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-01T18:15:49.889398Z",
+        "checked": "2026-09-01T19:08:00.314170Z",
         "alive": 1,
         "total": 1
       }
@@ -1206,7 +1206,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-01T18:15:49.889398Z",
+        "checked": "2026-09-01T19:08:00.314170Z",
         "alive": 1,
         "total": 1
       }
@@ -1468,7 +1468,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-01T18:15:49.889398Z",
+        "checked": "2026-09-01T19:08:00.314170Z",
         "alive": 1,
         "total": 1
       }
@@ -1866,7 +1866,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-01T18:15:49.889398Z",
+        "checked": "2026-09-01T19:08:00.314170Z",
         "alive": 2,
         "total": 2
       }
@@ -2199,7 +2199,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-01T18:15:49.889398Z",
+        "checked": "2026-09-01T19:08:00.314170Z",
         "alive": 3,
         "total": 3
       }
@@ -3095,7 +3095,7 @@
           "label": "10月9日報名截止"
         },
         {
-          "date": "2027-01-新增",
+          "date": "2027-01",
           "desc": "比賽實施日期與相關安排（如舞蹈節比賽日）",
           "type": "submission_deadline",
           "roles": [
@@ -29666,7 +29666,7 @@
           "label": "通知結果/識別開始"
         },
         {
-          "date": "null",
+          "date": "",
           "desc": "完成識別及提交準小四/小四學生資料的期限",
           "type": "submission_deadline",
           "roles": [
@@ -32579,7 +32579,7 @@
           "label": "提交截止日"
         },
         {
-          "date": "2026-06-04 00:00",
+          "date": "2026-06-04",
           "desc": "逾時申請不受理",
           "type": "apply_deadline",
           "roles": [
@@ -43743,7 +43743,7 @@
           "label": "配對後安排"
         },
         {
-          "date": "null",
+          "date": "",
           "desc": "津貼運用報告提交截止",
           "type": "submission_deadline",
           "roles": [
@@ -61480,7 +61480,7 @@
           "label": "錄取通知"
         },
         {
-          "date": "null",
+          "date": "",
           "desc": "出發前簡介會與報名確認",
           "type": "awareness_deadline",
           "roles": [
@@ -69925,7 +69925,7 @@
           "label": "回條截止"
         },
         {
-          "date": "2026-02-",
+          "date": "2026-02",
           "desc": "第一輪提交截止",
           "type": "submission_deadline",
           "roles": [
@@ -69938,7 +69938,7 @@
           "label": "第一輪提交截止"
         },
         {
-          "date": "2026-05-",
+          "date": "2026-05",
           "desc": "第二輪提交截止",
           "type": "submission_deadline",
           "roles": [
