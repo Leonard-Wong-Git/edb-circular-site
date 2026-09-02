@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-02T00:58:44.481795Z",
-  "feedGeneratedAt": "2026-09-02T00:58:29Z",
+  "generatedAt": "2026-09-02T09:17:32.896591Z",
+  "feedGeneratedAt": "2026-09-02T09:17:19Z",
   "overallStatus": "WARN",
   "counts": {
-    "records": 220,
+    "records": 223,
     "PASS": 22,
     "BLOCKER": 0,
     "ERROR": 0,
@@ -12,7 +12,7 @@
   },
   "version": "v3.0.69",
   "sourceStatus": {
-    "available": 181,
+    "available": 184,
     "partial": 0,
     "withdrawn": 39,
     "unknown": 0
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-02T00:58:29Z'",
+      "detail": "circulars=list generated_at='2026-09-02T09:17:19Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -32,7 +32,7 @@
       "label": "頂層 count 與實際筆數一致",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "count=220 實際=220",
+      "detail": "count=223 實際=223",
       "offenders": [],
       "offender_total": 0
     },
@@ -41,7 +41,7 @@
       "label": "記錄數只可增加不可減少（對比上一版）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上一版=220 本次=220 · 沒有記錄消失",
+      "detail": "上一版=220 本次=223 · 沒有記錄消失",
       "offenders": [],
       "offender_total": 0
     },
@@ -59,7 +59,7 @@
       "label": "通告編號唯一",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "220 筆 · 220 個唯一編號",
+      "detail": "223 筆 · 223 個唯一編號",
       "offenders": [],
       "offender_total": 0
     },
@@ -68,7 +68,7 @@
       "label": "編號格式合規（EDBC/EDBCM nnn/yyyy）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "220/220 合規",
+      "detail": "223/223 合規",
       "offenders": [],
       "offender_total": 0
     },
@@ -77,7 +77,7 @@
       "label": "必填欄位齊全",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "220/220 齊全（number、date、title、summary、topics、roles、pdf_urls）",
+      "detail": "223/223 齊全（number、date、title、summary、topics、roles、pdf_urls）",
       "offenders": [],
       "offender_total": 0
     },
@@ -95,7 +95,7 @@
       "label": "原文長度達 40 字（來源仍可取得者）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "218/220 有原文 · 2 筆因教育局已撤回原文而無法補回（不計為缺陷）",
+      "detail": "221/223 有原文 · 2 筆因教育局已撤回原文而無法補回（不計為缺陷）",
       "offenders": [
         "EDBCM023/2026（來源：withdrawn）",
         "EDBCM008/2026（來源：withdrawn）"
@@ -107,7 +107,7 @@
       "label": "通告日期可解析、非未來、不早於 2015-01-01",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "220/220 合理",
+      "detail": "223/223 合理",
       "offenders": [],
       "offender_total": 0
     },
@@ -116,19 +116,20 @@
       "label": "關鍵日期可解析、類型合規、申請截止不早於通告日",
       "severity": "WARN",
       "status": "WARN",
-      "detail": "405 個關鍵日期 · 2 項有問題",
+      "detail": "411 個關鍵日期 · 3 項有問題",
       "offenders": [
+        "EDBCM133/2026: 報名截止 2026-07-14 早於通告日 2026-09-02",
         "EDBCM125/2026: 申請截止日 2026-07-27 早於通告日 2026-08-26",
         "EDBCM094/2026: 發放日 2026-07-01 早於通告日 2026-07-03"
       ],
-      "offender_total": 2
+      "offender_total": 3
     },
     {
       "id": "TOPICS_VALID",
       "label": "主題 1–3 個、屬 enum、無重複",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "220/220 合規",
+      "detail": "223/223 合規",
       "offenders": [],
       "offender_total": 0
     },
@@ -137,7 +138,7 @@
       "label": "主題於現存文本的關鍵字佐證率（上限估計，非錯誤數）",
       "severity": "INFO",
       "status": "PASS",
-      "detail": "381/460 有佐證 · 79 個於節錄中未能找到（全文未持久化，故屬上限）",
+      "detail": "389/468 有佐證 · 79 個於節錄中未能找到（全文未持久化，故屬上限）",
       "offenders": [
         "EDBCM141/2026:procurement",
         "EDBCM173/2026:finance",
@@ -167,7 +168,7 @@
       "label": "七個角色齊全、r 為布林值",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "220/220 結構正確",
+      "detail": "223/223 結構正確",
       "offenders": [],
       "offender_total": 0
     },
@@ -185,7 +186,7 @@
       "label": "內容達最低門檻（摘要≥20字、相關角色有重點或行動）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "220/220 達標",
+      "detail": "223/223 達標",
       "offenders": [],
       "offender_total": 0
     },
@@ -203,7 +204,7 @@
       "label": "PDF 連結全部指向 edb.gov.hk",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "631/631 連結域名正確",
+      "detail": "640/640 連結域名正確",
       "offenders": [],
       "offender_total": 0
     },
@@ -212,23 +213,21 @@
       "label": "PDF 連結可達（抽樣）",
       "severity": "WARN",
       "status": "WARN",
-      "detail": "抽驗 15 條 · 6 條無法連通",
+      "detail": "抽驗 15 條 · 4 條無法連通",
       "offenders": [
-        "EDBCM008/2026: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26008E.pdf",
-        "EDBCM059/2026: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26059S.pdf",
-        "EDBCM187/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25187E.pdf",
-        "EDBCM198/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25198S.pdf",
+        "EDBCM221/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25221C.pdf",
         "EDBCM179/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25179S.pdf",
-        "EDBCM149/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25149E.pdf"
+        "EDBCM186/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25186S.pdf",
+        "EDBCM129/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25129C.pdf"
       ],
-      "offender_total": 6
+      "offender_total": 4
     },
     {
       "id": "SOURCE_AVAILABILITY",
       "label": "原文撤回數無突變（單次 +10 即警告）",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "可用 181 · 部分 0 · 已撤回 39 · 未檢查 0 · 對比上次 39 → 39",
+      "detail": "可用 184 · 部分 0 · 已撤回 39 · 未檢查 0 · 對比上次 39 → 39",
       "offenders": [],
       "offender_total": 0
     },
@@ -255,7 +254,7 @@
       "label": "資助資料一致（type 合規、applicable 有金額、標籤或說明）",
       "severity": "WARN",
       "status": "WARN",
-      "detail": "215/220 一致",
+      "detail": "218/223 一致",
       "offenders": [
         "EDBCM078/2026: applicable 但無金額、標籤或說明",
         "EDBCM053/2026: applicable 但無金額、標籤或說明",
