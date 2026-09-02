@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-02T13:02:42.213436Z",
-  "feedGeneratedAt": "2026-09-02T13:02:27Z",
+  "generatedAt": "2026-09-02T15:57:02.519746Z",
+  "feedGeneratedAt": "2026-09-02T15:56:46Z",
   "overallStatus": "WARN",
   "counts": {
     "records": 223,
-    "PASS": 22,
+    "PASS": 24,
     "BLOCKER": 0,
     "ERROR": 0,
-    "WARN": 3,
+    "WARN": 1,
     "INFO": 0
   },
-  "version": "v3.0.69",
+  "version": "v3.0.70",
   "sourceStatus": {
     "available": 184,
     "partial": 0,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-02T13:02:27Z'",
+      "detail": "circulars=list generated_at='2026-09-02T15:56:46Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -115,14 +115,10 @@
       "id": "KEY_DATES",
       "label": "關鍵日期可解析、類型合規、申請截止不早於通告日",
       "severity": "WARN",
-      "status": "WARN",
-      "detail": "411 個關鍵日期 · 3 項有問題",
-      "offenders": [
-        "EDBCM133/2026: 報名截止 2026-07-14 早於通告日 2026-09-02",
-        "EDBCM125/2026: 申請截止日 2026-07-27 早於通告日 2026-08-26",
-        "EDBCM094/2026: 發放日 2026-07-01 早於通告日 2026-07-03"
-      ],
-      "offender_total": 3
+      "status": "PASS",
+      "detail": "411 個關鍵日期 · 0 項有問題（月精度、日期待確認、生效日早於通告皆屬正常，不計）",
+      "offenders": [],
+      "offender_total": 0
     },
     {
       "id": "TOPICS_VALID",
@@ -210,17 +206,12 @@
     },
     {
       "id": "PDF_LINKS_REACHABLE",
-      "label": "PDF 連結可達（抽樣）",
+      "label": "PDF 連結可達（抽樣，已略過標示撤回者）",
       "severity": "WARN",
-      "status": "WARN",
-      "detail": "抽驗 15 條 · 4 條無法連通",
-      "offenders": [
-        "EDBCM221/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25221C.pdf",
-        "EDBCM179/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25179S.pdf",
-        "EDBCM186/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25186S.pdf",
-        "EDBCM129/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25129C.pdf"
-      ],
-      "offender_total": 4
+      "status": "PASS",
+      "detail": "抽驗 15 條（自 524 條可用連結中抽出，已略過 116 條屬已撤回通告）· 0 條無法連通",
+      "offenders": [],
+      "offender_total": 0
     },
     {
       "id": "SOURCE_AVAILABILITY",
@@ -254,22 +245,21 @@
       "label": "資助資料一致（type 合規、applicable 有金額、標籤或說明）",
       "severity": "WARN",
       "status": "WARN",
-      "detail": "218/223 一致",
+      "detail": "219/223 一致",
       "offenders": [
         "EDBCM078/2026: applicable 但無金額、標籤或說明",
         "EDBCM053/2026: applicable 但無金額、標籤或說明",
-        "EDBCM011/2026: applicable 但無金額、標籤或說明",
         "EDBCM208/2025: applicable 但無金額、標籤或說明",
         "EDBCM190/2025: applicable 但無金額、標籤或說明"
       ],
-      "offender_total": 5
+      "offender_total": 4
     },
     {
       "id": "VERSION_CONSISTENT",
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.0.69 · 6/6 個標記命中",
+      "detail": "v3.0.70 · 6/6 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -278,7 +268,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.69 → 本次 v3.0.69",
+      "detail": "上次 v3.0.69 → 本次 v3.0.70",
       "offenders": [],
       "offender_total": 0
     }

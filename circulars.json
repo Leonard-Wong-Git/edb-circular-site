@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T13:02:27Z",
+  "generated_at": "2026-09-02T15:56:46Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-08-30)",
@@ -168,7 +168,7 @@
         {
           "date": "2026-07-14",
           "desc": "各行程報名的截止日",
-          "type": "submission_deadline",
+          "type": "awareness_deadline",
           "roles": [
             "principal",
             "vice_principal",
@@ -401,7 +401,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 3,
         "total": 3
       }
@@ -788,7 +788,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 3,
         "total": 3
       }
@@ -1205,7 +1205,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 3,
         "total": 3
       }
@@ -1547,7 +1547,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 3,
         "total": 3
       }
@@ -1835,7 +1835,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 3,
         "total": 3
       }
@@ -2128,7 +2128,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 1,
         "total": 1
       }
@@ -2406,7 +2406,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 1,
         "total": 1
       }
@@ -2668,7 +2668,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 1,
         "total": 1
       }
@@ -3066,7 +3066,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 2,
         "total": 2
       }
@@ -3399,7 +3399,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T13:02:28.077751Z",
+        "checked": "2026-09-02T15:56:47.436911Z",
         "alive": 3,
         "total": 3
       }
@@ -5624,9 +5624,9 @@
       },
       "deadlines": [
         {
-          "date": "2026-07-27",
+          "date": "",
           "desc": "請於參觀日期前至少30天提交申請，最多接受一年內的申請",
-          "type": "apply_deadline",
+          "type": "awareness_deadline",
           "roles": [
             "teacher",
             "principal",
@@ -13831,7 +13831,7 @@
         {
           "date": "2026-07-01",
           "desc": "調整後薪金及津貼發放",
-          "type": "apply_deadline",
+          "type": "awareness_deadline",
           "roles": [
             "principal",
             "eo_admin",
@@ -51639,7 +51639,7 @@
         "建築及家具設備"
       ],
       "grant_info": {
-        "type": "applicable",
+        "type": "none",
         "amount_hkd": null,
         "amount_label": "",
         "resource_value_hkd": null,
