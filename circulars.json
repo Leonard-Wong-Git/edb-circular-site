@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:17:19Z",
+  "generated_at": "2026-09-02T13:02:27Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-08-30)",
@@ -401,7 +401,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 3,
         "total": 3
       }
@@ -617,9 +617,7 @@
             "why": "補充學生支援、家校溝通及校內程序處理的行政參考"
           }
         ],
-        "role_notes": [
-          "偵測到 curriculum 類訊號，將 `panel_chair` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "student",
@@ -790,7 +788,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 3,
         "total": 3
       }
@@ -1207,7 +1205,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 3,
         "total": 3
       }
@@ -1549,7 +1547,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 3,
         "total": 3
       }
@@ -1837,7 +1835,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 3,
         "total": 3
       }
@@ -2130,7 +2128,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 1,
         "total": 1
       }
@@ -2408,7 +2406,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 1,
         "total": 1
       }
@@ -2670,7 +2668,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 1,
         "total": 1
       }
@@ -3068,7 +3066,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 2,
         "total": 2
       }
@@ -3401,7 +3399,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-02T09:17:19.718016Z",
+        "checked": "2026-09-02T13:02:28.077751Z",
         "alive": 3,
         "total": 3
       }
