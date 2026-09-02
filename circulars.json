@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:12:54Z",
+  "generated_at": "2026-09-02T18:14:39Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 30 days (from 2026-08-03)",
@@ -1848,7 +1848,7 @@
       "isNew": true,
       "title": "(只有英文版) Submission of 2025/26 Audited Accounts by Schools under the Direct Subsidy Scheme (DSS) and Managed by Incorporated Management Committees (IMCs) Established before 2025/26 School Year",
       "official": "1 \n \n \nEducation Bureau Circular Memorandum No. 173/2026 \n \nFrom \n \nRef. \n \nDate \n: Permanent Secretary for Education \n \n: EDB(FINMA)/DSS/05 \n \n: 31 August 2026 \nTo: \nSupervisors of all Direct Subsidy \nScheme \nSchools \nmanaged  \nby \nIncorporated \nManagement \nCommittees \nestablished \nbefore \n2025/26 \nschool \nyear \n- \nfor \nnecessary action \n \n \n \n \n \nSubmission of 2025/26 Audited Accounts \nby Schools under the Direct Subsidy Scheme (DSS) and \nManaged by Incorporated Management Committees (IMCs)",
-      "impact": "mid",
+      "impact": "high",
       "compliance": "mandatory",
       "urgency": "high",
       "scope": "all",
@@ -1857,10 +1857,10 @@
       ],
       "tags": [
         "審計報告",
-        "IMC 學校",
-        "Direct Subsidy Scheme",
-        "年度財務報表",
-        "提交期限"
+        "資助學校財務",
+        "IMC",
+        "提交截止日",
+        "DSS制度"
       ],
       "grant_info": {
         "type": "none",
@@ -1869,32 +1869,30 @@
         "resource_value_hkd": null,
         "note": ""
       },
-      "summary": "本通告介紹「(只有英文版) Submission of 2025/26 Audited Accounts by Schools under the Direct Subsidy Scheme (DSS) and Managed by Incorporated Management Committees (IMCs) Established before 2025/26 School Year」的安排。\n\n1EducationBureauCircularMemorandumNo.173/2026Fro。",
+      "summary": "教育局公布本通告，要求於2025/26 設立IMC 的資助學校（Direct Subsidy Scheme，Direct Subsidy Scheme，IMC 組成，於2025/26學年之前成立者），就其IMC 的會計年度截至2026年8月31日之經審核賬目，於2027年3月31日前提交 Education Bureau（EDB）。\n\n提交的賬目須包含IMC證明、審核報告及詳列的財務報表（表1至表4及附錄），並按通用範本填寫。審核需由經實踐的註冊會計師執行，並按有關條例及EDB的審核指引完成，賬目應以學校名義提交，對 sponsoring bodies 的賬目不予受理。若涉及資本撥款、資本捐助、或特別資金的披露，需在Notes中另行說明。通告亦指出若超出營運儲備上限，須一併填妥選擇表並於提交時回傳以供考慮，並於十足參考表格等附件進行溝通與確認。提交地點及簽署要求亦於通告中列明，逾期或不符合 ED B 要求的賬目將退回學校。",
       "roles": {
         "principal": {
           "r": true,
           "pts": [
-            "確保IMCs之審計財務報告符合EDB要求",
-            "監督提交流程及時完成",
-            "協調與審計師及IMC的簽署與遞交"
+            "負責署理及監督整體報告提交流程",
+            "確保學校按EDB要求提交財務報告",
+            "協調IMC與審計程序之整體進度"
           ],
           "acts": [
-            "指派/確認提交人及審計報告簽署人選",
-            "確保提交材料符合指定格式並於截止日前完成",
-            "與審計師核對報告內容與附錄"
+            "安排審計前會議",
+            "指示財務部門收集並整理賬目資料",
+            "於截止日前完成提交"
           ]
         },
         "vice_principal": {
           "r": true,
           "pts": [
-            "協助校長監督提交程序",
-            "確保IMC證明與審計報告的完整性",
-            "協調學校內部相關人員與審計師的聯繫"
+            "協助校長監督遞交流程",
+            "協調科層與審計團隊間的溝通"
           ],
           "acts": [
-            "核對提交清單與格式要求",
-            "協助安排審計師現場或遠端溝通",
-            "監察提交時程與回覆"
+            "跟蹤提交進度",
+            "協助審計資料準備"
           ]
         },
         "subject_head": {
@@ -1913,66 +1911,54 @@
           "acts": []
         },
         "eo_admin": {
-          "r": false,
-          "pts": [],
-          "acts": []
+          "r": true,
+          "pts": [
+            "確保採購與財務文件符合EDB要求",
+            "維護供應商及財務記錄的完整性"
+          ],
+          "acts": [
+            "協助整理審計資料",
+            "保留完整審計及報告副本"
+          ]
         },
         "supplier": {
           "r": false,
           "pts": [],
           "acts": [],
           "is_tender": false,
-          "procurement_cat": "none",
+          "procurement_cat": "Other",
           "budget_estimate": null,
-          "compliance_ref": [],
-          "eligibility": "",
-          "contact_unit": ""
+          "compliance_ref": [
+            "EDB Circular No. 5/2014",
+            "Circular Memorandum No. 173/2026"
+          ],
+          "eligibility": "符合學校財務及審計規範",
+          "contact_unit": "財務部/EO"
         }
       },
       "deadlines": [
         {
           "date": "2027-03-31",
-          "desc": "提交 audited accounts（以及審計報告及附表）至教育局",
+          "desc": "提交經審核賬目至EDB截止日",
           "type": "submission_deadline",
           "roles": [
             "principal",
-            "vice_principal",
-            "eo_admin",
-            "panel_chair",
-            "teacher",
-            "supplier"
-          ],
-          "label": "提交截止日"
-        },
-        {
-          "date": "2026-08-31",
-          "desc": "通告發佈日期",
-          "type": "awareness_deadline",
-          "roles": [
-            "principal",
-            "vice_principal",
             "eo_admin",
             "supplier"
           ],
-          "label": "知悉日期"
+          "label": "提交截止日期"
         }
       ],
       "actions": [
         {
-          "text": "學校須於截止日期前，將 IMC 證明、審核報告與詳列財務報表之文件，與審核員的簽署材料寄往 Education Bureau，並依模板填寫相應 Note/Appendix。",
+          "text": "按附錄模板整理IMC賬目、IMC證明及審計報告，確保所有交易反映於學校賬目中；審計單位為具實踐資格之註冊會計師，並遵循EDB審計要求及註明欄位。",
           "role": "principal",
           "dl": "2027-03-31",
           "note": ""
         },
         {
-          "text": "審計師需於報告中遵循會計及財務報告條例及 ED B 指引，並在審核報告及各報表頁面蓋章。",
+          "text": "將經審核的賬目及相關附件寄送至教育局財務部管理賬目科，於指定格式提交，並於書面報告中簽署校監及另一名經IMC核准的管理人及審計師。",
           "role": "eo_admin",
-          "dl": "2027-03-31",
-          "note": ""
-        },
-        {
-          "text": "校方需提交包含 IMC 證明、審核報告、詳細財務報表及附錄的指定格式檔案，教育局按模板審核。",
-          "role": "supplier",
           "dl": "2027-03-31",
           "note": ""
         }
@@ -48926,47 +48912,53 @@
         "student"
       ],
       "tags": [
-        "英語口語",
         "學生展示",
-        "多媒體表達",
-        "課外活動",
-        "平台發布"
+        "英語口語",
+        "校本活動",
+        "數碼平台",
+        "公開發布"
       ],
       "grant_info": {
         "type": "none",
         "amount_hkd": null,
-        "amount_label": "",
+        "amount_label": null,
         "resource_value_hkd": null,
         "note": ""
       },
-      "summary": "本通告介紹「(只有英文版)Student Showcase Pilot Scheme – “Speak Your Mind!”」的安排。\n\n1EDUCATIONBUREAUCIRCULARMEMORANDUMNo.010/2026From:SecretaryforEducationTo:HeadsofPrimaryandSecondarySchools(excludingESFSchoolsandInternationalSchools)Reference:1125-2055-8060-9065-0。",
+      "summary": "本通告介紹「(只有英文版)Student Showcase Pilot Scheme – “Speak Your Mind!”」的安排。\n\n1 EDUCATION BUREAU CIRCULAR MEMORANDUM No. 010/2026 From: Secretary for Education To: Heads of Primary and Secondary Schools (excluding ESF Schools and International Schools) Referen。",
       "roles": {
         "principal": {
           "r": true,
           "pts": [
-            "邀請學校參與實驗計劃",
-            "指引提交流程與聯絡窗口",
-            "監察整體進度與合規性"
+            "校方需安排及推動參與",
+            "提供學生參與機會與資源",
+            "協調提交事宜"
           ],
           "acts": [
-            "通告校務、統籌參與申請與進度"
+            "推動校內參與、協調老師與學生提交"
           ]
         },
         "vice_principal": {
           "r": true,
           "pts": [
-            "協助統籌校內參與",
-            "協調科部及教師安排",
-            "監察提交時程與合規性"
+            "監督學生訓育相關活動",
+            "協調英文科與輔導人員的參與",
+            "協助提交流程"
           ],
           "acts": [
-            "協助校內資料整理與提交"
+            "監督與協調提交作業"
           ]
         },
         "subject_head": {
-          "r": false,
-          "pts": [],
-          "acts": []
+          "r": true,
+          "pts": [
+            "協助設計或選擇主題",
+            "指導學生準備口語表達",
+            "統籌班級參與"
+          ],
+          "acts": [
+            "提供指導與評估方向"
+          ]
         },
         "panel_chair": {
           "r": false,
@@ -48976,20 +48968,22 @@
         "teacher": {
           "r": true,
           "pts": [
-            "協助學生參與、指導短片製作",
-            "確保影片內容符合規定"
+            "協助學生準備影片內容",
+            "指導技術與表達",
+            "協助完成提交表格"
           ],
           "acts": [
-            "指導學生完成提交"
+            "指導學生完成作品並協助提交"
           ]
         },
         "eo_admin": {
           "r": true,
           "pts": [
-            "協助保險、通知與家長信件等行政工作"
+            "維護出席與活動記錄",
+            "協助提交流程監控"
           ],
           "acts": [
-            "協助完成雲端提交與聯絡教育局"
+            "整理參與名單與檔案"
           ]
         },
         "supplier": {
@@ -48997,7 +48991,7 @@
           "pts": [],
           "acts": [],
           "is_tender": false,
-          "procurement_cat": "none",
+          "procurement_cat": "Other",
           "budget_estimate": null,
           "compliance_ref": [],
           "eligibility": "",
@@ -49007,56 +49001,58 @@
       "deadlines": [
         {
           "date": "2026-01-28",
-          "desc": "通告發佈日",
+          "desc": "提交及參與啟動",
           "type": "awareness_deadline",
           "roles": [
             "principal",
             "vice_principal",
+            "subject_head",
             "teacher",
             "eo_admin"
           ],
-          "label": "發布日與意向通知"
-        },
-        {
-          "date": "2026-02-27",
-          "desc": "Batch 1 提交期限（第一批次）",
-          "type": "submission_deadline",
-          "roles": [
-            "principal",
-            "vice_principal",
-            "teacher",
-            "eo_admin"
-          ],
-          "label": "Batch 1 提交截止"
+          "label": "參與啟動日"
         },
         {
           "date": "2026-05-29",
-          "desc": "Batch 4 提交期限（第四批次，最終截止）",
+          "desc": "提交截止及資料送達教育局",
           "type": "submission_deadline",
           "roles": [
             "principal",
             "vice_principal",
+            "subject_head",
             "teacher",
             "eo_admin"
           ],
-          "label": "Batch 4 提交截止"
+          "label": "提交截止日"
         }
       ],
       "actions": [
         {
-          "text": "校方於指定期間內協助學生製作並提交Entries及相關表格，然後以雲端連結形式提交至 ELE Section（ele@edb.gov.hk）",
+          "text": "協助學校推動學生參與，統籌跨科支援與資料提交",
           "role": "principal",
-          "dl": "null",
-          "note": "須於 28 Jan 2026 至 29 May 2026 期間提交"
-        },
-        {
-          "text": "帶隊教師協助學生於片段中使用英語呈述，並確保內容符合規定與無抄襲",
-          "role": "teacher",
           "dl": "null",
           "note": ""
         },
         {
-          "text": "副校長/ EO 協調跨部門溝通，負責提交資料的整合與與教育局的聯絡",
+          "text": "監督並協助提交條目與同意書，透過雲端平台上傳並發送連結至 ele@edb.gov.hk",
+          "role": "vice_principal",
+          "dl": "2026-05-29",
+          "note": "以學校為單位統籌提交流程"
+        },
+        {
+          "text": "指導學生選擇主題與準備影片內容，確保影片時長1-3分鐘並符合規定",
+          "role": "subject_head",
+          "dl": "null",
+          "note": ""
+        },
+        {
+          "text": "協助學生完成及提交 Entry Submission Form 與 Declaration and Consent Form，將連結寄送教育局",
+          "role": "teacher",
+          "dl": "2026-05-29",
+          "note": "配合學校提交流程"
+        },
+        {
+          "text": "整理參與資料與名單，確保符合規定並回報學校與教育局",
           "role": "eo_admin",
           "dl": "null",
           "note": ""

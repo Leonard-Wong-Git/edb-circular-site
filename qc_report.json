@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T16:13:05.097597Z",
-  "feedGeneratedAt": "2026-09-02T16:12:54Z",
+  "generatedAt": "2026-09-02T18:14:51.640149Z",
+  "feedGeneratedAt": "2026-09-02T18:14:39Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 223,
@@ -10,7 +10,7 @@
     "WARN": 0,
     "INFO": 0
   },
-  "version": "v3.0.71",
+  "version": "v3.0.72",
   "sourceStatus": {
     "available": 184,
     "partial": 0,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-02T16:12:54Z'",
+      "detail": "circulars=list generated_at='2026-09-02T18:14:39Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -116,7 +116,7 @@
       "label": "關鍵日期可解析、類型合規、申請截止不早於通告日",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "410 個關鍵日期 · 0 項有問題（月精度、日期待確認、生效日早於通告皆屬正常，不計）",
+      "detail": "408 個關鍵日期 · 0 項有問題（月精度、日期待確認、生效日早於通告皆屬正常，不計）",
       "offenders": [],
       "offender_total": 0
     },
@@ -254,7 +254,7 @@
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.0.71 · 6/6 個標記命中",
+      "detail": "v3.0.72 · 6/6 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -263,7 +263,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.70 → 本次 v3.0.71",
+      "detail": "上次 v3.0.71 → 本次 v3.0.72",
       "offenders": [],
       "offender_total": 0
     }
