@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-02T15:57:02.519746Z",
-  "feedGeneratedAt": "2026-09-02T15:56:46Z",
-  "overallStatus": "WARN",
+  "generatedAt": "2026-09-02T16:13:05.097597Z",
+  "feedGeneratedAt": "2026-09-02T16:12:54Z",
+  "overallStatus": "PASS",
   "counts": {
     "records": 223,
-    "PASS": 24,
+    "PASS": 25,
     "BLOCKER": 0,
     "ERROR": 0,
-    "WARN": 1,
+    "WARN": 0,
     "INFO": 0
   },
-  "version": "v3.0.70",
+  "version": "v3.0.71",
   "sourceStatus": {
     "available": 184,
     "partial": 0,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-02T15:56:46Z'",
+      "detail": "circulars=list generated_at='2026-09-02T16:12:54Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -116,7 +116,7 @@
       "label": "關鍵日期可解析、類型合規、申請截止不早於通告日",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "411 個關鍵日期 · 0 項有問題（月精度、日期待確認、生效日早於通告皆屬正常，不計）",
+      "detail": "410 個關鍵日期 · 0 項有問題（月精度、日期待確認、生效日早於通告皆屬正常，不計）",
       "offenders": [],
       "offender_total": 0
     },
@@ -134,7 +134,7 @@
       "label": "主題於現存文本的關鍵字佐證率（上限估計，非錯誤數）",
       "severity": "INFO",
       "status": "PASS",
-      "detail": "389/468 有佐證 · 79 個於節錄中未能找到（全文未持久化，故屬上限）",
+      "detail": "391/467 有佐證 · 76 個於節錄中未能找到（全文未持久化，故屬上限）",
       "offenders": [
         "EDBCM141/2026:procurement",
         "EDBCM173/2026:finance",
@@ -157,7 +157,7 @@
         "EDBCM093/2026:activity",
         "EDBCM086/2026:finance"
       ],
-      "offender_total": 79
+      "offender_total": 76
     },
     {
       "id": "ROLE_COVERAGE",
@@ -244,22 +244,17 @@
       "id": "GRANT_INFO",
       "label": "資助資料一致（type 合規、applicable 有金額、標籤或說明）",
       "severity": "WARN",
-      "status": "WARN",
-      "detail": "219/223 一致",
-      "offenders": [
-        "EDBCM078/2026: applicable 但無金額、標籤或說明",
-        "EDBCM053/2026: applicable 但無金額、標籤或說明",
-        "EDBCM208/2025: applicable 但無金額、標籤或說明",
-        "EDBCM190/2025: applicable 但無金額、標籤或說明"
-      ],
-      "offender_total": 4
+      "status": "PASS",
+      "detail": "223/223 一致",
+      "offenders": [],
+      "offender_total": 0
     },
     {
       "id": "VERSION_CONSISTENT",
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.0.70 · 6/6 個標記命中",
+      "detail": "v3.0.71 · 6/6 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -268,7 +263,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.69 → 本次 v3.0.70",
+      "detail": "上次 v3.0.70 → 本次 v3.0.71",
       "offenders": [],
       "offender_total": 0
     }
