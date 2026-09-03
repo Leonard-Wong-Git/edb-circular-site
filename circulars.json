@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:25:53Z",
+  "generated_at": "2026-09-03T13:04:20Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-08-31)",
@@ -180,9 +180,7 @@
             "why": "補充課程推行、自評與學校層面跟進的參考框架"
           }
         ],
-        "role_notes": [
-          "偵測到 curriculum 類訊號，將 `panel_chair` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "hr",
@@ -347,7 +345,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 2,
         "total": 2
       }
@@ -617,7 +615,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 3,
         "total": 3
       }
@@ -1013,7 +1011,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 3,
         "total": 3
       }
@@ -1400,7 +1398,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 3,
         "total": 3
       }
@@ -1817,7 +1815,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 3,
         "total": 3
       }
@@ -2159,7 +2157,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 3,
         "total": 3
       }
@@ -2447,7 +2445,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 3,
         "total": 3
       }
@@ -2709,7 +2707,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 1,
         "total": 1
       }
@@ -2973,7 +2971,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 1,
         "total": 1
       }
@@ -3245,7 +3243,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 1,
         "total": 1
       }
@@ -3644,7 +3642,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 3,
         "total": 3
       }
@@ -3977,7 +3975,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T09:25:54.130870Z",
+        "checked": "2026-09-03T13:04:20.816197Z",
         "alive": 3,
         "total": 3
       }
