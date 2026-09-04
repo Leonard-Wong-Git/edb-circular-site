@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T13:04:20Z",
+  "generated_at": "2026-09-04T00:55:24Z",
   "model": "gpt-5-nano",
   "temperature": 1,
-  "range": "past 3 days (from 2026-08-31)",
+  "range": "past 3 days (from 2026-09-01)",
   "date_from": "2025-09-01",
   "date_to": "2026-09-03",
   "days": 3,
@@ -345,7 +345,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T13:04:20.816197Z",
+        "checked": "2026-09-04T00:55:24.463087Z",
         "alive": 2,
         "total": 2
       }
@@ -615,7 +615,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T13:04:20.816197Z",
+        "checked": "2026-09-04T00:55:24.463087Z",
         "alive": 3,
         "total": 3
       }
@@ -1011,7 +1011,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T13:04:20.816197Z",
+        "checked": "2026-09-04T00:55:24.463087Z",
         "alive": 3,
         "total": 3
       }
@@ -1398,7 +1398,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T13:04:20.816197Z",
+        "checked": "2026-09-04T00:55:24.463087Z",
         "alive": 3,
         "total": 3
       }
@@ -1815,7 +1815,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T13:04:20.816197Z",
+        "checked": "2026-09-04T00:55:24.463087Z",
         "alive": 3,
         "total": 3
       }
@@ -2157,7 +2157,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T13:04:20.816197Z",
+        "checked": "2026-09-04T00:55:24.463087Z",
         "alive": 3,
         "total": 3
       }
@@ -2445,7 +2445,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-03T13:04:20.816197Z",
+        "checked": "2026-09-04T00:55:24.463087Z",
         "alive": 3,
         "total": 3
       }
@@ -5476,7 +5476,7 @@
       "number": "EDBCM166/2026",
       "type": "EDBCM",
       "date": "2026-08-27",
-      "isNew": true,
+      "isNew": false,
       "title": "(只有英文版) 2025/2026 Annual Audited Accounts of Aided Schools",
       "official": "Education Bureau                                                  \nCircular Memorandum No. 166/2026 \n \n \n \nFrom \n: Permanent Secretary for Education \nTo: \nSupervisors and Heads of all Aided \nSchools - for necessary action \n \n \n \nRef \n: EDB0004 -0035-8090-9005-0030-0004-  \n  P001 \nDate: 27 August 2026 \n \n \n \n \n2025/2026 Annual Audited Accounts of Aided Schools \n \nPurpose \n \n \n \nThis circular memorandum requests Supervisors of aided schools to submit their annual \naudited accounts for the accounti",
       "impact": "high",
@@ -5756,7 +5756,7 @@
       "number": "EDBCM165/2026",
       "type": "EDBCM",
       "date": "2026-08-27",
-      "isNew": true,
+      "isNew": false,
       "title": "由法團校董會管理的資助學校 提交二零二五/二六年度經審核周年帳目",
       "official": "1 \n檔號：EDB0004-0035-8090-9005-0030-0002-P001 \n教育局通函第165/2026號 \n分發名單：由法團校董會管理的資助學校的校監及校長── 備辦 \n \n \n由法團校董會管理的資助學校 \n提交二零二五/二六年度經審核周年帳目 \n \n目的 \n \n \n本通函旨在促請各法團校董會資助學校校監，須於結帳日起計六個\n月內提交截至二零二六年八月三十一日會計年度（或二零二六年三月      \n三十一日，視乎情況而定）經審核的法團校董會周年帳目。 \n \n背景 \n \n2. \n根據《教育條例》第40BB條，法團校董會資助學校須提交法團校董\n會的經審核帳目。該帳目必須交由根據《會計及財務匯報局條例》(第588\n章)註册的執業會計師\n註審核。根據《資助學校資助則例》(《資助則例》)，\n經審核周年帳目和核數師報告須於學校學年完結日起計六個月內呈交教育\n局常任秘書長。有關聘請核數師的指引，請參閱教育局通告第5/2014號。 \n \n提交帳目的規定 \n \n3. \n所提交的整套經審核的法團校董會周年帳目，須包括： \n \n(a) 法團校董會證明書( 由法團校董會校監和另一名由法團校董會",
       "impact": "high",
