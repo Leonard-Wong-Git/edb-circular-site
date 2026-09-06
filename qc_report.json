@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-06T12:25:45.797051Z",
-  "feedGeneratedAt": "2026-09-06T12:25:32Z",
-  "overallStatus": "PASS",
+  "generatedAt": "2026-09-06T19:40:33.186812Z",
+  "feedGeneratedAt": "2026-09-06T19:40:17Z",
+  "overallStatus": "WARN",
   "counts": {
     "records": 227,
-    "PASS": 25,
+    "PASS": 26,
     "BLOCKER": 0,
     "ERROR": 0,
-    "WARN": 0,
+    "WARN": 1,
     "INFO": 0
   },
-  "version": "v3.0.72",
+  "version": "v3.0.73",
   "sourceStatus": {
     "available": 188,
     "partial": 0,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-06T12:25:32Z'",
+      "detail": "circulars=list generated_at='2026-09-06T19:40:17Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -134,7 +134,7 @@
       "label": "主題於現存文本的關鍵字佐證率（上限估計，非錯誤數）",
       "severity": "INFO",
       "status": "PASS",
-      "detail": "400/478 有佐證 · 78 個於節錄中未能找到（全文未持久化，故屬上限）",
+      "detail": "400/476 有佐證 · 76 個於節錄中未能找到（全文未持久化，故屬上限）",
       "offenders": [
         "EDBCM130/2026:activity",
         "EDBC016/2026:procurement",
@@ -144,8 +144,6 @@
         "EDBCM171/2026:finance",
         "EDBCM163/2026:safety",
         "EDBCM144/2026:procurement",
-        "EDBCM160/2026:curriculum",
-        "EDBCM121/2026:procurement",
         "EDBCM166/2026:finance",
         "EDBCM156/2026:it",
         "EDBCM108/2026:it",
@@ -155,9 +153,11 @@
         "EDBCM114/2026:curriculum",
         "EDBCM103/2026:it",
         "EDBCM085/2026:hr",
-        "EDBCM106/2026:exam"
+        "EDBCM106/2026:exam",
+        "EDBCM093/2026:activity",
+        "EDBCM086/2026:finance"
       ],
-      "offender_total": 78
+      "offender_total": 76
     },
     {
       "id": "ROLE_COVERAGE",
@@ -194,6 +194,26 @@
       "detail": "0 筆帶污染",
       "offenders": [],
       "offender_total": 0
+    },
+    {
+      "id": "TEXT_ENCODING_SANITY",
+      "label": "文字未受編碼錯讀損壞（可逆向還原為中文者即判定損壞）",
+      "severity": "BLOCKER",
+      "status": "PASS",
+      "detail": "227/227 完好",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "TEXT_STRAY_SCRIPT",
+      "label": "無零星西里爾字元殘留（編碼錯讀的碎片訊號）",
+      "severity": "WARN",
+      "status": "WARN",
+      "detail": "1 筆帶殘留",
+      "offenders": [
+        "EDBCM129/2025: summary"
+      ],
+      "offender_total": 1
     },
     {
       "id": "PDF_LINKS_DOMAIN",
@@ -254,7 +274,7 @@
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.0.72 · 6/6 個標記命中",
+      "detail": "v3.0.73 · 6/6 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -263,7 +283,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.72 → 本次 v3.0.72",
+      "detail": "上次 v3.0.72 → 本次 v3.0.73",
       "offenders": [],
       "offender_total": 0
     }
