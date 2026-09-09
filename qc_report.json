@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T09:23:16.551452Z",
-  "feedGeneratedAt": "2026-09-09T09:22:45Z",
+  "generatedAt": "2026-09-09T13:13:19.080899Z",
+  "feedGeneratedAt": "2026-09-09T13:13:06Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 232,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-09T09:22:45Z'",
+      "detail": "circulars=list generated_at='2026-09-09T13:13:06Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -41,7 +41,7 @@
       "label": "記錄數只可增加不可減少（對比上一版）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上一版=230 本次=232 · 沒有記錄消失",
+      "detail": "上一版=232 本次=232 · 沒有記錄消失",
       "offenders": [],
       "offender_total": 0
     },
