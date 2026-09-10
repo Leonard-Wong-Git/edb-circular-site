@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:21:47Z",
+  "generated_at": "2026-09-10T13:10:55Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-09-07)",
@@ -153,14 +153,7 @@
       ],
       "diff": null,
       "knowledge_review": {
-        "terminology_review": [
-          {
-            "priority": 5,
-            "from": "學與教資源",
-            "to": "學與教資源／課程相關材料",
-            "reason": "統一 curriculum 類通告用語，突出課程應用場景"
-          }
-        ],
+        "terminology_review": [],
         "missing_points": [
           "補回 curriculum 類通告的課程落實 / 校本安排提醒。",
           "補回 student 類通告的學生參與支援、家長通知及校內記錄提醒。"
@@ -187,9 +180,7 @@
             "why": "補充學生支援、家校溝通及校內程序處理的行政參考"
           }
         ],
-        "role_notes": [
-          "偵測到 curriculum 類訊號，將 `panel_chair` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "curriculum",
@@ -356,7 +347,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-10T09:21:48.214836Z",
+        "checked": "2026-09-10T13:10:55.463991Z",
         "alive": 3,
         "total": 3
       }
@@ -744,7 +735,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-10T09:21:48.214836Z",
+        "checked": "2026-09-10T13:10:55.463991Z",
         "alive": 3,
         "total": 3
       }
@@ -1076,7 +1067,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-10T09:21:48.214836Z",
+        "checked": "2026-09-10T13:10:55.463991Z",
         "alive": 3,
         "total": 3
       }
@@ -1403,7 +1394,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-10T09:21:48.214836Z",
+        "checked": "2026-09-10T13:10:55.463991Z",
         "alive": 3,
         "total": 3
       }
@@ -1657,7 +1648,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-10T09:21:48.214836Z",
+        "checked": "2026-09-10T13:10:55.463991Z",
         "alive": 3,
         "total": 3
       }
@@ -2023,7 +2014,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-10T09:21:48.214836Z",
+        "checked": "2026-09-10T13:10:55.463991Z",
         "alive": 3,
         "total": 3
       }
