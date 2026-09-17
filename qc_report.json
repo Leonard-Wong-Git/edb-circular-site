@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-16T13:48:34.766252Z",
-  "feedGeneratedAt": "2026-09-16T13:48:19Z",
-  "overallStatus": "PASS",
+  "generatedAt": "2026-09-17T01:17:12.422314Z",
+  "feedGeneratedAt": "2026-09-17T01:16:58Z",
+  "overallStatus": "WARN",
   "counts": {
     "records": 237,
-    "PASS": 27,
+    "PASS": 26,
     "BLOCKER": 0,
     "ERROR": 0,
-    "WARN": 0,
+    "WARN": 1,
     "INFO": 0
   },
   "version": "v3.0.74",
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-16T13:48:19Z'",
+      "detail": "circulars=list generated_at='2026-09-17T01:16:58Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -226,10 +226,12 @@
       "id": "PDF_LINKS_REACHABLE",
       "label": "PDF 連結可達（抽樣，已略過標示撤回者）",
       "severity": "WARN",
-      "status": "PASS",
-      "detail": "抽驗 15 條（自 540 條可用連結中抽出，已略過 142 條屬已撤回通告）· 0 條無法連通",
-      "offenders": [],
-      "offender_total": 0
+      "status": "WARN",
+      "detail": "抽驗 15 條（自 540 條可用連結中抽出，已略過 142 條屬已撤回通告）· 1 條無法連通",
+      "offenders": [
+        "EDBCM155/2025: HTTP 404 https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM25155C.pdf"
+      ],
+      "offender_total": 1
     },
     {
       "id": "SOURCE_AVAILABILITY",
