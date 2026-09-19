@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T09:08:53Z",
+  "generated_at": "2026-09-19T12:44:28Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-09-16)",
@@ -360,7 +360,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-19T09:08:53.784938Z",
+        "checked": "2026-09-19T12:44:28.804511Z",
         "alive": 3,
         "total": 3
       }
@@ -696,7 +696,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-19T09:08:53.784938Z",
+        "checked": "2026-09-19T12:44:28.804511Z",
         "alive": 3,
         "total": 3
       }
@@ -1083,7 +1083,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-19T09:08:53.784938Z",
+        "checked": "2026-09-19T12:44:28.804511Z",
         "alive": 3,
         "total": 3
       }
@@ -1422,7 +1422,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-19T09:08:53.784938Z",
+        "checked": "2026-09-19T12:44:28.804511Z",
         "alive": 3,
         "total": 3
       }
@@ -1709,7 +1709,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-19T09:08:53.784938Z",
+        "checked": "2026-09-19T12:44:28.804511Z",
         "alive": 3,
         "total": 3
       }
@@ -3821,7 +3821,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-12T12:28:09.789255Z",
+        "checked": "2026-09-19T12:44:28.804511Z",
         "alive": 3,
         "total": 3
       }
@@ -4153,7 +4153,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-12T12:28:09.789255Z",
+        "checked": "2026-09-19T12:44:28.804511Z",
         "alive": 3,
         "total": 3
       }
