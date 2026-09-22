@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T01:34:01Z",
+  "generated_at": "2026-09-22T09:36:41Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-09-19)",
@@ -98,7 +98,9 @@
         "eo_admin": {
           "r": true,
           "pts": [
-            "核對申請資格、截止日期、所需證明文件及收支記錄要求，並保留佐證以備查核。"
+            "核對申請資格、截止日期、所需證明文件及收支記錄要求，並保留佐證以備查核。",
+            "建議對照課程發展指引及相關學習領域，規劃校本落實、參訪安排或學與教延伸活動。",
+            "如屬跨科或全校活動，可配合學校層面的課程規劃、自評或KPM跟進需要。"
           ],
           "acts": [
             "按通告要求整理申請／報告文件，跟進發放時序、收支結算及校內存檔安排。"
@@ -166,12 +168,7 @@
             "why": "補充津貼基本原則、申請/發放安排及會計處理要求"
           }
         ],
-        "role_notes": [
-          "偵測到 curriculum 類訊號，將 `vice_principal` 角色標記為相關。",
-          "偵測到 curriculum 類訊號，將 `subject_head` 角色標記為相關。",
-          "偵測到 curriculum 類訊號，將 `panel_chair` 角色標記為相關。",
-          "偵測到 finance 類訊號，將 `eo_admin` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "hr",
@@ -334,7 +331,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-22T01:34:01.599457Z",
+        "checked": "2026-09-22T09:36:42.229607Z",
         "alive": 3,
         "total": 3
       }
@@ -668,7 +665,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-22T01:34:01.599457Z",
+        "checked": "2026-09-22T09:36:42.229607Z",
         "alive": 3,
         "total": 3
       }
@@ -988,7 +985,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-22T01:34:01.599457Z",
+        "checked": "2026-09-22T09:36:42.229607Z",
         "alive": 3,
         "total": 3
       }
@@ -1329,7 +1326,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-22T01:34:01.599457Z",
+        "checked": "2026-09-22T09:36:42.229607Z",
         "alive": 3,
         "total": 3
       }
@@ -1657,7 +1654,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-22T01:34:01.599457Z",
+        "checked": "2026-09-22T09:36:42.229607Z",
         "alive": 3,
         "total": 3
       }
