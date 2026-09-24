@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-24T17:24:18.216246Z",
-  "feedGeneratedAt": "2026-09-24T17:24:07Z",
-  "overallStatus": "WARN",
+  "generatedAt": "2026-09-24T17:38:35.105934Z",
+  "feedGeneratedAt": "2026-09-24T17:38:26Z",
+  "overallStatus": "PASS",
   "counts": {
     "records": 248,
-    "PASS": 26,
+    "PASS": 27,
     "BLOCKER": 0,
     "ERROR": 0,
-    "WARN": 1,
+    "WARN": 0,
     "INFO": 0
   },
   "version": "v3.0.76",
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-24T17:24:07Z'",
+      "detail": "circulars=list generated_at='2026-09-24T17:38:26Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -134,7 +134,7 @@
       "label": "主題於現存文本的關鍵字佐證率（上限估計，非錯誤數）",
       "severity": "INFO",
       "status": "PASS",
-      "detail": "436/528 有佐證 · 92 個於節錄中未能找到（全文未持久化，故屬上限）",
+      "detail": "435/527 有佐證 · 92 個於節錄中未能找到（全文未持久化，故屬上限）",
       "offenders": [
         "EDBCM151/2026:it",
         "EDBCM187/2026:it",
@@ -262,12 +262,10 @@
       "id": "GRANT_INFO",
       "label": "資助資料一致（type 合規、applicable 有金額、標籤或說明）",
       "severity": "WARN",
-      "status": "WARN",
-      "detail": "247/248 一致",
-      "offenders": [
-        "EDBCM129/2026: applicable 但無金額、標籤或說明"
-      ],
-      "offender_total": 1
+      "status": "PASS",
+      "detail": "248/248 一致",
+      "offenders": [],
+      "offender_total": 0
     },
     {
       "id": "VERSION_CONSISTENT",
@@ -283,7 +281,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.75 → 本次 v3.0.76",
+      "detail": "上次 v3.0.76 → 本次 v3.0.76",
       "offenders": [],
       "offender_total": 0
     }
