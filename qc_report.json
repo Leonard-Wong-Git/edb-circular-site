@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T13:52:22.940900Z",
-  "feedGeneratedAt": "2026-09-24T13:52:09Z",
+  "generatedAt": "2026-09-24T17:04:03.661237Z",
+  "feedGeneratedAt": "2026-09-24T17:03:52Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 248,
@@ -10,7 +10,7 @@
     "WARN": 0,
     "INFO": 0
   },
-  "version": "v3.0.74",
+  "version": "v3.0.75",
   "sourceStatus": {
     "available": 198,
     "partial": 0,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-24T13:52:09Z'",
+      "detail": "circulars=list generated_at='2026-09-24T17:03:52Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -116,7 +116,7 @@
       "label": "關鍵日期可解析、類型合規、申請截止不早於通告日",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "440 個關鍵日期 · 0 項有問題（月精度、日期待確認、生效日早於通告皆屬正常，不計）",
+      "detail": "445 個關鍵日期 · 0 項有問題（月精度、日期待確認、生效日早於通告皆屬正常，不計）",
       "offenders": [],
       "offender_total": 0
     },
@@ -134,7 +134,7 @@
       "label": "主題於現存文本的關鍵字佐證率（上限估計，非錯誤數）",
       "severity": "INFO",
       "status": "PASS",
-      "detail": "436/522 有佐證 · 86 個於節錄中未能找到（全文未持久化，故屬上限）",
+      "detail": "435/527 有佐證 · 92 個於節錄中未能找到（全文未持久化，故屬上限）",
       "offenders": [
         "EDBCM151/2026:it",
         "EDBCM187/2026:it",
@@ -157,7 +157,7 @@
         "EDBCM166/2026:finance",
         "EDBCM156/2026:it"
       ],
-      "offender_total": 86
+      "offender_total": 92
     },
     {
       "id": "ROLE_COVERAGE",
@@ -272,7 +272,7 @@
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.0.74 · 6/6 個標記命中",
+      "detail": "v3.0.75 · 6/6 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -281,7 +281,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.0.74 → 本次 v3.0.74",
+      "detail": "上次 v3.0.74 → 本次 v3.0.75",
       "offenders": [],
       "offender_total": 0
     }
