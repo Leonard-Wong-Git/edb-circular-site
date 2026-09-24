@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-24T17:38:26Z",
+  "generated_at": "2026-09-24T17:43:00Z",
   "model": "gpt-5-nano",
   "temperature": 1,
-  "range": "past 30 days (from 2026-08-25)",
+  "range": "past 3 days (from 2026-09-21)",
   "date_from": "2025-09-01",
   "date_to": "2026-09-24",
-  "days": 30,
+  "days": 3,
   "count": 248,
   "_copyright": "© 2026 Leonard Wong. 本通告之 AI 分析、摘要、角色分派、行動建議、資料編纂及介面屬專有內容，未經授權不得轉載、再托管、鏡像或作商業用途。EDB 通告原文版權屬香港特別行政區政府教育局。正本：https://circular.wongfu.net/",
   "_canonical": "https://circular.wongfu.net/",
@@ -348,7 +348,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-09-24T17:43:01.179483Z",
         "alive": 3,
         "total": 3
       }
@@ -674,7 +674,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-09-24T17:43:01.179483Z",
         "alive": 3,
         "total": 3
       }
@@ -1008,7 +1008,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-09-24T17:43:01.179483Z",
         "alive": 3,
         "total": 3
       }
@@ -1328,7 +1328,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-09-24T17:43:01.179483Z",
         "alive": 3,
         "total": 3
       }
@@ -1669,7 +1669,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-09-24T17:43:01.179483Z",
         "alive": 3,
         "total": 3
       }
@@ -1997,7 +1997,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-09-24T17:43:01.179483Z",
         "alive": 3,
         "total": 3
       }
@@ -65776,11 +65776,11 @@
         "校董會治理"
       ],
       "grant_info": {
-        "type": "none",
+        "type": "applicable",
         "amount_hkd": null,
-        "amount_label": null,
+        "amount_label": "資助額稍後公布",
         "resource_value_hkd": null,
-        "note": ""
+        "note": "按合資格學生人數發放單位資助，全日制及長全日制另有額外資助；2026/27 學年資助額將於另一通函公布（見 EDBCM024/2026）。"
       },
       "summary": "本通函邀請符合資格之合資格幼稚園、幼稚園暨幼兒中心及設有幼稚園班級的學校，於2026/27學年申請參加或繼續參加「幼稚園教育計劃」。\n\n符合資格的幼稚園須為非牟利機構、獲稅務局豁免，以及按照課程發展議會頒布的《幼稚園教育課程指引》提供全面的本地課程，並有定期的質素評核及符合相關條件。獲批參加或續參加者須簽署承諾書，遵守計劃條款及條件，並接受定期查核與財務披露要求。若參加計劃，將根據學額及服務形式獲取資助；資助安排及學費上限等具體金額於日後通函公布。對於已參加計劃的幼稚園，如無意續參加，亦需按指示提交相關表格，教育局會就過渡安排及資助處理作出安排。教育局亦將在網上公布獲批參加計劃的幼稚園名單並按需更新。整體而言，通告強調合資格與合規的參加資格、承諾及質素評核程序，以及日後資助與財務管理的框架。",
       "roles": {
