@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T15:11:18.884532Z",
-  "feedGeneratedAt": "2026-09-29T15:11:05Z",
+  "generatedAt": "2026-09-30T01:59:44.216453Z",
+  "feedGeneratedAt": "2026-09-30T01:59:06Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 252,
@@ -12,9 +12,9 @@
   },
   "version": "v3.0.76",
   "sourceStatus": {
-    "available": 202,
+    "available": 201,
     "partial": 0,
-    "withdrawn": 50,
+    "withdrawn": 51,
     "unknown": 0
   },
   "checks": [
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-09-29T15:11:05Z'",
+      "detail": "circulars=list generated_at='2026-09-30T01:59:06Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -227,7 +227,7 @@
       "label": "PDF 連結可達（抽樣，已略過標示撤回者）",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "抽驗 15 條（自 579 條可用連結中抽出，已略過 148 條屬已撤回通告）· 0 條無法連通",
+      "detail": "抽驗 15 條（自 576 條可用連結中抽出，已略過 151 條屬已撤回通告）· 0 條無法連通",
       "offenders": [],
       "offender_total": 0
     },
@@ -236,7 +236,7 @@
       "label": "原文撤回數無突變（單次 +10 即警告）",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "可用 202 · 部分 0 · 已撤回 50 · 未檢查 0 · 對比上次 50 → 50",
+      "detail": "可用 201 · 部分 0 · 已撤回 51 · 未檢查 0 · 對比上次 50 → 51",
       "offenders": [],
       "offender_total": 0
     },
