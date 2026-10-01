@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:19:17Z",
+  "generated_at": "2026-10-01T15:47:29Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-09-28)",
@@ -295,7 +295,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-01T11:19:17.484926Z",
+        "checked": "2026-10-01T15:47:29.677009Z",
         "alive": 3,
         "total": 3
       }
@@ -703,7 +703,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-01T11:19:17.484926Z",
+        "checked": "2026-10-01T15:47:29.677009Z",
         "alive": 3,
         "total": 3
       }
@@ -1034,7 +1034,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-01T11:19:17.484926Z",
+        "checked": "2026-10-01T15:47:29.677009Z",
         "alive": 3,
         "total": 3
       }
@@ -1136,7 +1136,7 @@
           ],
           "acts": [
             "組織活動資源與流程",
-            "聯絡供應商／供應商／供應商／供應商／供應商／供應商／供應商／承辦商及場地聯繫",
+            "聯絡供應商／供應商／供應商／供應商／供應商／供應商／供應商／供應商／承辦商及場地聯繫",
             "整理學生名單、家長通知、回覆記錄及相關支援文件，並保留校內存檔。"
           ]
         },
@@ -1382,7 +1382,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-01T11:19:17.484926Z",
+        "checked": "2026-10-01T15:47:29.677009Z",
         "alive": 3,
         "total": 3
       }
@@ -6114,7 +6114,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-10-01T15:47:29.677009Z",
         "alive": 3,
         "total": 3
       }
@@ -6468,7 +6468,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-10-01T15:47:29.677009Z",
         "alive": 3,
         "total": 3
       }
@@ -8515,7 +8515,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-24T13:52:10.365103Z",
+        "checked": "2026-10-01T15:47:29.677009Z",
         "alive": 3,
         "total": 3
       }
