@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:52:18Z",
+  "generated_at": "2026-10-03T10:11:33Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-09-30)",
@@ -350,7 +350,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-03T01:52:18.755129Z",
+        "checked": "2026-10-03T10:11:34.173206Z",
         "alive": 3,
         "total": 3
       }
@@ -792,7 +792,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-03T01:52:18.755129Z",
+        "checked": "2026-10-03T10:11:34.173206Z",
         "alive": 3,
         "total": 3
       }
