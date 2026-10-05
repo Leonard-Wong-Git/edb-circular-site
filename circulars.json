@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:00:26Z",
+  "generated_at": "2026-10-05T17:30:31Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-10-02)",
@@ -353,7 +353,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-05T12:00:27.132349Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -698,7 +698,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-05T12:00:27.132349Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -1140,7 +1140,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-05T12:00:27.132349Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -4872,7 +4872,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-28T17:05:55.443433Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -5208,7 +5208,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-28T17:05:55.443433Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -5595,7 +5595,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-28T17:05:55.443433Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -5934,7 +5934,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-28T17:05:55.443433Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -6221,7 +6221,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-28T17:05:55.443433Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -10003,7 +10003,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-28T17:05:55.443433Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
@@ -10332,7 +10332,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-09-28T17:05:55.443433Z",
+        "checked": "2026-10-05T17:30:31.646158Z",
         "alive": 3,
         "total": 3
       }
