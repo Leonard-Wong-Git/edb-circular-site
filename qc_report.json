@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T11:29:42.229631Z",
-  "feedGeneratedAt": "2026-10-07T11:29:11Z",
+  "generatedAt": "2026-10-07T15:52:05.412003Z",
+  "feedGeneratedAt": "2026-10-07T15:51:51Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 256,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-10-07T11:29:11Z'",
+      "detail": "circulars=list generated_at='2026-10-07T15:51:51Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -236,7 +236,7 @@
       "label": "原文撤回數無突變（單次 +10 即警告）",
       "severity": "WARN",
       "status": "PASS",
-      "detail": "可用 197 · 部分 0 · 已撤回 59 · 未檢查 0 · 對比上次 56 → 59",
+      "detail": "可用 197 · 部分 0 · 已撤回 59 · 未檢查 0 · 對比上次 59 → 59",
       "offenders": [],
       "offender_total": 0
     },
