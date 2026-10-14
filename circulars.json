@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:53:45Z",
+  "generated_at": "2026-10-14T14:07:25Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-10-11)",
@@ -311,7 +311,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-14T09:53:45.567065Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 1,
         "total": 1
       }
@@ -588,7 +588,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-14T09:53:45.567065Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -21971,7 +21971,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -22235,7 +22235,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -57610,7 +57610,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -57989,7 +57989,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -58392,7 +58392,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -58697,7 +58697,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -59007,7 +59007,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -59346,7 +59346,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -59723,7 +59723,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -60095,7 +60095,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -60431,7 +60431,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 2,
         "total": 2
       }
@@ -60739,7 +60739,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -61080,7 +61080,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -61404,7 +61404,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -61806,7 +61806,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -62138,7 +62138,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -62457,7 +62457,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 1,
         "total": 1
       }
@@ -62730,7 +62730,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -63060,7 +63060,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -63488,7 +63488,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -63750,7 +63750,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -64096,7 +64096,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -64488,7 +64488,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -64782,7 +64782,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 2,
         "total": 2
       }
@@ -65079,7 +65079,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 2,
         "total": 2
       }
@@ -65442,7 +65442,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -65799,7 +65799,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -66170,7 +66170,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -66477,7 +66477,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -66867,7 +66867,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -67274,7 +67274,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -67646,7 +67646,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -68004,7 +68004,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -68380,7 +68380,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -68735,7 +68735,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -69186,7 +69186,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -69581,7 +69581,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -69924,7 +69924,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -70281,7 +70281,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -70653,7 +70653,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -71014,7 +71014,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -71437,7 +71437,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 2,
         "total": 2
       }
@@ -71801,7 +71801,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -72134,7 +72134,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -72463,7 +72463,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -72775,7 +72775,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -73135,7 +73135,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -73488,7 +73488,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -73854,7 +73854,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -74239,7 +74239,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -74552,7 +74552,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -74904,7 +74904,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -75274,7 +75274,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -75595,7 +75595,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -75982,7 +75982,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -76338,7 +76338,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -76670,7 +76670,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -77029,7 +77029,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -77374,7 +77374,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -77653,7 +77653,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -78039,7 +78039,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -78415,7 +78415,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -78775,7 +78775,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -79107,7 +79107,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -79426,7 +79426,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -79781,7 +79781,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -80200,7 +80200,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -80512,7 +80512,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -80845,7 +80845,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 1,
         "total": 1
       }
@@ -81213,7 +81213,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -81564,7 +81564,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -81945,7 +81945,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -82341,7 +82341,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -82660,7 +82660,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -83049,7 +83049,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -83353,7 +83353,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -83724,7 +83724,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -84025,7 +84025,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -84445,7 +84445,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
@@ -84857,7 +84857,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 2,
         "total": 2
       }
@@ -85191,7 +85191,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -85529,7 +85529,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -85856,7 +85856,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -86156,7 +86156,7 @@
       ],
       "source_status": {
         "state": "withdrawn",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 0,
         "total": 3
       }
@@ -86870,7 +86870,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-07T11:29:11.628961Z",
+        "checked": "2026-10-14T14:07:25.661395Z",
         "alive": 3,
         "total": 3
       }
