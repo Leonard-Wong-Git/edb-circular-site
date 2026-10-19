@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T12:50:39Z",
+  "generated_at": "2026-10-19T01:01:58Z",
   "model": "gpt-5-nano",
   "temperature": 1,
-  "range": "past 3 days (from 2026-10-15)",
+  "range": "past 3 days (from 2026-10-16)",
   "date_from": "2025-09-01",
   "date_to": "2026-10-15",
   "days": 3,
@@ -3130,7 +3130,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-11T15:10:18.398591Z",
+        "checked": "2026-10-19T01:01:59.188398Z",
         "alive": 3,
         "total": 3
       }
@@ -3505,7 +3505,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-11T15:10:18.398591Z",
+        "checked": "2026-10-19T01:01:59.188398Z",
         "alive": 3,
         "total": 3
       }
@@ -6692,7 +6692,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-11T15:10:18.398591Z",
+        "checked": "2026-10-19T01:01:59.188398Z",
         "alive": 3,
         "total": 3
       }
