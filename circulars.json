@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:23:52Z",
+  "generated_at": "2026-10-23T09:43:18Z",
   "model": "gpt-5-nano",
   "temperature": 1,
   "range": "past 3 days (from 2026-10-20)",
@@ -178,9 +178,7 @@
             "why": "補充津貼基本原則、申請/發放安排及會計處理要求"
           }
         ],
-        "role_notes": [
-          "偵測到 finance 類訊號，將 `eo_admin` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "hr",
@@ -351,7 +349,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-23T01:23:52.992545Z",
+        "checked": "2026-10-23T09:43:19.161042Z",
         "alive": 3,
         "total": 3
       }
@@ -7698,7 +7696,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-16T09:27:58.796263Z",
+        "checked": "2026-10-23T09:43:19.161042Z",
         "alive": 3,
         "total": 3
       }
@@ -8018,7 +8016,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-16T09:27:58.796263Z",
+        "checked": "2026-10-23T09:43:19.161042Z",
         "alive": 3,
         "total": 3
       }
@@ -8359,7 +8357,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-16T09:27:58.796263Z",
+        "checked": "2026-10-23T09:43:19.161042Z",
         "alive": 3,
         "total": 3
       }
@@ -8687,7 +8685,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-16T09:27:58.796263Z",
+        "checked": "2026-10-23T09:43:19.161042Z",
         "alive": 3,
         "total": 3
       }
