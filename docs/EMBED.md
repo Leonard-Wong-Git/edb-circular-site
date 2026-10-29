@@ -105,7 +105,7 @@ opens the dashboard in a new tab on click:
   <div class="card-body">
     <h3>EDB 通告智能分析系統</h3>
     <p>AI 即時解讀教育局通告，自動提取摘要、識別截止日期與角色職責。</p>
-    <span class="meta">2026 · Python · OpenAI gpt-5-nano · GitHub Pages</span>
+    <span class="meta">2026 · Python · OpenAI gpt-6-luna · GitHub Pages</span>
   </div>
 </a>
 ```
