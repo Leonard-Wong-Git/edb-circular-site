@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-29T20:10:07.245616Z",
-  "feedGeneratedAt": "2026-10-29T20:09:51Z",
+  "generatedAt": "2026-10-29T20:18:12.144162Z",
+  "feedGeneratedAt": "2026-10-29T20:17:56Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 270,
-    "PASS": 27,
+    "PASS": 28,
     "BLOCKER": 0,
     "ERROR": 0,
     "WARN": 0,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-10-29T20:09:51Z'",
+      "detail": "circulars=list generated_at='2026-10-29T20:17:56Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -282,6 +282,15 @@
       "severity": "BLOCKER",
       "status": "PASS",
       "detail": "上次 v3.0.78 → 本次 v3.0.78",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
+      "id": "MODEL_LIFECYCLE",
+      "label": "使用中模型無停用預告（OpenAI shutdown_date）",
+      "severity": "WARN",
+      "status": "PASS",
+      "detail": "gpt-6-luna、text-embedding-3-small：均無停用預告",
       "offenders": [],
       "offender_total": 0
     }
