@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T20:17:56Z",
+  "generated_at": "2026-10-30T02:30:19Z",
   "model": "gpt-6-luna",
   "temperature": 1,
-  "range": "past 3 days (from 2026-10-26)",
+  "range": "past 3 days (from 2026-10-27)",
   "date_from": "2025-09-01",
   "date_to": "2026-10-28",
   "days": 3,
@@ -290,7 +290,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-29T20:17:57.472538Z",
+        "checked": "2026-10-30T02:30:19.984738Z",
         "alive": 3,
         "total": 3
       }
@@ -689,7 +689,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-29T20:17:57.472538Z",
+        "checked": "2026-10-30T02:30:19.984738Z",
         "alive": 3,
         "total": 3
       }
@@ -5539,7 +5539,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-23T01:23:52.992545Z",
+        "checked": "2026-10-30T02:30:19.984738Z",
         "alive": 3,
         "total": 3
       }
@@ -12435,7 +12435,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-23T01:23:52.992545Z",
+        "checked": "2026-10-30T02:30:19.984738Z",
         "alive": 3,
         "total": 3
       }
@@ -12789,7 +12789,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-23T01:23:52.992545Z",
+        "checked": "2026-10-30T02:30:19.984738Z",
         "alive": 3,
         "total": 3
       }
@@ -14836,7 +14836,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-23T01:23:52.992545Z",
+        "checked": "2026-10-30T02:30:19.984738Z",
         "alive": 3,
         "total": 3
       }
