@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T10:40:44Z",
+  "generated_at": "2026-11-01T14:23:06Z",
   "model": "gpt-6-luna",
   "temperature": 1,
   "range": "past 3 days (from 2026-10-29)",
@@ -290,7 +290,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-01T10:40:45.184348Z",
+        "checked": "2026-11-01T14:23:06.451998Z",
         "alive": 3,
         "total": 3
       }
@@ -680,7 +680,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-01T10:40:45.184348Z",
+        "checked": "2026-11-01T14:23:06.451998Z",
         "alive": 3,
         "total": 3
       }
@@ -1099,7 +1099,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-01T10:40:45.184348Z",
+        "checked": "2026-11-01T14:23:06.451998Z",
         "alive": 3,
         "total": 3
       }
@@ -1442,7 +1442,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-01T10:40:45.184348Z",
+        "checked": "2026-11-01T14:23:06.451998Z",
         "alive": 3,
         "total": 3
       }
@@ -3130,7 +3130,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-25T13:25:10.032875Z",
+        "checked": "2026-11-01T14:23:06.451998Z",
         "alive": 3,
         "total": 3
       }
@@ -3528,7 +3528,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-25T13:25:10.032875Z",
+        "checked": "2026-11-01T14:23:06.451998Z",
         "alive": 3,
         "total": 3
       }
@@ -3839,7 +3839,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-25T13:25:10.032875Z",
+        "checked": "2026-11-01T14:23:06.451998Z",
         "alive": 3,
         "total": 3
       }
@@ -4234,7 +4234,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-25T13:25:10.032875Z",
+        "checked": "2026-11-01T14:23:06.451998Z",
         "alive": 3,
         "total": 3
       }
