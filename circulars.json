@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:30:44Z",
+  "generated_at": "2026-11-02T17:15:02Z",
   "model": "gpt-6-luna",
   "temperature": 1,
   "range": "past 3 days (from 2026-10-30)",
@@ -466,7 +466,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T11:30:45.077847Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
@@ -792,7 +792,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T11:30:45.077847Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
@@ -863,10 +863,12 @@
         "panel_chair": {
           "r": true,
           "pts": [
-            "留意學生參與條件、支援安排及活動期間的照顧需要，避免遺漏個別學生的參與支援。"
+            "留意學生參與條件、支援安排及活動期間的照顧需要，避免遺漏個別學生的參與支援。",
+            "如涉及校本計劃或資源申請，應先對應實施目的、預算依據及預期成效。"
           ],
           "acts": [
-            "按學生級別、活動安排及支援需要，預早協調人手、分組、風險提示及記錄安排。"
+            "按學生級別、活動安排及支援需要，預早協調人手、分組、風險提示及記錄安排。",
+            "按通告要求整理申請／報告文件，跟進發放時序、收支結算及校內存檔安排。"
           ]
         },
         "teacher": {
@@ -972,10 +974,7 @@
             "why": "補充學生支援、家校溝通及校內程序處理的行政參考"
           }
         ],
-        "role_notes": [
-          "偵測到 student 類訊號，將 `subject_head` 角色標記為相關。",
-          "偵測到 student 類訊號，將 `panel_chair` 角色標記為相關。"
-        ]
+        "role_notes": []
       },
       "k1_topics": [
         "student",
@@ -1146,7 +1145,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T11:30:45.077847Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
@@ -1422,14 +1421,7 @@
       ],
       "diff": null,
       "knowledge_review": {
-        "terminology_review": [
-          {
-            "priority": 5,
-            "from": "學與教資源",
-            "to": "學與教資源／課程相關材料",
-            "reason": "統一 curriculum 類通告用語，突出課程應用場景"
-          }
-        ],
+        "terminology_review": [],
         "missing_points": [
           "補回 curriculum 類通告的課程落實 / 校本安排提醒。"
         ],
@@ -1591,7 +1583,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T11:30:45.077847Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
@@ -1876,7 +1868,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T11:30:45.077847Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
@@ -2266,7 +2258,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T11:30:45.077847Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
@@ -2685,7 +2677,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T11:30:45.077847Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
@@ -3028,7 +3020,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T11:30:45.077847Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
@@ -4382,7 +4374,7 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-26T15:33:18.378969Z",
+        "checked": "2026-11-02T17:15:02.562518Z",
         "alive": 3,
         "total": 3
       }
