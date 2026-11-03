@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
-<title>EDB 通告智能分析系統 v3.0.79</title>
+<title>EDB 通告智能分析系統 v3.1.0</title>
 
 <!-- PWA / Add to Home Screen -->
 <link rel="manifest" href="manifest.json">
@@ -787,6 +787,20 @@ input[type="range"]{width:100px;accent-color:var(--accent);cursor:pointer;}
 .site-footer a{color:var(--text-muted);text-decoration:underline;}
 
 /* ============================================================
+   FEEDBACK (v3.1.0) — 預填 Google 表單；FEEDBACK_FORM 未設定時入口全部隱藏
+   ============================================================ */
+.fb-link{border:0;background:none;padding:0;font:inherit;color:var(--text-muted);text-decoration:underline;cursor:pointer;}
+.fb-link:hover{color:var(--accent);}
+.fb-types{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0;}
+.fb-types button{border:1px solid var(--border);background:var(--surface2);color:var(--text);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer;}
+.fb-types button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:white;font-weight:700;}
+.fb-text{width:100%;min-height:130px;font:inherit;font-size:14px;padding:10px 12px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);resize:vertical;box-sizing:border-box;}
+.fb-count{display:block;text-align:right;font-size:11px;color:var(--text-muted);margin-top:2px;}
+.fb-ctx{font-size:11px;color:var(--text-muted);background:var(--surface2);border-radius:8px;padding:8px 10px;margin:8px 0;line-height:1.6;word-break:break-all;}
+.fb-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px;}
+.fb-actions a.btn{text-decoration:none;}
+
+/* ============================================================
    EMBED MODE (v3.0.49) — self-aware iframe
    activated by JS when window.self !== window.top
    ============================================================ */
@@ -971,6 +985,27 @@ body.is-embedded .embed-attribution:hover{
 <!-- ============================================================
      SHORTCUT MODAL
      ============================================================ -->
+<div class="sc-modal" id="fbModal" role="dialog" aria-modal="true" aria-labelledby="fbTitle" onclick="if(event.target===this)closeFeedback()">
+  <div class="sc-box" style="max-width:480px">
+    <div class="sc-box-title" id="fbTitle">💬 提供意見</div>
+    <p style="font-size:12px;color:var(--text-muted);line-height:1.7;margin:0">一兩句就可以。按「前往表單」會開啟 Google 表單，內容已預先填好，再按「提交」便完成。請勿在意見內填寫個人資料。</p>
+    <div class="fb-types" role="group" aria-label="意見類型" id="fbTypes">
+      <button type="button" data-fbt="bug" onclick="fbSetType('bug')">🐞 資料或摘要有錯</button>
+      <button type="button" data-fbt="idea" onclick="fbSetType('idea')">✨ 想加功能</button>
+      <button type="button" data-fbt="thanks" onclick="fbSetType('thanks')">💚 想說聲謝謝</button>
+      <button type="button" data-fbt="other" onclick="fbSetType('other')">💭 其他</button>
+    </div>
+    <textarea class="fb-text" id="fbText" maxlength="1200" aria-label="意見內容" oninput="fbRender()" onkeydown="if(event.key==='Escape')closeFeedback()"></textarea>
+    <small class="fb-count" id="fbCount">0 / 1,200</small>
+    <div class="fb-ctx" id="fbCtx"></div>
+    <div class="fb-actions">
+      <a class="btn btn-primary" id="fbGo" target="_blank" rel="noopener" onclick="return fbGuard(event)">前往表單</a>
+      <button type="button" class="btn" onclick="fbCopy()">複製內容</button>
+      <button type="button" class="btn" onclick="closeFeedback()">關閉</button>
+    </div>
+  </div>
+</div>
+
 <div class="sc-modal" id="scModal" onclick="if(event.target===this)closeScModal()">
   <div class="sc-box">
     <div class="sc-box-title">⌨️ 鍵盤快捷鍵</div>
@@ -1034,7 +1069,7 @@ body.is-embedded .embed-attribution:hover{
     </div>
     <div class="dev-card">
       <div class="dev-card-title">ℹ️ 版本資訊</div>
-      <div class="dev-row"><span>Dashboard 版本</span><span id="devVersion">v3.0.79</span></div>
+      <div class="dev-row"><span>Dashboard 版本</span><span id="devVersion">v3.1.0</span></div>
       <div class="dev-row"><span>Build Date</span><span>2026-03-16</span></div>
       <div class="dev-row"><span>知識庫更新</span><span>2026-03-09 20:48 UTC</span></div>
       <div class="dev-row"><span>資料筆數</span><span id="devCount">—</span></div>
@@ -1071,7 +1106,7 @@ body.is-embedded .embed-attribution:hover{
 <header class="header">
   <div class="brand" onclick="switchTab('home',document.getElementById('tabHome'))" style="cursor:pointer;" title="返回首頁">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="13" x2="12" y2="17"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg>
-    <span>EDB 通告智能分析系統<span class="brand-sub" id="brandVersion"> v3.0.79</span></span>
+    <span>EDB 通告智能分析系統<span class="brand-sub" id="brandVersion"> v3.1.0</span></span>
   </div>
 
   <select class="role-select" id="roleSelect" onchange="setRole(this.value)">
@@ -1543,7 +1578,7 @@ body.is-embedded .embed-attribution:hover{
         </div>
         <div class="setting-row">
           <div class="setting-info"><div class="setting-lbl">版本</div></div>
-          <span id="versionLabel" style="font-size:12px;cursor:pointer;color:var(--text-muted)" onclick="devVersionClick()" title="連按5次開啟開發者工具">v3.0.79</span>
+          <span id="versionLabel" style="font-size:12px;cursor:pointer;color:var(--text-muted)" onclick="devVersionClick()" title="連按5次開啟開發者工具">v3.1.0</span>
         </div>
       </div>
 
@@ -1608,7 +1643,7 @@ body.is-embedded .embed-attribution:hover{
         <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border);font-size:11px;color:var(--text-muted);line-height:1.7">
           ⚠️ <strong>免責聲明：</strong>本系統 AI 摘要及分析由人工智能生成，僅供輔助參考，一切以
           <a href="https://www.edb.gov.hk/tc/circular/index.html" target="_blank" rel="noopener">教育局官方通告</a>為準。
-          &nbsp;|&nbsp; 系統設計：Leonard Wong &nbsp;|&nbsp; v3.0.79
+          &nbsp;|&nbsp; 系統設計：Leonard Wong &nbsp;|&nbsp; v3.1.0
         </div>
       </div>
 
@@ -1628,6 +1663,7 @@ body.is-embedded .embed-attribution:hover{
       <div class="dp-badges" id="dpBadges"></div>
     </div>
     <div class="dp-header-actions">
+      <button class="btn btn-icon" id="dpFeedbackBtn" onclick="openFeedback(S.currentDetailId)" title="回報此通告的問題或提供意見" hidden>💬</button>
       <button class="btn btn-icon" onclick="shareDetail()" title="分享">🔗</button>
       <button class="pin-btn" id="dpPinBtn" onclick="dpTogglePin()">📌</button>
       <button class="btn btn-icon" onclick="printDetail()" title="列印">🖨️</button>
@@ -1655,7 +1691,7 @@ body.is-embedded .embed-attribution:hover{
      ============================================================ -->
 <footer class="site-footer">
   <div>⚠️ <strong>免責聲明：</strong>本系統資料來源於<a href="https://www.edb.gov.hk" target="_blank" rel="noopener">香港特別行政區政府教育局（EDB）</a>官方網站，僅供參考及輔助管理用途，一切以教育局官方公告為準。本系統並非教育局官方產品。</div>
-  <div style="margin-top:4px;color:var(--border)">系統設計：Leonard Wong &nbsp;|&nbsp; EDB 通告智能分析系統 v3.0.79 &nbsp;|&nbsp; &copy; 2026</div>
+  <div style="margin-top:4px;color:var(--border)">系統設計：Leonard Wong &nbsp;|&nbsp; EDB 通告智能分析系統 v3.1.0 &nbsp;|&nbsp; &copy; 2026<span id="fbFoot" hidden> &nbsp;|&nbsp; <button type="button" class="fb-link" onclick="openFeedback(null)">提供意見</button></span></div>
 </footer>
 
 <!-- Embed mode attribution corner (visible only when iframe'd) -->
@@ -1668,7 +1704,7 @@ body.is-embedded .embed-attribution:hover{
 /* ============================================================
    VERSION
    ============================================================ */
-const VERSION = 'v3.0.79';
+const VERSION = 'v3.1.0';
 
 /* ── Non-canonical host self-check (v3.0.69) ───────────────────
    When the dashboard is re-hosted off the canonical domain, surface a
@@ -3460,6 +3496,61 @@ function showScModal(){ document.getElementById('scModal').classList.add('open')
 function closeScModal(){ document.getElementById('scModal').classList.remove('open'); }
 
 /* ============================================================
+   FEEDBACK (v3.1.0)
+   意見送到擁有人 Google 帳戶內的 Google 表單；預填網址以 =TYPE、=TEXT、=CTX 標記三個欄位。
+   FEEDBACK_FORM 留空時，意見入口全部隱藏。類型文字須與表單選項逐字一致，否則預填會被丟棄。
+   ============================================================ */
+const FEEDBACK_FORM = 'https://docs.google.com/forms/d/e/1FAIpQLSd82zQxszcN7EBrx9ys7prqXjxS72ou751OYkSjZKZUCEkLHg/viewform?usp=pp_url&entry.1921313977=TYPE&entry.854180523=TEXT&entry.2099354964=CTX';
+const FB_MAX = 1200;
+const FB_TYPES = {bug:'資料或摘要有錯', idea:'想加功能', thanks:'想說聲謝謝', other:'其他'};
+const FB_PH = {bug:'哪一部分有錯？應該是甚麼？', idea:'想加甚麼？會怎樣用？', thanks:'哪裏用得好？', other:'想說甚麼都可以。'};
+let fbType='bug', fbCircId=null;
+function fbEnabled(){ return /^https:\/\//.test(FEEDBACK_FORM); }
+function fbContext(){
+  const ua=navigator.userAgent||'';
+  const br=/Edg\//.test(ua)?'Edge':/Firefox\//.test(ua)?'Firefox':/Chrome\//.test(ua)?'Chrome':/Safari\//.test(ua)?'Safari':'其他瀏覽器';
+  const os=/iPhone|iPad/.test(ua)?'iOS':/Android/.test(ua)?'Android':/Mac/.test(ua)?'macOS':/Windows/.test(ua)?'Windows':/Linux/.test(ua)?'Linux':'';
+  const d=fbCircId===null?null:DATA.find(x=>x.id===fbCircId);
+  return ['EDB 通告智能分析系統 '+VERSION, d?('通告 '+d.number):'整體意見', [br,os].filter(Boolean).join(' / ')].join('・');
+}
+function fbRender(){
+  const ta=document.getElementById('fbText'), n=ta.value.length;
+  document.querySelectorAll('#fbTypes button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.fbt===fbType));
+  ta.placeholder=FB_PH[fbType];
+  document.getElementById('fbCount').textContent=n.toLocaleString('en')+' / '+FB_MAX.toLocaleString('en');
+  document.getElementById('fbCtx').textContent='自動附上：'+fbContext();
+  const enc=encodeURIComponent;
+  document.getElementById('fbGo').href=FEEDBACK_FORM
+    .replace(/=TYPE(?=&|$)/,'='+enc(FB_TYPES[fbType]))
+    .replace(/=TEXT(?=&|$)/,'='+enc(ta.value.slice(0,FB_MAX)))
+    .replace(/=CTX(?=&|$)/,'='+enc(fbContext()));
+}
+function fbSetType(t){ fbType=t; fbRender(); }
+function fbGuard(e){
+  const ta=document.getElementById('fbText');
+  if(ta.value.trim()) return true;
+  e.preventDefault(); showToast('請先寫內容'); ta.focus(); return false;
+}
+function fbCopy(){
+  const ta=document.getElementById('fbText'); if(!ta.value.trim()){ showToast('請先寫內容'); ta.focus(); return; }
+  const text='['+FB_TYPES[fbType]+'] '+ta.value.trim().slice(0,FB_MAX)+'\n\n— '+fbContext();
+  navigator.clipboard.writeText(text).then(()=>showToast('已複製內容')).catch(()=>showToast('複製失敗'));
+}
+function openFeedback(id){
+  if(!fbEnabled()) return;
+  fbCircId=(id===undefined||id===null)?null:id;
+  fbType=fbCircId===null?'other':'bug';
+  document.getElementById('fbModal').classList.add('open');
+  fbRender(); document.getElementById('fbText').focus();
+}
+function closeFeedback(){ document.getElementById('fbModal').classList.remove('open'); }
+(function fbInit(){
+  if(!fbEnabled()) return;
+  document.getElementById('fbFoot').hidden=false;
+  document.getElementById('dpFeedbackBtn').hidden=false;
+})();
+
+/* ============================================================
    TOAST
    ============================================================ */
 let _toastTimer=null;
@@ -3475,7 +3566,7 @@ function initShortcuts(){
   document.addEventListener('keydown',e=>{
     if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT'||e.target.tagName==='TEXTAREA') return;
     const k=e.key;
-    if(k==='Escape'){ closeDetail(); closeScModal(); closeDevPage(); }
+    if(k==='Escape'){ closeDetail(); closeScModal(); closeDevPage(); closeFeedback(); }
     if(k==='?'){ showScModal(); return; }
     if(k==='/'){ e.preventDefault(); document.getElementById('searchInput').focus(); return; }
     if(k==='d'||k==='D'){ cycleTheme(); showToast('主題：'+(S.theme==='dark'?'🌙 深色':S.theme==='light'?'☀️ 淺色':'⚙️ 自動')); return; }
