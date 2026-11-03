@@ -1,17 +1,369 @@
 {
-  "generated_at": "2026-11-02T20:51:43Z",
+  "generated_at": "2026-11-03T02:58:55Z",
   "model": "gpt-6-luna",
   "temperature": 1,
-  "range": "past 3 days (from 2026-10-30)",
+  "range": "past 3 days (from 2026-10-31)",
   "date_from": "2025-09-01",
-  "date_to": "2026-11-02",
+  "date_to": "2026-11-03",
   "days": 3,
-  "count": 278,
+  "count": 279,
   "_copyright": "© 2026 Leonard Wong. 本通告之 AI 分析、摘要、角色分派、行動建議、資料編纂及介面屬專有內容，未經授權不得轉載、再托管、鏡像或作商業用途。EDB 通告原文版權屬香港特別行政區政府教育局。正本：https://circular.wongfu.net/",
   "_canonical": "https://circular.wongfu.net/",
   "circulars": [
     {
       "id": 0,
+      "number": "EDBCM188/2026",
+      "type": "EDBCM",
+      "date": "2026-11-03",
+      "isNew": true,
+      "title": "高中科目資料調查 2026/27 學年",
+      "official": "1 \n檔號：1125-2045-8060-9035-00003-0003-P001 \n教育局通函第 188/2026 號 \n分發名單： 各設有高中班級的官立和資助（包括特殊學校）中學、按位津貼\n學校和直接資助計劃中學的校監／校長 \n \n \n \n高中科目資料調查 \n2026/27 學年 \n \n摘要 \n \n本通函旨在邀請各開辦本地高中課程的中學透過上述調查，向\n教育局提交 2026/27 學年於中四、中五和中六開辦的高中科目資料，\n以及高中學生所修讀的科目資料。 \n背景 \n2. \n教育局自2009/10 學年開始每年進行「高中科目資料調查」\n（調查），以了解高中課程的推行情況。調查所得的資料，對本局在\n規劃、實施、檢討和持續更新高中課程及評估提供有用的參考1。 \n3. \n調查分為兩部分。第一部分收集學校層面的資料，透過網上調\n查收集學校開辦高中科目和選修部分的資料；學校須於\n2026 年11 月19 日或以前向本局遞交第一部分資料。第二部分收集\n學生層面的資料，透過雲端校管系統收集個別學生修讀高中科目的資\n料；學校須於2026年11月26日或以前向本局遞交第二部分資料。 \n \n \n \n1",
+      "impact": "mid",
+      "compliance": "mandatory",
+      "urgency": "high",
+      "scope": "sec",
+      "topics": [
+        "curriculum",
+        "student"
+      ],
+      "tags": [
+        "高中科目調查",
+        "課程資料",
+        "學生修讀資料"
+      ],
+      "grant_info": {
+        "type": "none",
+        "amount_hkd": null,
+        "amount_label": null,
+        "resource_value_hkd": null,
+        "note": ""
+      },
+      "summary": "教育局邀請開辦本地高中課程的中學提交2026/27學年中四、中五及中六開辦的高中科目資料，以及高中學生修讀科目的資料。\n\n調查分為學校層面和學生層面兩部分，所得資料供教育局規劃、實施、檢討及持續更新高中課程與評估參考，並會保密處理。學校層面資料透過網上調查提交；學生層面資料則透過雲端校管系統提交。",
+      "roles": {
+        "principal": {
+          "r": true,
+          "pts": [
+            "學校須完成高中科目資料調查兩部分。",
+            "第一部分涵蓋學校開辦科目、選修部分、教學組別數目及課時分配。",
+            "第二部分須提交中四及中五學生修讀科目資料；一般毋須提交中六資料。"
+          ],
+          "acts": [
+            "統籌學校按期完成並核實兩部分調查資料。"
+          ]
+        },
+        "vice_principal": {
+          "r": true,
+          "pts": [
+            "須協調學校層面及學生層面的調查資料收集與提交。",
+            "建議對照課程發展指引及相關學習領域，規劃校本落實、參訪安排或學與教延伸活動。",
+            "如屬跨科或全校活動，可配合學校層面的課程規劃、自評或KPM跟進需要。"
+          ],
+          "acts": [
+            "安排相關人員更新及核對調查所需資料。"
+          ]
+        },
+        "subject_head": {
+          "r": true,
+          "pts": [
+            "第一部分涉及學校開辦的高中科目、選修部分、教學組別及課時分配。",
+            "建議對照課程發展指引及相關學習領域，規劃校本落實、參訪安排或學與教延伸活動。"
+          ],
+          "acts": [
+            "提供及核實本科相關課程規劃資料。"
+          ]
+        },
+        "panel_chair": {
+          "r": true,
+          "pts": [
+            "科組資料可能涉及高中科目及選修部分的開辦安排。",
+            "建議對照課程發展指引及相關學習領域，規劃校本落實、參訪安排或學與教延伸活動。",
+            "如涉及校本計劃或資源申請，應先對應實施目的、預算依據及預期成效。"
+          ],
+          "acts": [
+            "協助核對本科開辦及課時資料。",
+            "按通告要求整理申請／報告文件，跟進發放時序、收支結算及校內存檔安排。"
+          ]
+        },
+        "teacher": {
+          "r": true,
+          "pts": [
+            "建議對照課程發展指引及相關學習領域，規劃校本落實、參訪安排或學與教延伸活動。"
+          ],
+          "acts": []
+        },
+        "eo_admin": {
+          "r": true,
+          "pts": [
+            "兩部分調查均須於指定期限前提交。",
+            "第一部分透過網上調查提交；第二部分透過雲端校管系統提交。",
+            "建議對照課程發展指引及相關學習領域，規劃校本落實、參訪安排或學與教延伸活動。"
+          ],
+          "acts": [
+            "按通告安排協助整理及提交調查資料。",
+            "按通告要求整理申請／報告文件，跟進發放時序、收支結算及校內存檔安排。"
+          ]
+        },
+        "supplier": {
+          "r": false,
+          "pts": [],
+          "acts": [],
+          "is_tender": false,
+          "procurement_cat": "none",
+          "budget_estimate": null,
+          "compliance_ref": [],
+          "eligibility": "",
+          "contact_unit": ""
+        }
+      },
+      "deadlines": [
+        {
+          "date": "2026-11-19",
+          "desc": "提交第一部分：學校層面的高中科目及相關資料網上調查",
+          "type": "submission_deadline",
+          "roles": [
+            "principal",
+            "vice_principal",
+            "subject_head",
+            "panel_chair",
+            "eo_admin"
+          ],
+          "label": "第一部分截止"
+        },
+        {
+          "date": "2026-11-26",
+          "desc": "透過雲端校管系統提交第二部分：中四及中五學生修讀高中科目資料",
+          "type": "submission_deadline",
+          "roles": [
+            "principal",
+            "vice_principal",
+            "eo_admin"
+          ],
+          "label": "第二部分截止"
+        }
+      ],
+      "actions": [
+        {
+          "text": "整理並透過網上調查提交學校開辦高中科目、選修部分、教學組別數目及課時分配資料。",
+          "role": "eo_admin",
+          "dl": "2026-11-19",
+          "note": "登入資料由學校通訊模組發送；調查網址為 https://cd.edb.gov.hk/ss_subject_info_2026/。"
+        },
+        {
+          "text": "更新雲端校管系統內中四及中五學生修讀高中科目的資料，並透過系統提交。",
+          "role": "eo_admin",
+          "dl": "2026-11-26",
+          "note": "使用指引於2026年11月3日經學校通訊模組發送並上載至雲端校管系統資料庫；一般毋須提交中六學生資料。"
+        }
+      ],
+      "diff": null,
+      "knowledge_review": {
+        "terminology_review": [],
+        "missing_points": [
+          "補回 curriculum 類通告的課程落實 / 校本安排提醒。",
+          "補回 finance 類通告的撥款用途、文件要求及收支存檔提醒。"
+        ],
+        "recommended_links": [
+          {
+            "label": "課程發展指引",
+            "url": "https://www.edb.gov.hk/tc/curriculum-development/renewal/guides.html",
+            "why": "補充課程架構、學習領域與學與教資源的官方參考"
+          },
+          {
+            "label": "學校表現指標 (KPM)",
+            "url": "https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/performance-indicators/kpm/index.html",
+            "why": "補充課程推行、自評與學校層面跟進的參考框架"
+          },
+          {
+            "label": "學校財務管理",
+            "url": "https://www.edb.gov.hk/tc/sch-admin/fin-management/about-fin-management/index.html",
+            "why": "補充撥款運用、財務安排及校內批核的官方參考"
+          },
+          {
+            "label": "學校發展津貼的參考資料",
+            "url": "http://www.edb.gov.hk/tc/sch-admin/fin-management/subsidy-info/ref-capacity-enhancement-grant/index.html",
+            "why": "補充津貼基本原則、申請/發放安排及會計處理要求"
+          }
+        ],
+        "role_notes": [
+          "偵測到 curriculum 類訊號，將 `teacher` 角色標記為相關。"
+        ]
+      },
+      "k1_topics": [
+        "curriculum",
+        "student",
+        "finance"
+      ],
+      "k1_guidelines": [
+        {
+          "id": "g29",
+          "title": "幼稚園教育課程指引（2017）",
+          "titleShort": "幼稚園課程指引",
+          "url": "https://www.edb.gov.hk/tc/curriculum-development/major-level-of-edu/preprimary/curr-doc.html",
+          "year": "2017",
+          "format": "PDF",
+          "level": "幼稚園"
+        },
+        {
+          "id": "g06",
+          "title": "《小學教育課程指引》完整版（2024）",
+          "titleShort": "小學教育課程指引",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/major-level-of-edu/primary/curriculum-documents/Primary_Education_Curriculum_Guide/PECG%202024_full.pdf",
+          "year": "2024",
+          "format": "PDF",
+          "level": "小學"
+        },
+        {
+          "id": "g16",
+          "title": "學生訓育工作指引",
+          "titleShort": "訓育工作指引",
+          "url": "https://www.edb.gov.hk/tc/teacher/student-guidance-discipline-services/principles-guidelines/guidelines-on-student-discipline/index.html",
+          "year": "2017",
+          "format": "INDEX",
+          "level": "跨階段"
+        },
+        {
+          "id": "g17",
+          "title": "理念與指引（訓育及輔導）",
+          "titleShort": "訓輔理念與指引",
+          "url": "https://www.edb.gov.hk/tc/teacher/student-guidance-discipline-services/principles-guidelines/index.html",
+          "year": "2011",
+          "format": "HTML",
+          "level": "跨階段"
+        },
+        {
+          "id": "coa_imc_1_19",
+          "title": "資助則例（設有法團校董會資助學校適用版本）",
+          "titleShort": "Code of Aid",
+          "url": "https://www.edb.gov.hk/attachment/sc/sch-admin/regulations/codes-of-aid/code-of-aid-and-related-documents-for-aided-imc-schools/coa_chinese_1.19.pdf",
+          "year": "2024",
+          "format": "PDF",
+          "level": "跨階段"
+        },
+        {
+          "id": "g01",
+          "title": "資助學校採購程序指引（2025年10月更新）",
+          "titleShort": "採購程序指引",
+          "url": "https://www.edb.gov.hk/attachment/tc/sch-admin/fin-management/procurement-procedures-in-aided-schools/Guidelines%20on%20Procurement%20Procedures_TC.pdf",
+          "year": "2025",
+          "format": "PDF",
+          "level": "跨階段"
+        }
+      ],
+      "role_fact_topics": [
+        "curriculum",
+        "student",
+        "finance"
+      ],
+      "role_facts": {
+        "all_roles": [
+          "八個學習領域(KLA)：中文、英文、數學、科學、科技、個人社會及人文、藝術、體育",
+          "七個學習宗旨：國民身份認同、正確價值觀、學習領域知識、語文能力、共通能力、閱讀及資訊素養、健康生活方式"
+        ],
+        "principal": [
+          "校長須確保學校課程符合《小學教育課程指引》(2024) 或最新要求",
+          "校長、副校長及課程統籌主任須統籌全校課程規劃，確保八個 KLA 課時分配合理並涵蓋五種基要學習經歷"
+        ],
+        "vice_principal": [
+          "副校長、課程統籌主任協助統籌跨學科課程協調，確保各 KLA 之間的橫向聯繫和銜接",
+          "副校長、課程統籌主任負責監察全校課程實施進度，定期向校長匯報並提出改善建議"
+        ],
+        "subject_head": [
+          "科主任負責規劃本科課程，須配合學校整體課程方向及教育局最新課程指引",
+          "科主任須帶領科組進行共同備課、觀課及課後檢討，推動教學專業交流"
+        ],
+        "panel_chair": [
+          "[課程統籌主任] 負責統籌全校課程發展計劃，協調各科組推行課程改革及評估政策",
+          "[教務主任] 統籌全校評估政策制訂，確保進展性與總結性評估均衡且符合指引"
+        ],
+        "teacher": [
+          "教師須按課程指引編寫教學計劃，確保涵蓋各 KLA 核心元素",
+          "教師須在教學中融入價值觀教育，培養學生十二種首要價值觀和態度"
+        ],
+        "eo_admin": [
+          "EO負責維護學生出席記錄系統，定期匯報缺課數據予校長和教育局",
+          "EO負責執行採購程序合規，須建立供應商資料庫並定期更新"
+        ],
+        "supplier": [
+          "學校採購需競爭性報價，供應商不可向教職員提供任何回扣或利益",
+          "供應商須遵守學校廉潔要求，書面報價╱招標時可能須簽署廉潔聲明、利益申報表等，違反防賄規定者被取消資格"
+        ]
+      },
+      "channel_b_facts": [
+        {
+          "id": "vault_moi_3rd_cycle_2021_bd34700559b97e11",
+          "source_id": "moi_3rd_cycle_2021",
+          "title": "微調中學教學語言第三周期（2022/23至2027/28學年）的安排（教育局函件，2021年7月6日）",
+          "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/applicable-to-secondary/moi/Letter_MOI%203rd%20Cycle%20Arrangements_20210706_Chi.pdf",
+          "topic": "curriculum",
+          "content_type": "vault_extract",
+          "score": 0.5689,
+          "snippet": "ents」及進行解密。請注意，有關資料是根據「中學學位分配辦法」的《全港百分位數分組概況》計算，因此學校簽署有關的承諾書亦適用於上述資料。1「一條龍」中學亦會同時收到「一條龍學校採用英語教學的分界點（第三週期）」的報告（SOR854P1R2S- Threshold for EMI teaching in TT School），相關分界點是按來自「結龍」小學及其他小學學生的比例（分別以75%及85%為分界點），以加權平均方法計算。 2校本初中教學語言計劃4.學校須一如以往，按校本情況專業訂定第三周期內每個學年的教學語言安排。請學校參閱上述報告載列的學位數目上限，為2022/23 學年入讀中一學生作出專業的安排，並填妥附件一的「校本初中…"
+        },
+        {
+          "id": "vault_edbcm152_2026_ae95795fd1011c02",
+          "source_id": "edbcm152_2026",
+          "title": "科學教育學習領域： 更新高中科學科目課程及評估架構（諮詢稿）",
+          "url": "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26152C.pdf",
+          "topic": "curriculum",
+          "content_type": "vault_extract",
+          "score": 0.5688,
+          "snippet": "1檔號：1125-2015-8075-9030-00007-P001-0001教育局通函第152/2026 號分發名單： 各提供本地高中課程的官立、資助（包括特殊學校）、按位津貼、私立中學，以及直接資助計劃中學校長／校監副本送：各組主管— 備考（請將本通函傳閱予生物科、化學科及物理科的科主任及教師）科學教育學習領域：更新高中科學科目課程及評估架構（諮詢稿）摘要本通函旨在公布更新高中科學科目課程及評估架構（諮詢稿），以及相關的學校問卷調查事宜。背景2.《行政長官2025 年施政報告》中提及相關措施，加強培育高中階段修讀科學及數學的學生，以促進創新科技及數字教育。教育局現更新高中生物、化學和物理科的課程及評估架構，以提升學生的科學素養及…"
+        },
+        {
+          "id": "vault_edbcm152_2026_945972e1354ee314",
+          "source_id": "edbcm152_2026",
+          "title": "科學教育學習領域： 更新高中科學科目課程及評估架構（諮詢稿）",
+          "url": "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26152C.pdf",
+          "topic": "curriculum",
+          "content_type": "vault_extract",
+          "score": 0.5648,
+          "snippet": "六）時間：下午3 時至下午5 時下午3 時至下午5 時上午10 時至中午12 時地點：教育局九龍塘教育服務中心西座4 樓演講廳教育局九龍塘教育服務中心西座4 樓演講廳新生命教育協會呂郭碧鳳中學培訓行事曆系統課程編號：ITED20270186ITED20270129ITED20270076現誠邀學校提名教師參加相關簡介會。教師可透過教育局培訓行事曆系統報名。學校問卷調查6.本局誠邀學校就高中科學科目更新課程及評估架構（諮詢稿）提出意見。生物科、化學科及物理科的PDF電子問卷、相關的更新課程及評估架構（諮詢稿），以及香港考試及評核局就上述更新課程而擬定的香港中學文憑考試樣本試題，將於2026年8月24日透過學校通訊模組發送到學校。請各校…"
+        },
+        {
+          "id": "vault_g13_c224cfc9d64740ed",
+          "source_id": "g13",
+          "title": "中學教育課程指引（2017）",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/major-level-of-edu/secondary/curriculum-guides-documents/SECG_Introduction_ch.pdf",
+          "topic": "curriculum",
+          "content_type": "vault_extract",
+          "score": 0.5642,
+          "snippet": "以代替通識教育科。(2) 選修科目由2021/22學年起於中四級停止開設組合科學科和綜合科學科。(3) 首要價值觀和態度自2020年加入守法和同理心後，首要培育的價值觀和態度增至九個。(4) 共通能力“Critical Thinking Skills” 的中譯更新為「慎思明辨能力」。 8[《中學教育課程指引》（2017）《分冊2︰學習宗旨、學校課程架構和規劃》第25-30頁 2.3.4 高中課程及建議課時分配 及 第77-78頁 附錄七 補充說明]高中課程及建議課時分配 所有修讀本地高中課程的學生必須修讀四個核心科目，以及兩個或三個選修科目（最多為四個）。（備註：由2021/22 學年起，中四級學生可從學習領域的所有選修科目、應用…"
+        },
+        {
+          "id": "vault_edbc006_2009_b8dfc06b3733a3cb",
+          "source_id": "edbc006_2009",
+          "title": "教育局通告第6/2009號「微調中學教學語言」",
+          "url": "https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/applicable-to-secondary/moi/support-and-resources-for-moi-policy/policy-support-measures/edbc09006c.pdf",
+          "topic": "curriculum",
+          "content_type": "vault_extract",
+          "score": 0.5619,
+          "snippet": "擬訂的教學語言安排見附錄第（四）至（六）項。(四)經參考教育局於2009 年7 月7 日發放予本校「學生能力」的資料後，本校以2009 年中一派位後中一班數上限〔即 班中一班 x 36 人（2010/11 學年每班學生人數的上限）＝學生總數共 名〕為規劃參數。在2010/11 學年，本校擬為入讀中一的學生，以及當這批學生升讀中二（2011/12 學年）及中三（2012/13 學年）時採用英語教學的非語文科目，以及有關的學生人數（升讀中二及中三學生人數供參考之用，實際數字須視乎升班安排）如下： 12學習領域採用英語教授的科目（進行「英語延展教學活動」的科目不包括在內）2010/11 學年入讀中一使用英語學習的學生人數2011/12 學…"
+        },
+        {
+          "id": "vault_edbcm152_2026_e837621bc2cb0116",
+          "source_id": "edbcm152_2026",
+          "title": "科學教育學習領域： 更新高中科學科目課程及評估架構（諮詢稿）",
+          "url": "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26152C.pdf",
+          "topic": "curriculum",
+          "content_type": "vault_extract",
+          "score": 0.559,
+          "snippet": "示例。加強與初中課程銜接並強化高中科學科目之間的聯繫• 為完善與初中學習的銜接和加強高中科學科之間的連繫，高中生物、化學和物理科各課程已因應更新初中科學課程內容進行相關修訂；更新高中科學課程亦適當地把課程內容劃分為「核心部分」和「延展部分」，讓教師作適當的教學安排，更好地照顧不同學生的學習需要。另外，各更新課程亦新設「高中科學科目學習的聯繫」章節，闡述生物、化學和物理科所共通的基本科學概念和原理，亦說明有關學習科學和數學技能（包括實驗操作、數據處理和科學推理）的協同效應。 3簡介會5.生物科、化學科及物理科的更新課程擬於2029/30學年中四級開始推行，更新課程將適用於2032年及其後的香港中學文憑考試。有關更新的生物、化學及物理課…"
+        }
+      ],
+      "pdf_urls": [
+        "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26188C.pdf",
+        "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26188E.pdf",
+        "https://applications.edb.gov.hk/circular/upload/EDBCM/EDBCM26188S.pdf"
+      ],
+      "source_status": {
+        "state": "available",
+        "checked": "2026-11-03T02:58:55.799311Z",
+        "alive": 3,
+        "total": 3
+      }
+    },
+    {
+      "id": 1,
       "number": "EDBCM205/2026",
       "type": "EDBCM",
       "date": "2026-11-02",
@@ -466,13 +818,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T20:51:44.215024Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 1,
+      "id": 2,
       "number": "EDBCM164/2026",
       "type": "EDBCM",
       "date": "2026-11-02",
@@ -792,13 +1144,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T20:51:44.215024Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "number": "EDBCM202/2026",
       "type": "EDBCM",
       "date": "2026-11-02",
@@ -1145,13 +1497,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T20:51:44.215024Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "number": "EDBCM194/2026",
       "type": "EDBCM",
       "date": "2026-11-02",
@@ -1583,13 +1935,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-11-02T20:51:44.215024Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "number": "EDBCM198/2026",
       "type": "EDBCM",
       "date": "2026-10-30",
@@ -1874,7 +2226,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 6,
       "number": "EDBCM192/2026",
       "type": "EDBCM",
       "date": "2026-10-30",
@@ -2264,7 +2616,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 7,
       "number": "EDBCM189/2026",
       "type": "EDBCM",
       "date": "2026-10-30",
@@ -2683,7 +3035,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 8,
       "number": "EDBC017/2026",
       "type": "EDBC",
       "date": "2026-10-30",
@@ -3026,7 +3378,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 9,
       "number": "EDBCM206/2026",
       "type": "EDBCM",
       "date": "2026-10-28",
@@ -3311,7 +3663,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 10,
       "number": "EDBCM193/2026",
       "type": "EDBCM",
       "date": "2026-10-27",
@@ -3710,11 +4062,11 @@
       }
     },
     {
-      "id": 10,
+      "id": 11,
       "number": "EDBCM195/2026",
       "type": "EDBCM",
       "date": "2026-10-26",
-      "isNew": true,
+      "isNew": false,
       "title": "(只有英文版) Student Showcase Scheme – “Speak Your Mind!”",
       "official": "1 \n \nEDUCATION BUREAU CIRCULAR MEMORANDUM No. 195/2026  \n \nFrom: \nSecretary for Education \nTo: Heads \nof \nPrimary \nand \nSecondary Schools (excluding \nESF Schools and International \nSchools) \nReference: \n1125-2055-8060-9065-00026-02-P002 \nDate: \n26 October 2026 \n \nStudent Showcase Scheme – “Speak Your Mind!”  \n \nSummary  \nThis circular memorandum aims to invite primary and secondary schools to participate in the \nStudent Showcase Scheme, “Speak Your Mind!” (the Scheme), organised by the English L",
       "impact": "mid",
@@ -4036,7 +4388,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 12,
       "number": "EDBCM196/2026",
       "type": "EDBCM",
       "date": "2026-10-23",
@@ -4380,7 +4732,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 13,
       "number": "EDBCM181/2026",
       "type": "EDBCM",
       "date": "2026-10-15",
@@ -4714,7 +5066,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 14,
       "number": "EDBCM132/2026",
       "type": "EDBCM",
       "date": "2026-10-15",
@@ -5112,7 +5464,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 15,
       "number": "EDBCM197/2026",
       "type": "EDBCM",
       "date": "2026-10-15",
@@ -5423,7 +5775,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 16,
       "number": "EDBCM158/2026",
       "type": "EDBCM",
       "date": "2026-10-15",
@@ -5818,7 +6170,7 @@
       }
     },
     {
-      "id": 16,
+      "id": 17,
       "number": "EDBCM179/2026",
       "type": "EDBCM",
       "date": "2026-10-14",
@@ -6124,7 +6476,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 18,
       "number": "EDBCM182/2026",
       "type": "EDBCM",
       "date": "2026-10-13",
@@ -6401,7 +6753,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 19,
       "number": "EDBCM186/2026",
       "type": "EDBCM",
       "date": "2026-10-09",
@@ -6814,13 +7166,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 19,
+      "id": 20,
       "number": "EDBCM162/2026",
       "type": "EDBCM",
       "date": "2026-10-09",
@@ -7190,13 +7542,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 20,
+      "id": 21,
       "number": "EDBCM191/2026",
       "type": "EDBCM",
       "date": "2026-10-08",
@@ -7505,7 +7857,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 22,
       "number": "EDBCM184/2026",
       "type": "EDBCM",
       "date": "2026-10-08",
@@ -7880,7 +8232,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 23,
       "number": "EDBCM131/2026",
       "type": "EDBCM",
       "date": "2026-10-06",
@@ -8212,7 +8564,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 24,
       "number": "EDBCM134/2026",
       "type": "EDBCM",
       "date": "2026-10-05",
@@ -8560,7 +8912,7 @@
       }
     },
     {
-      "id": 24,
+      "id": 25,
       "number": "EDBCM137/2026",
       "type": "EDBCM",
       "date": "2026-10-02",
@@ -8899,13 +9251,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 25,
+      "id": 26,
       "number": "EDBCM174/2026",
       "type": "EDBCM",
       "date": "2026-10-02",
@@ -9341,13 +9693,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 26,
+      "id": 27,
       "number": "EDBCM142/2026",
       "type": "EDBCM",
       "date": "2026-09-29",
@@ -9637,7 +9989,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 28,
       "number": "EDBCM119/2026",
       "type": "EDBCM",
       "date": "2026-09-29",
@@ -10045,7 +10397,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 29,
       "number": "EDBCM190/2026",
       "type": "EDBCM",
       "date": "2026-09-29",
@@ -10376,7 +10728,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 30,
       "number": "EDBCM175/2026",
       "type": "EDBCM",
       "date": "2026-09-29",
@@ -10724,7 +11076,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 31,
       "number": "EDBCM151/2026",
       "type": "EDBCM",
       "date": "2026-09-24",
@@ -11067,7 +11419,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 32,
       "number": "EDBCM187/2026",
       "type": "EDBCM",
       "date": "2026-09-22",
@@ -11393,7 +11745,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 33,
       "number": "EDBCM157/2026",
       "type": "EDBCM",
       "date": "2026-09-21",
@@ -11727,7 +12079,7 @@
       }
     },
     {
-      "id": 33,
+      "id": 34,
       "number": "EDBCM161/2026",
       "type": "EDBCM",
       "date": "2026-09-21",
@@ -12047,7 +12399,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 35,
       "number": "EDBCM159/2026",
       "type": "EDBCM",
       "date": "2026-09-21",
@@ -12388,7 +12740,7 @@
       }
     },
     {
-      "id": 35,
+      "id": 36,
       "number": "EDBCM153/2026",
       "type": "EDBCM",
       "date": "2026-09-21",
@@ -12716,7 +13068,7 @@
       }
     },
     {
-      "id": 36,
+      "id": 37,
       "number": "EDBCM129/2026",
       "type": "EDBCM",
       "date": "2026-09-18",
@@ -13073,13 +13425,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 37,
+      "id": 38,
       "number": "EDBCM149/2026",
       "type": "EDBCM",
       "date": "2026-09-18",
@@ -13409,13 +13761,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 38,
+      "id": 39,
       "number": "EDBCM148/2026",
       "type": "EDBCM",
       "date": "2026-09-18",
@@ -13796,13 +14148,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 39,
+      "id": 40,
       "number": "EDBCM147/2026",
       "type": "EDBCM",
       "date": "2026-09-18",
@@ -14135,13 +14487,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 40,
+      "id": 41,
       "number": "EDBCM185/2026",
       "type": "EDBCM",
       "date": "2026-09-18",
@@ -14422,13 +14774,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 41,
+      "id": 42,
       "number": "EDBCM170/2026",
       "type": "EDBCM",
       "date": "2026-09-15",
@@ -14786,7 +15138,7 @@
       }
     },
     {
-      "id": 42,
+      "id": 43,
       "number": "EDBCM154/2026",
       "type": "EDBCM",
       "date": "2026-09-15",
@@ -15092,7 +15444,7 @@
       }
     },
     {
-      "id": 43,
+      "id": 44,
       "number": "EDBCM155/2026",
       "type": "EDBCM",
       "date": "2026-09-14",
@@ -15456,7 +15808,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 45,
       "number": "EDBCM146/2026",
       "type": "EDBCM",
       "date": "2026-09-14",
@@ -15810,7 +16162,7 @@
       }
     },
     {
-      "id": 45,
+      "id": 46,
       "number": "EDBCM150/2026",
       "type": "EDBCM",
       "date": "2026-09-10",
@@ -16152,7 +16504,7 @@
       }
     },
     {
-      "id": 46,
+      "id": 47,
       "number": "EDBCM140/2026",
       "type": "EDBCM",
       "date": "2026-09-09",
@@ -16578,7 +16930,7 @@
       }
     },
     {
-      "id": 47,
+      "id": 48,
       "number": "EDBCM167/2026",
       "type": "EDBCM",
       "date": "2026-09-09",
@@ -16910,7 +17262,7 @@
       }
     },
     {
-      "id": 48,
+      "id": 49,
       "number": "EDBCM117/2026",
       "type": "EDBCM",
       "date": "2026-09-08",
@@ -17237,7 +17589,7 @@
       }
     },
     {
-      "id": 49,
+      "id": 50,
       "number": "EDBCM178/2026",
       "type": "EDBCM",
       "date": "2026-09-08",
@@ -17491,7 +17843,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 51,
       "number": "EDBCM136/2026",
       "type": "EDBCM",
       "date": "2026-09-07",
@@ -17857,7 +18209,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 52,
       "number": "EDBCM130/2026",
       "type": "EDBCM",
       "date": "2026-09-04",
@@ -18204,13 +18556,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 52,
+      "id": 53,
       "number": "EDBC016/2026",
       "type": "EDBC",
       "date": "2026-09-04",
@@ -18533,13 +18885,13 @@
       ],
       "source_status": {
         "state": "available",
-        "checked": "2026-10-27T01:58:12.872019Z",
+        "checked": "2026-11-03T02:58:55.799311Z",
         "alive": 3,
         "total": 3
       }
     },
     {
-      "id": 53,
+      "id": 54,
       "number": "EDBCM124/2026",
       "type": "EDBCM",
       "date": "2026-09-03",
@@ -18879,7 +19231,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 55,
       "number": "EDBCM176/2026",
       "type": "EDBCM",
       "date": "2026-09-03",
@@ -19149,7 +19501,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 56,
       "number": "EDBCM133/2026",
       "type": "EDBCM",
       "date": "2026-09-02",
@@ -19545,7 +19897,7 @@
       }
     },
     {
-      "id": 56,
+      "id": 57,
       "number": "EDBCM127/2026",
       "type": "EDBCM",
       "date": "2026-09-02",
@@ -19924,7 +20276,7 @@
       }
     },
     {
-      "id": 57,
+      "id": 58,
       "number": "EDBCM126/2026",
       "type": "EDBCM",
       "date": "2026-09-02",
@@ -20341,7 +20693,7 @@
       }
     },
     {
-      "id": 58,
+      "id": 59,
       "number": "EDBCM145/2026",
       "type": "EDBCM",
       "date": "2026-09-01",
@@ -20683,7 +21035,7 @@
       }
     },
     {
-      "id": 59,
+      "id": 60,
       "number": "EDBCM141/2026",
       "type": "EDBCM",
       "date": "2026-09-01",
@@ -20971,7 +21323,7 @@
       }
     },
     {
-      "id": 60,
+      "id": 61,
       "number": "EDBCM173/2026",
       "type": "EDBCM",
       "date": "2026-08-31",
@@ -21233,7 +21585,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 62,
       "number": "EDBCM172/2026",
       "type": "EDBCM",
       "date": "2026-08-31",
@@ -21497,7 +21849,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 63,
       "number": "EDBCM171/2026",
       "type": "EDBCM",
       "date": "2026-08-31",
@@ -21769,7 +22121,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 64,
       "number": "EDBCM163/2026",
       "type": "EDBCM",
       "date": "2026-08-31",
@@ -22168,7 +22520,7 @@
       }
     },
     {
-      "id": 64,
+      "id": 65,
       "number": "EDBCM144/2026",
       "type": "EDBCM",
       "date": "2026-08-31",
@@ -22501,7 +22853,7 @@
       }
     },
     {
-      "id": 65,
+      "id": 66,
       "number": "EDBCM123/2026",
       "type": "EDBCM",
       "date": "2026-08-28",
@@ -22878,7 +23230,7 @@
       }
     },
     {
-      "id": 66,
+      "id": 67,
       "number": "EDBCM160/2026",
       "type": "EDBCM",
       "date": "2026-08-28",
@@ -23203,7 +23555,7 @@
       }
     },
     {
-      "id": 67,
+      "id": 68,
       "number": "EDBCM128/2026",
       "type": "EDBCM",
       "date": "2026-08-28",
@@ -23623,7 +23975,7 @@
       }
     },
     {
-      "id": 68,
+      "id": 69,
       "number": "EDBCM121/2026",
       "type": "EDBCM",
       "date": "2026-08-28",
@@ -23990,7 +24342,7 @@
       }
     },
     {
-      "id": 69,
+      "id": 70,
       "number": "EDBCM166/2026",
       "type": "EDBCM",
       "date": "2026-08-27",
@@ -24270,7 +24622,7 @@
       }
     },
     {
-      "id": 70,
+      "id": 71,
       "number": "EDBCM165/2026",
       "type": "EDBCM",
       "date": "2026-08-27",
@@ -24608,7 +24960,7 @@
       }
     },
     {
-      "id": 71,
+      "id": 72,
       "number": "EDBCM125/2026",
       "type": "EDBCM",
       "date": "2026-08-26",
@@ -24942,7 +25294,7 @@
       }
     },
     {
-      "id": 72,
+      "id": 73,
       "number": "EDBC015/2026",
       "type": "EDBC",
       "date": "2026-08-26",
@@ -25246,7 +25598,7 @@
       }
     },
     {
-      "id": 73,
+      "id": 74,
       "number": "EDBCM156/2026",
       "type": "EDBCM",
       "date": "2026-08-25",
@@ -25614,7 +25966,7 @@
       }
     },
     {
-      "id": 74,
+      "id": 75,
       "number": "EDBCM108/2026",
       "type": "EDBCM",
       "date": "2026-08-24",
@@ -25977,7 +26329,7 @@
       }
     },
     {
-      "id": 75,
+      "id": 76,
       "number": "EDBCM152/2026",
       "type": "EDBCM",
       "date": "2026-08-24",
@@ -26343,7 +26695,7 @@
       }
     },
     {
-      "id": 76,
+      "id": 77,
       "number": "EDBC014/2026",
       "type": "EDBC",
       "date": "2026-08-24",
@@ -26723,7 +27075,7 @@
       }
     },
     {
-      "id": 77,
+      "id": 78,
       "number": "EDBCM138/2026",
       "type": "EDBCM",
       "date": "2026-08-24",
@@ -27087,7 +27439,7 @@
       }
     },
     {
-      "id": 78,
+      "id": 79,
       "number": "EDBCM122/2026",
       "type": "EDBCM",
       "date": "2026-08-21",
@@ -27450,7 +27802,7 @@
       }
     },
     {
-      "id": 79,
+      "id": 80,
       "number": "EDBCM143/2026",
       "type": "EDBCM",
       "date": "2026-08-21",
@@ -27784,7 +28136,7 @@
       }
     },
     {
-      "id": 80,
+      "id": 81,
       "number": "EDBCM099/2026",
       "type": "EDBCM",
       "date": "2026-08-21",
@@ -28048,7 +28400,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 82,
       "number": "EDBCM135/2026",
       "type": "EDBCM",
       "date": "2026-08-20",
@@ -28378,7 +28730,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 83,
       "number": "EDBCM114/2026",
       "type": "EDBCM",
       "date": "2026-08-18",
@@ -28756,7 +29108,7 @@
       }
     },
     {
-      "id": 83,
+      "id": 84,
       "number": "EDBCM118/2026",
       "type": "EDBCM",
       "date": "2026-08-17",
@@ -29137,7 +29489,7 @@
       }
     },
     {
-      "id": 84,
+      "id": 85,
       "number": "EDBCM120/2026",
       "type": "EDBCM",
       "date": "2026-08-17",
@@ -29510,7 +29862,7 @@
       }
     },
     {
-      "id": 85,
+      "id": 86,
       "number": "EDBCM116/2026",
       "type": "EDBCM",
       "date": "2026-08-05",
@@ -29853,7 +30205,7 @@
       }
     },
     {
-      "id": 86,
+      "id": 87,
       "number": "EDBCM111/2026",
       "type": "EDBCM",
       "date": "2026-08-03",
@@ -30213,7 +30565,7 @@
       }
     },
     {
-      "id": 87,
+      "id": 88,
       "number": "EDBCM113/2026",
       "type": "EDBCM",
       "date": "2026-07-21",
@@ -30549,7 +30901,7 @@
       }
     },
     {
-      "id": 88,
+      "id": 89,
       "number": "EDBCM103/2026",
       "type": "EDBCM",
       "date": "2026-07-15",
@@ -30860,7 +31212,7 @@
       }
     },
     {
-      "id": 89,
+      "id": 90,
       "number": "EDBCM112/2026",
       "type": "EDBCM",
       "date": "2026-07-14",
@@ -31200,7 +31552,7 @@
       }
     },
     {
-      "id": 90,
+      "id": 91,
       "number": "EDBC013/2026",
       "type": "EDBC",
       "date": "2026-07-13",
@@ -31525,7 +31877,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 92,
       "number": "EDBCM085/2026",
       "type": "EDBCM",
       "date": "2026-07-10",
@@ -31826,7 +32178,7 @@
       }
     },
     {
-      "id": 92,
+      "id": 93,
       "number": "EDBCM109/2026",
       "type": "EDBCM",
       "date": "2026-07-09",
@@ -32136,7 +32488,7 @@
       }
     },
     {
-      "id": 93,
+      "id": 94,
       "number": "EDBCM115/2026",
       "type": "EDBCM",
       "date": "2026-07-06",
@@ -32461,7 +32813,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 95,
       "number": "EDBCM098/2026",
       "type": "EDBCM",
       "date": "2026-07-03",
@@ -32805,7 +33157,7 @@
       }
     },
     {
-      "id": 95,
+      "id": 96,
       "number": "EDBCM094/2026",
       "type": "EDBCM",
       "date": "2026-07-03",
@@ -33182,7 +33534,7 @@
       }
     },
     {
-      "id": 96,
+      "id": 97,
       "number": "EDBCM092/2026",
       "type": "EDBCM",
       "date": "2026-07-02",
@@ -33584,7 +33936,7 @@
       }
     },
     {
-      "id": 97,
+      "id": 98,
       "number": "EDBCM106/2026",
       "type": "EDBCM",
       "date": "2026-07-02",
@@ -33890,7 +34242,7 @@
       }
     },
     {
-      "id": 98,
+      "id": 99,
       "number": "EDBCM093/2026",
       "type": "EDBCM",
       "date": "2026-07-02",
@@ -34290,7 +34642,7 @@
       }
     },
     {
-      "id": 99,
+      "id": 100,
       "number": "EDBCM087/2026",
       "type": "EDBCM",
       "date": "2026-06-30",
@@ -34612,7 +34964,7 @@
       }
     },
     {
-      "id": 100,
+      "id": 101,
       "number": "EDBCM086/2026",
       "type": "EDBCM",
       "date": "2026-06-30",
@@ -34900,7 +35252,7 @@
       }
     },
     {
-      "id": 101,
+      "id": 102,
       "number": "EDBCM102/2026",
       "type": "EDBCM",
       "date": "2026-06-29",
@@ -35316,7 +35668,7 @@
       }
     },
     {
-      "id": 102,
+      "id": 103,
       "number": "EDBCM104/2026",
       "type": "EDBCM",
       "date": "2026-06-29",
@@ -35707,7 +36059,7 @@
       }
     },
     {
-      "id": 103,
+      "id": 104,
       "number": "EDBCM110/2026",
       "type": "EDBCM",
       "date": "2026-06-29",
@@ -36078,7 +36430,7 @@
       }
     },
     {
-      "id": 104,
+      "id": 105,
       "number": "EDBCM096/2026",
       "type": "EDBCM",
       "date": "2026-06-26",
@@ -36506,7 +36858,7 @@
       }
     },
     {
-      "id": 105,
+      "id": 106,
       "number": "EDBCM060/2026",
       "type": "EDBCM",
       "date": "2026-06-26",
@@ -36807,7 +37159,7 @@
       }
     },
     {
-      "id": 106,
+      "id": 107,
       "number": "EDBC008/2026",
       "type": "EDBC",
       "date": "2026-06-26",
@@ -37150,7 +37502,7 @@
       }
     },
     {
-      "id": 107,
+      "id": 108,
       "number": "EDBCM066/2026",
       "type": "EDBCM",
       "date": "2026-06-24",
@@ -37557,7 +37909,7 @@
       }
     },
     {
-      "id": 108,
+      "id": 109,
       "number": "EDBC012/2026",
       "type": "EDBC",
       "date": "2026-06-23",
@@ -37897,7 +38249,7 @@
       }
     },
     {
-      "id": 109,
+      "id": 110,
       "number": "EDBCM101/2026",
       "type": "EDBCM",
       "date": "2026-06-23",
@@ -38193,7 +38545,7 @@
       }
     },
     {
-      "id": 110,
+      "id": 111,
       "number": "EDBCM057/2026",
       "type": "EDBCM",
       "date": "2026-06-22",
@@ -38538,7 +38890,7 @@
       }
     },
     {
-      "id": 111,
+      "id": 112,
       "number": "EDBCM078/2026",
       "type": "EDBCM",
       "date": "2026-06-22",
@@ -38919,7 +39271,7 @@
       }
     },
     {
-      "id": 112,
+      "id": 113,
       "number": "EDBCM070/2026",
       "type": "EDBCM",
       "date": "2026-06-22",
@@ -39332,7 +39684,7 @@
       }
     },
     {
-      "id": 113,
+      "id": 114,
       "number": "EDBC009/2026",
       "type": "EDBC",
       "date": "2026-06-22",
@@ -39732,7 +40084,7 @@
       }
     },
     {
-      "id": 114,
+      "id": 115,
       "number": "EDBCM107/2026",
       "type": "EDBCM",
       "date": "2026-06-18",
@@ -40098,7 +40450,7 @@
       }
     },
     {
-      "id": 115,
+      "id": 116,
       "number": "EDBC011/2026",
       "type": "EDBC",
       "date": "2026-06-17",
@@ -40436,7 +40788,7 @@
       }
     },
     {
-      "id": 116,
+      "id": 117,
       "number": "EDBCM076/2026",
       "type": "EDBCM",
       "date": "2026-06-17",
@@ -40807,7 +41159,7 @@
       }
     },
     {
-      "id": 117,
+      "id": 118,
       "number": "EDBCM082/2026",
       "type": "EDBCM",
       "date": "2026-06-15",
@@ -41081,7 +41433,7 @@
       }
     },
     {
-      "id": 118,
+      "id": 119,
       "number": "EDBCM077/2026",
       "type": "EDBCM",
       "date": "2026-06-15",
@@ -41393,7 +41745,7 @@
       }
     },
     {
-      "id": 119,
+      "id": 120,
       "number": "EDBCM084/2026",
       "type": "EDBCM",
       "date": "2026-06-15",
@@ -41729,7 +42081,7 @@
       }
     },
     {
-      "id": 120,
+      "id": 121,
       "number": "EDBC010/2026",
       "type": "EDBC",
       "date": "2026-06-12",
@@ -42175,7 +42527,7 @@
       }
     },
     {
-      "id": 121,
+      "id": 122,
       "number": "EDBCM105/2026",
       "type": "EDBCM",
       "date": "2026-06-12",
@@ -42533,7 +42885,7 @@
       }
     },
     {
-      "id": 122,
+      "id": 123,
       "number": "EDBCM089/2026",
       "type": "EDBCM",
       "date": "2026-06-12",
@@ -42944,7 +43296,7 @@
       }
     },
     {
-      "id": 123,
+      "id": 124,
       "number": "EDBCM073/2026",
       "type": "EDBCM",
       "date": "2026-06-12",
@@ -43305,7 +43657,7 @@
       }
     },
     {
-      "id": 124,
+      "id": 125,
       "number": "EDBCM081/2026",
       "type": "EDBCM",
       "date": "2026-06-11",
@@ -43651,7 +44003,7 @@
       }
     },
     {
-      "id": 125,
+      "id": 126,
       "number": "EDBCM100/2026",
       "type": "EDBCM",
       "date": "2026-06-10",
@@ -43996,7 +44348,7 @@
       }
     },
     {
-      "id": 126,
+      "id": 127,
       "number": "EDBCM091/2026",
       "type": "EDBCM",
       "date": "2026-06-09",
@@ -44371,7 +44723,7 @@
       }
     },
     {
-      "id": 127,
+      "id": 128,
       "number": "EDBCM080/2026",
       "type": "EDBCM",
       "date": "2026-06-08",
@@ -44791,7 +45143,7 @@
       }
     },
     {
-      "id": 128,
+      "id": 129,
       "number": "EDBCM054/2026",
       "type": "EDBCM",
       "date": "2026-06-05",
@@ -45136,7 +45488,7 @@
       }
     },
     {
-      "id": 129,
+      "id": 130,
       "number": "EDBCM090/2026",
       "type": "EDBCM",
       "date": "2026-06-04",
@@ -45485,7 +45837,7 @@
       }
     },
     {
-      "id": 130,
+      "id": 131,
       "number": "EDBCM088/2026",
       "type": "EDBCM",
       "date": "2026-06-03",
@@ -45890,7 +46242,7 @@
       }
     },
     {
-      "id": 131,
+      "id": 132,
       "number": "EDBCM095/2026",
       "type": "EDBCM",
       "date": "2026-06-02",
@@ -46247,7 +46599,7 @@
       }
     },
     {
-      "id": 132,
+      "id": 133,
       "number": "EDBCM071/2026",
       "type": "EDBCM",
       "date": "2026-06-01",
@@ -46658,7 +47010,7 @@
       }
     },
     {
-      "id": 133,
+      "id": 134,
       "number": "EDBC007/2026",
       "type": "EDBC",
       "date": "2026-05-29",
@@ -47037,7 +47389,7 @@
       }
     },
     {
-      "id": 134,
+      "id": 135,
       "number": "EDBCM072/2026",
       "type": "EDBCM",
       "date": "2026-05-28",
@@ -47381,7 +47733,7 @@
       }
     },
     {
-      "id": 135,
+      "id": 136,
       "number": "EDBCM079/2026",
       "type": "EDBCM",
       "date": "2026-05-28",
@@ -47696,7 +48048,7 @@
       }
     },
     {
-      "id": 136,
+      "id": 137,
       "number": "EDBCM083/2026",
       "type": "EDBCM",
       "date": "2026-05-22",
@@ -48017,7 +48369,7 @@
       }
     },
     {
-      "id": 137,
+      "id": 138,
       "number": "EDBCM062/2026",
       "type": "EDBCM",
       "date": "2026-05-22",
@@ -48397,7 +48749,7 @@
       }
     },
     {
-      "id": 138,
+      "id": 139,
       "number": "EDBCM074/2026",
       "type": "EDBCM",
       "date": "2026-05-15",
@@ -48702,7 +49054,7 @@
       }
     },
     {
-      "id": 139,
+      "id": 140,
       "number": "EDBCM065/2026",
       "type": "EDBCM",
       "date": "2026-05-15",
@@ -49075,7 +49427,7 @@
       }
     },
     {
-      "id": 140,
+      "id": 141,
       "number": "EDBCM075/2026",
       "type": "EDBCM",
       "date": "2026-05-11",
@@ -49459,7 +49811,7 @@
       }
     },
     {
-      "id": 141,
+      "id": 142,
       "number": "EDBCM058/2026",
       "type": "EDBCM",
       "date": "2026-05-06",
@@ -49795,7 +50147,7 @@
       }
     },
     {
-      "id": 142,
+      "id": 143,
       "number": "EDBCM018/2026",
       "type": "EDBCM",
       "date": "2026-05-06",
@@ -50232,7 +50584,7 @@
       }
     },
     {
-      "id": 143,
+      "id": 144,
       "number": "EDBCM063/2026",
       "type": "EDBCM",
       "date": "2026-05-05",
@@ -50580,7 +50932,7 @@
       }
     },
     {
-      "id": 144,
+      "id": 145,
       "number": "EDBCM024/2026",
       "type": "EDBCM",
       "date": "2026-05-05",
@@ -50916,7 +51268,7 @@
       }
     },
     {
-      "id": 145,
+      "id": 146,
       "number": "EDBCM002/2026",
       "type": "EDBCM",
       "date": "2026-05-05",
@@ -51263,7 +51615,7 @@
       }
     },
     {
-      "id": 146,
+      "id": 147,
       "number": "EDBCM001/2026",
       "type": "EDBCM",
       "date": "2026-05-05",
@@ -51612,7 +51964,7 @@
       }
     },
     {
-      "id": 147,
+      "id": 148,
       "number": "EDBCM068/2026",
       "type": "EDBCM",
       "date": "2026-05-05",
@@ -51961,7 +52313,7 @@
       }
     },
     {
-      "id": 148,
+      "id": 149,
       "number": "EDBC006/2026",
       "type": "EDBC",
       "date": "2026-05-05",
@@ -52335,7 +52687,7 @@
       }
     },
     {
-      "id": 149,
+      "id": 150,
       "number": "EDBC004/2026",
       "type": "EDBC",
       "date": "2026-05-05",
@@ -52758,7 +53110,7 @@
       }
     },
     {
-      "id": 150,
+      "id": 151,
       "number": "EDBCM067/2026",
       "type": "EDBCM",
       "date": "2026-05-04",
@@ -53077,7 +53429,7 @@
       }
     },
     {
-      "id": 151,
+      "id": 152,
       "number": "EDBCM059/2026",
       "type": "EDBCM",
       "date": "2026-05-04",
@@ -53510,7 +53862,7 @@
       }
     },
     {
-      "id": 152,
+      "id": 153,
       "number": "EDBCM061/2026",
       "type": "EDBCM",
       "date": "2026-04-16",
@@ -53884,7 +54236,7 @@
       }
     },
     {
-      "id": 153,
+      "id": 154,
       "number": "EDBC003/2026",
       "type": "EDBC",
       "date": "2026-04-16",
@@ -54252,7 +54604,7 @@
       }
     },
     {
-      "id": 154,
+      "id": 155,
       "number": "EDBC005/2026",
       "type": "EDBC",
       "date": "2026-04-16",
@@ -54622,7 +54974,7 @@
       }
     },
     {
-      "id": 155,
+      "id": 156,
       "number": "EDBCM052/2026",
       "type": "EDBCM",
       "date": "2026-04-15",
@@ -54966,7 +55318,7 @@
       }
     },
     {
-      "id": 156,
+      "id": 157,
       "number": "EDBCM055/2026",
       "type": "EDBCM",
       "date": "2026-04-14",
@@ -55301,7 +55653,7 @@
       }
     },
     {
-      "id": 157,
+      "id": 158,
       "number": "EDBCM053/2026",
       "type": "EDBCM",
       "date": "2026-04-08",
@@ -55699,7 +56051,7 @@
       }
     },
     {
-      "id": 158,
+      "id": 159,
       "number": "EDBCM049/2026",
       "type": "EDBCM",
       "date": "2026-04-08",
@@ -56110,7 +56462,7 @@
       }
     },
     {
-      "id": 159,
+      "id": 160,
       "number": "EDBCM050/2026",
       "type": "EDBCM",
       "date": "2026-04-08",
@@ -56480,7 +56832,7 @@
       }
     },
     {
-      "id": 160,
+      "id": 161,
       "number": "EDBCM042/2026",
       "type": "EDBCM",
       "date": "2026-04-01",
@@ -56836,7 +57188,7 @@
       }
     },
     {
-      "id": 161,
+      "id": 162,
       "number": "EDBCM048/2026",
       "type": "EDBCM",
       "date": "2026-03-31",
@@ -57210,7 +57562,7 @@
       }
     },
     {
-      "id": 162,
+      "id": 163,
       "number": "EDBCM056/2026",
       "type": "EDBCM",
       "date": "2026-03-30",
@@ -57492,7 +57844,7 @@
       }
     },
     {
-      "id": 163,
+      "id": 164,
       "number": "EDBCM051/2026",
       "type": "EDBCM",
       "date": "2026-03-30",
@@ -57837,7 +58189,7 @@
       }
     },
     {
-      "id": 164,
+      "id": 165,
       "number": "EDBCM039/2026",
       "type": "EDBCM",
       "date": "2026-03-27",
@@ -58207,7 +58559,7 @@
       }
     },
     {
-      "id": 165,
+      "id": 166,
       "number": "EDBCM029/2026",
       "type": "EDBCM",
       "date": "2026-03-20",
@@ -58591,7 +58943,7 @@
       }
     },
     {
-      "id": 166,
+      "id": 167,
       "number": "EDBCM009/2026",
       "type": "EDBCM",
       "date": "2026-03-18",
@@ -58970,7 +59322,7 @@
       }
     },
     {
-      "id": 167,
+      "id": 168,
       "number": "EDBC002/2026",
       "type": "EDBC",
       "date": "2026-03-17",
@@ -59364,7 +59716,7 @@
       }
     },
     {
-      "id": 168,
+      "id": 169,
       "number": "EDBCM046/2026",
       "type": "EDBCM",
       "date": "2026-03-16",
@@ -59718,7 +60070,7 @@
       }
     },
     {
-      "id": 169,
+      "id": 170,
       "number": "EDBCM038/2026",
       "type": "EDBCM",
       "date": "2026-03-16",
@@ -60048,7 +60400,7 @@
       }
     },
     {
-      "id": 170,
+      "id": 171,
       "number": "EDBCM034/2026",
       "type": "EDBCM",
       "date": "2026-03-16",
@@ -60380,7 +60732,7 @@
       }
     },
     {
-      "id": 171,
+      "id": 172,
       "number": "EDBCM043/2026",
       "type": "EDBCM",
       "date": "2026-03-13",
@@ -60725,7 +61077,7 @@
       }
     },
     {
-      "id": 172,
+      "id": 173,
       "number": "EDBCM041/2026",
       "type": "EDBCM",
       "date": "2026-03-11",
@@ -61076,7 +61428,7 @@
       }
     },
     {
-      "id": 173,
+      "id": 174,
       "number": "EDBCM045/2026",
       "type": "EDBCM",
       "date": "2026-03-09",
@@ -61380,7 +61732,7 @@
       }
     },
     {
-      "id": 174,
+      "id": 175,
       "number": "EDBCM030/2026",
       "type": "EDBCM",
       "date": "2026-03-05",
@@ -61772,7 +62124,7 @@
       }
     },
     {
-      "id": 175,
+      "id": 176,
       "number": "EDBCM026/2026",
       "type": "EDBCM",
       "date": "2026-03-04",
@@ -62170,7 +62522,7 @@
       }
     },
     {
-      "id": 176,
+      "id": 177,
       "number": "EDBCM036/2026",
       "type": "EDBCM",
       "date": "2026-03-02",
@@ -62587,7 +62939,7 @@
       }
     },
     {
-      "id": 177,
+      "id": 178,
       "number": "EDBCM040/2026",
       "type": "EDBCM",
       "date": "2026-03-02",
@@ -63007,7 +63359,7 @@
       }
     },
     {
-      "id": 178,
+      "id": 179,
       "number": "EDBCM032/2026",
       "type": "EDBCM",
       "date": "2026-03-02",
@@ -63423,7 +63775,7 @@
       }
     },
     {
-      "id": 179,
+      "id": 180,
       "number": "EDBCM037/2026",
       "type": "EDBCM",
       "date": "2026-02-27",
@@ -63802,7 +64154,7 @@
       }
     },
     {
-      "id": 180,
+      "id": 181,
       "number": "EDBCM035/2026",
       "type": "EDBCM",
       "date": "2026-02-27",
@@ -64205,7 +64557,7 @@
       }
     },
     {
-      "id": 181,
+      "id": 182,
       "number": "EDBCM025/2026",
       "type": "EDBCM",
       "date": "2026-02-16",
@@ -64510,7 +64862,7 @@
       }
     },
     {
-      "id": 182,
+      "id": 183,
       "number": "EDBCM015/2026",
       "type": "EDBCM",
       "date": "2026-02-16",
@@ -64820,7 +65172,7 @@
       }
     },
     {
-      "id": 183,
+      "id": 184,
       "number": "EDBCM031/2026",
       "type": "EDBCM",
       "date": "2026-02-13",
@@ -65159,7 +65511,7 @@
       }
     },
     {
-      "id": 184,
+      "id": 185,
       "number": "EDBCM019/2026",
       "type": "EDBCM",
       "date": "2026-02-13",
@@ -65536,7 +65888,7 @@
       }
     },
     {
-      "id": 185,
+      "id": 186,
       "number": "EDBCM027/2026",
       "type": "EDBCM",
       "date": "2026-02-12",
@@ -65908,7 +66260,7 @@
       }
     },
     {
-      "id": 186,
+      "id": 187,
       "number": "EDBCM033/2026",
       "type": "EDBCM",
       "date": "2026-02-10",
@@ -66244,7 +66596,7 @@
       }
     },
     {
-      "id": 187,
+      "id": 188,
       "number": "EDBCM007/2026",
       "type": "EDBCM",
       "date": "2026-02-03",
@@ -66552,7 +66904,7 @@
       }
     },
     {
-      "id": 188,
+      "id": 189,
       "number": "EDBCM028/2026",
       "type": "EDBCM",
       "date": "2026-02-02",
@@ -66893,7 +67245,7 @@
       }
     },
     {
-      "id": 189,
+      "id": 190,
       "number": "EDBCM023/2026",
       "type": "EDBCM",
       "date": "2026-02-02",
@@ -67217,7 +67569,7 @@
       }
     },
     {
-      "id": 190,
+      "id": 191,
       "number": "EDBCM017/2026",
       "type": "EDBCM",
       "date": "2026-01-30",
@@ -67619,7 +67971,7 @@
       }
     },
     {
-      "id": 191,
+      "id": 192,
       "number": "EDBC001/2026",
       "type": "EDBC",
       "date": "2026-01-30",
@@ -67951,7 +68303,7 @@
       }
     },
     {
-      "id": 192,
+      "id": 193,
       "number": "EDBCM010/2026",
       "type": "EDBCM",
       "date": "2026-01-28",
@@ -68270,7 +68622,7 @@
       }
     },
     {
-      "id": 193,
+      "id": 194,
       "number": "EDBCM022/2026",
       "type": "EDBCM",
       "date": "2026-01-23",
@@ -68543,7 +68895,7 @@
       }
     },
     {
-      "id": 194,
+      "id": 195,
       "number": "EDBCM020/2026",
       "type": "EDBCM",
       "date": "2026-01-16",
@@ -68873,7 +69225,7 @@
       }
     },
     {
-      "id": 195,
+      "id": 196,
       "number": "EDBCM021/2026",
       "type": "EDBCM",
       "date": "2026-01-15",
@@ -69301,7 +69653,7 @@
       }
     },
     {
-      "id": 196,
+      "id": 197,
       "number": "EDBCM008/2026",
       "type": "EDBCM",
       "date": "2026-01-15",
@@ -69563,7 +69915,7 @@
       }
     },
     {
-      "id": 197,
+      "id": 198,
       "number": "EDBCM006/2026",
       "type": "EDBCM",
       "date": "2026-01-12",
@@ -69909,7 +70261,7 @@
       }
     },
     {
-      "id": 198,
+      "id": 199,
       "number": "EDBCM005/2026",
       "type": "EDBCM",
       "date": "2026-01-12",
@@ -70301,7 +70653,7 @@
       }
     },
     {
-      "id": 199,
+      "id": 200,
       "number": "EDBCM012/2026",
       "type": "EDBCM",
       "date": "2026-01-09",
@@ -70595,7 +70947,7 @@
       }
     },
     {
-      "id": 200,
+      "id": 201,
       "number": "EDBCM011/2026",
       "type": "EDBCM",
       "date": "2026-01-09",
@@ -70892,7 +71244,7 @@
       }
     },
     {
-      "id": 201,
+      "id": 202,
       "number": "EDBCM003/2026",
       "type": "EDBCM",
       "date": "2026-01-07",
@@ -71255,7 +71607,7 @@
       }
     },
     {
-      "id": 202,
+      "id": 203,
       "number": "EDBCM014/2026",
       "type": "EDBCM",
       "date": "2026-01-06",
@@ -71612,7 +71964,7 @@
       }
     },
     {
-      "id": 203,
+      "id": 204,
       "number": "EDBCM013/2026",
       "type": "EDBCM",
       "date": "2026-01-06",
@@ -71983,7 +72335,7 @@
       }
     },
     {
-      "id": 204,
+      "id": 205,
       "number": "EDBCM016/2026",
       "type": "EDBCM",
       "date": "2026-01-02",
@@ -72290,7 +72642,7 @@
       }
     },
     {
-      "id": 205,
+      "id": 206,
       "number": "EDBCM222/2025",
       "type": "EDBCM",
       "date": "2025-12-19",
@@ -72680,7 +73032,7 @@
       }
     },
     {
-      "id": 206,
+      "id": 207,
       "number": "EDBCM221/2025",
       "type": "EDBCM",
       "date": "2025-12-16",
@@ -73087,7 +73439,7 @@
       }
     },
     {
-      "id": 207,
+      "id": 208,
       "number": "EDBCM218/2025",
       "type": "EDBCM",
       "date": "2025-12-15",
@@ -73459,7 +73811,7 @@
       }
     },
     {
-      "id": 208,
+      "id": 209,
       "number": "EDBCM213/2025",
       "type": "EDBCM",
       "date": "2025-12-15",
@@ -73817,7 +74169,7 @@
       }
     },
     {
-      "id": 209,
+      "id": 210,
       "number": "EDBCM207/2025",
       "type": "EDBCM",
       "date": "2025-12-15",
@@ -74193,7 +74545,7 @@
       }
     },
     {
-      "id": 210,
+      "id": 211,
       "number": "EDBCM201/2025",
       "type": "EDBCM",
       "date": "2025-12-10",
@@ -74548,7 +74900,7 @@
       }
     },
     {
-      "id": 211,
+      "id": 212,
       "number": "EDBCM220/2025",
       "type": "EDBCM",
       "date": "2025-12-08",
@@ -74999,7 +75351,7 @@
       }
     },
     {
-      "id": 212,
+      "id": 213,
       "number": "EDBCM217/2025",
       "type": "EDBCM",
       "date": "2025-12-08",
@@ -75394,7 +75746,7 @@
       }
     },
     {
-      "id": 213,
+      "id": 214,
       "number": "EDBCM176/2025",
       "type": "EDBCM",
       "date": "2025-12-01",
@@ -75737,7 +76089,7 @@
       }
     },
     {
-      "id": 214,
+      "id": 215,
       "number": "EDBCM216/2025",
       "type": "EDBCM",
       "date": "2025-11-28",
@@ -76094,7 +76446,7 @@
       }
     },
     {
-      "id": 215,
+      "id": 216,
       "number": "EDBCM212/2025",
       "type": "EDBCM",
       "date": "2025-11-28",
@@ -76466,7 +76818,7 @@
       }
     },
     {
-      "id": 216,
+      "id": 217,
       "number": "EDBCM208/2025",
       "type": "EDBCM",
       "date": "2025-11-28",
@@ -76827,7 +77179,7 @@
       }
     },
     {
-      "id": 217,
+      "id": 218,
       "number": "EDBCM202/2025",
       "type": "EDBCM",
       "date": "2025-11-20",
@@ -77250,7 +77602,7 @@
       }
     },
     {
-      "id": 218,
+      "id": 219,
       "number": "EDBCM215/2025",
       "type": "EDBCM",
       "date": "2025-11-20",
@@ -77614,7 +77966,7 @@
       }
     },
     {
-      "id": 219,
+      "id": 220,
       "number": "EDBCM206/2025",
       "type": "EDBCM",
       "date": "2025-11-20",
@@ -77947,7 +78299,7 @@
       }
     },
     {
-      "id": 220,
+      "id": 221,
       "number": "EDBCM197/2025",
       "type": "EDBCM",
       "date": "2025-11-20",
@@ -78276,7 +78628,7 @@
       }
     },
     {
-      "id": 221,
+      "id": 222,
       "number": "EDBCM177/2025",
       "type": "EDBCM",
       "date": "2025-11-14",
@@ -78588,7 +78940,7 @@
       }
     },
     {
-      "id": 222,
+      "id": 223,
       "number": "EDBCM205/2025",
       "type": "EDBCM",
       "date": "2025-11-11",
@@ -78948,7 +79300,7 @@
       }
     },
     {
-      "id": 223,
+      "id": 224,
       "number": "EDBCM200/2025",
       "type": "EDBCM",
       "date": "2025-11-10",
@@ -79301,7 +79653,7 @@
       }
     },
     {
-      "id": 224,
+      "id": 225,
       "number": "EDBCM183/2025",
       "type": "EDBCM",
       "date": "2025-11-07",
@@ -79667,7 +80019,7 @@
       }
     },
     {
-      "id": 225,
+      "id": 226,
       "number": "EDBCM186/2025",
       "type": "EDBCM",
       "date": "2025-11-06",
@@ -80052,7 +80404,7 @@
       }
     },
     {
-      "id": 226,
+      "id": 227,
       "number": "EDBCM204/2025",
       "type": "EDBCM",
       "date": "2025-11-06",
@@ -80365,7 +80717,7 @@
       }
     },
     {
-      "id": 227,
+      "id": 228,
       "number": "EDBCM203/2025",
       "type": "EDBCM",
       "date": "2025-11-06",
@@ -80717,7 +81069,7 @@
       }
     },
     {
-      "id": 228,
+      "id": 229,
       "number": "EDBCM179/2025",
       "type": "EDBCM",
       "date": "2025-11-04",
@@ -81087,7 +81439,7 @@
       }
     },
     {
-      "id": 229,
+      "id": 230,
       "number": "EDBC020/2025",
       "type": "EDBC",
       "date": "2025-10-31",
@@ -81408,7 +81760,7 @@
       }
     },
     {
-      "id": 230,
+      "id": 231,
       "number": "EDBCM174/2025",
       "type": "EDBCM",
       "date": "2025-10-28",
@@ -81795,7 +82147,7 @@
       }
     },
     {
-      "id": 231,
+      "id": 232,
       "number": "EDBCM198/2025",
       "type": "EDBCM",
       "date": "2025-10-27",
@@ -82151,7 +82503,7 @@
       }
     },
     {
-      "id": 232,
+      "id": 233,
       "number": "EDBCM195/2025",
       "type": "EDBCM",
       "date": "2025-10-27",
@@ -82483,7 +82835,7 @@
       }
     },
     {
-      "id": 233,
+      "id": 234,
       "number": "EDBCM196/2025",
       "type": "EDBCM",
       "date": "2025-10-24",
@@ -82842,7 +83194,7 @@
       }
     },
     {
-      "id": 234,
+      "id": 235,
       "number": "EDBCM193/2025",
       "type": "EDBCM",
       "date": "2025-10-24",
@@ -83187,7 +83539,7 @@
       }
     },
     {
-      "id": 235,
+      "id": 236,
       "number": "EDBCM162/2025",
       "type": "EDBCM",
       "date": "2025-10-22",
@@ -83466,7 +83818,7 @@
       }
     },
     {
-      "id": 236,
+      "id": 237,
       "number": "EDBCM192/2025",
       "type": "EDBCM",
       "date": "2025-10-20",
@@ -83852,7 +84204,7 @@
       }
     },
     {
-      "id": 237,
+      "id": 238,
       "number": "EDBCM190/2025",
       "type": "EDBCM",
       "date": "2025-10-20",
@@ -84228,7 +84580,7 @@
       }
     },
     {
-      "id": 238,
+      "id": 239,
       "number": "EDBCM189/2025",
       "type": "EDBCM",
       "date": "2025-10-20",
@@ -84588,7 +84940,7 @@
       }
     },
     {
-      "id": 239,
+      "id": 240,
       "number": "EDBCM182/2025",
       "type": "EDBCM",
       "date": "2025-10-16",
@@ -84920,7 +85272,7 @@
       }
     },
     {
-      "id": 240,
+      "id": 241,
       "number": "EDBCM187/2025",
       "type": "EDBCM",
       "date": "2025-10-16",
@@ -85239,7 +85591,7 @@
       }
     },
     {
-      "id": 241,
+      "id": 242,
       "number": "EDBCM157/2025",
       "type": "EDBCM",
       "date": "2025-10-15",
@@ -85594,7 +85946,7 @@
       }
     },
     {
-      "id": 242,
+      "id": 243,
       "number": "EDBCM191/2025",
       "type": "EDBCM",
       "date": "2025-10-15",
@@ -86013,7 +86365,7 @@
       }
     },
     {
-      "id": 243,
+      "id": 244,
       "number": "EDBCM180/2025",
       "type": "EDBCM",
       "date": "2025-10-13",
@@ -86325,7 +86677,7 @@
       }
     },
     {
-      "id": 244,
+      "id": 245,
       "number": "EDBCM169/2025",
       "type": "EDBCM",
       "date": "2025-10-08",
@@ -86658,7 +87010,7 @@
       }
     },
     {
-      "id": 245,
+      "id": 246,
       "number": "EDBCM184/2025",
       "type": "EDBCM",
       "date": "2025-10-06",
@@ -87026,7 +87378,7 @@
       }
     },
     {
-      "id": 246,
+      "id": 247,
       "number": "EDBCM152/2025",
       "type": "EDBCM",
       "date": "2025-10-06",
@@ -87377,7 +87729,7 @@
       }
     },
     {
-      "id": 247,
+      "id": 248,
       "number": "EDBCM138/2025",
       "type": "EDBCM",
       "date": "2025-10-02",
@@ -87758,7 +88110,7 @@
       }
     },
     {
-      "id": 248,
+      "id": 249,
       "number": "EDBCM147/2025",
       "type": "EDBCM",
       "date": "2025-09-29",
@@ -88154,7 +88506,7 @@
       }
     },
     {
-      "id": 249,
+      "id": 250,
       "number": "EDBCM143/2025",
       "type": "EDBCM",
       "date": "2025-09-29",
@@ -88473,7 +88825,7 @@
       }
     },
     {
-      "id": 250,
+      "id": 251,
       "number": "EDBCM178/2025",
       "type": "EDBCM",
       "date": "2025-09-26",
@@ -88862,7 +89214,7 @@
       }
     },
     {
-      "id": 251,
+      "id": 252,
       "number": "EDBCM168/2025",
       "type": "EDBCM",
       "date": "2025-09-25",
@@ -89166,7 +89518,7 @@
       }
     },
     {
-      "id": 252,
+      "id": 253,
       "number": "EDBCM160/2025",
       "type": "EDBCM",
       "date": "2025-09-25",
@@ -89537,7 +89889,7 @@
       }
     },
     {
-      "id": 253,
+      "id": 254,
       "number": "EDBCM171/2025",
       "type": "EDBCM",
       "date": "2025-09-23",
@@ -89838,7 +90190,7 @@
       }
     },
     {
-      "id": 254,
+      "id": 255,
       "number": "EDBCM139/2025",
       "type": "EDBCM",
       "date": "2025-09-22",
@@ -90258,7 +90610,7 @@
       }
     },
     {
-      "id": 255,
+      "id": 256,
       "number": "EDBCM159/2025",
       "type": "EDBCM",
       "date": "2025-09-19",
@@ -90670,7 +91022,7 @@
       }
     },
     {
-      "id": 256,
+      "id": 257,
       "number": "EDBCM155/2025",
       "type": "EDBCM",
       "date": "2025-09-17",
@@ -91004,7 +91356,7 @@
       }
     },
     {
-      "id": 257,
+      "id": 258,
       "number": "EDBCM154/2025",
       "type": "EDBCM",
       "date": "2025-09-17",
@@ -91342,7 +91694,7 @@
       }
     },
     {
-      "id": 258,
+      "id": 259,
       "number": "EDBCM141/2025",
       "type": "EDBCM",
       "date": "2025-09-16",
@@ -91669,7 +92021,7 @@
       }
     },
     {
-      "id": 259,
+      "id": 260,
       "number": "EDBCM156/2025",
       "type": "EDBCM",
       "date": "2025-09-15",
@@ -91969,7 +92321,7 @@
       }
     },
     {
-      "id": 260,
+      "id": 261,
       "number": "EDBCM172/2025",
       "type": "EDBCM",
       "date": "2025-09-12",
@@ -92376,7 +92728,7 @@
       }
     },
     {
-      "id": 261,
+      "id": 262,
       "number": "EDBCM164/2025",
       "type": "EDBCM",
       "date": "2025-09-12",
@@ -92683,7 +93035,7 @@
       }
     },
     {
-      "id": 262,
+      "id": 263,
       "number": "EDBCM132/2025",
       "type": "EDBCM",
       "date": "2025-09-11",
@@ -93060,7 +93412,7 @@
       }
     },
     {
-      "id": 263,
+      "id": 264,
       "number": "EDBCM129/2025",
       "type": "EDBCM",
       "date": "2025-09-10",
@@ -93429,7 +93781,7 @@
       }
     },
     {
-      "id": 264,
+      "id": 265,
       "number": "EDBCM173/2025",
       "type": "EDBCM",
       "date": "2025-09-09",
@@ -93763,7 +94115,7 @@
       }
     },
     {
-      "id": 265,
+      "id": 266,
       "number": "EDBCM140/2025",
       "type": "EDBCM",
       "date": "2025-09-09",
@@ -94126,7 +94478,7 @@
       }
     },
     {
-      "id": 266,
+      "id": 267,
       "number": "EDBCM149/2025",
       "type": "EDBCM",
       "date": "2025-09-08",
@@ -94502,7 +94854,7 @@
       }
     },
     {
-      "id": 267,
+      "id": 268,
       "number": "EDBCM146/2025",
       "type": "EDBCM",
       "date": "2025-09-08",
@@ -94891,7 +95243,7 @@
       }
     },
     {
-      "id": 268,
+      "id": 269,
       "number": "EDBCM135/2025",
       "type": "EDBCM",
       "date": "2025-09-08",
@@ -95295,7 +95647,7 @@
       }
     },
     {
-      "id": 269,
+      "id": 270,
       "number": "EDBCM148/2025",
       "type": "EDBCM",
       "date": "2025-09-08",
@@ -95652,7 +96004,7 @@
       }
     },
     {
-      "id": 270,
+      "id": 271,
       "number": "EDBCM144/2025",
       "type": "EDBCM",
       "date": "2025-09-08",
@@ -96015,7 +96367,7 @@
       }
     },
     {
-      "id": 271,
+      "id": 272,
       "number": "EDBCM131/2025",
       "type": "EDBCM",
       "date": "2025-09-08",
@@ -96396,7 +96748,7 @@
       }
     },
     {
-      "id": 272,
+      "id": 273,
       "number": "EDBCM127/2025",
       "type": "EDBCM",
       "date": "2025-09-08",
@@ -96708,7 +97060,7 @@
       }
     },
     {
-      "id": 273,
+      "id": 274,
       "number": "EDBCM101/2025",
       "type": "EDBCM",
       "date": "2025-09-08",
@@ -97071,7 +97423,7 @@
       }
     },
     {
-      "id": 274,
+      "id": 275,
       "number": "EDBCM145/2025",
       "type": "EDBCM",
       "date": "2025-09-05",
@@ -97437,7 +97789,7 @@
       }
     },
     {
-      "id": 275,
+      "id": 276,
       "number": "EDBC019/2025",
       "type": "EDBC",
       "date": "2025-09-02",
@@ -97762,7 +98114,7 @@
       }
     },
     {
-      "id": 276,
+      "id": 277,
       "number": "EDBCM158/2025",
       "type": "EDBCM",
       "date": "2025-09-01",
@@ -98079,7 +98431,7 @@
       }
     },
     {
-      "id": 277,
+      "id": 278,
       "number": "EDBCM151/2025",
       "type": "EDBCM",
       "date": "2025-09-01",
