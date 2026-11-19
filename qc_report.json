@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T16:40:31.158273Z",
-  "feedGeneratedAt": "2026-11-19T16:40:17Z",
+  "generatedAt": "2026-11-19T19:33:34.212207Z",
+  "feedGeneratedAt": "2026-11-19T19:33:17Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 287,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-11-19T16:40:17Z'",
+      "detail": "circulars=list generated_at='2026-11-19T19:33:17Z'",
       "offenders": [],
       "offender_total": 0
     },
