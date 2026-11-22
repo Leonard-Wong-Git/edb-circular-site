@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-22T15:28:41.817452Z",
-  "feedGeneratedAt": "2026-11-22T15:28:30Z",
+  "generatedAt": "2026-11-22T15:41:54.565946Z",
+  "feedGeneratedAt": "2026-11-22T15:41:43Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 288,
-    "PASS": 28,
+    "PASS": 29,
     "BLOCKER": 0,
     "ERROR": 0,
     "WARN": 0,
     "INFO": 0
   },
-  "version": "v3.1.3",
+  "version": "v3.1.4",
   "sourceStatus": {
     "available": 219,
     "partial": 0,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-11-22T15:28:30Z'",
+      "detail": "circulars=list generated_at='2026-11-22T15:41:43Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -196,6 +196,15 @@
       "offender_total": 0
     },
     {
+      "id": "PUA_IN_PUBLIC_TEXT",
+      "label": "公開欄位無符號字型私用區字元（顯示為空方框，KD#77）",
+      "severity": "ERROR",
+      "status": "PASS",
+      "detail": "0 筆帶私用區字元",
+      "offenders": [],
+      "offender_total": 0
+    },
+    {
       "id": "TEXT_ENCODING_SANITY",
       "label": "文字未受編碼錯讀損壞（可逆向還原為中文者即判定損壞）",
       "severity": "BLOCKER",
@@ -272,7 +281,7 @@
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.1.3 · 5/5 個標記命中",
+      "detail": "v3.1.4 · 5/5 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -281,7 +290,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.1.3 → 本次 v3.1.3",
+      "detail": "上次 v3.1.3 → 本次 v3.1.4",
       "offenders": [],
       "offender_total": 0
     },
