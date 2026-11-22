@@ -31,7 +31,7 @@ permissions:
   contents: read
 
 env:
-  SITE: https://circular.wongfu.net
+  SITE: https://circular.minny.app
   STATUS_PAGE: status-8bee6ebd38.html
   # 排程約每 8 小時一轉：14 小時 = 錯過一轉（警告）；24 小時 = 錯過兩轉以上（失敗）。
   WARN_HOURS: '14'
@@ -58,8 +58,8 @@ jobs:
       - name: TLS certificate expiry
         continue-on-error: true      # 憑證由 GitHub 自動續期；早期預警而非攔截
         run: |
-          end=$(echo | openssl s_client -servername circular.wongfu.net \
-                  -connect circular.wongfu.net:443 2>/dev/null \
+          end=$(echo | openssl s_client -servername circular.minny.app \
+                  -connect circular.minny.app:443 2>/dev/null \
                 | openssl x509 -noout -enddate | cut -d= -f2)
           days=$(( ( $(date -d "$end" +%s) - $(date +%s) ) / 86400 ))
           echo "憑證到期：$end（$days 日後）"
