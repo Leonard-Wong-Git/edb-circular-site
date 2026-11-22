@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T15:07:59.556253Z",
-  "feedGeneratedAt": "2026-11-22T15:07:45Z",
+  "generatedAt": "2026-11-22T15:14:18.096040Z",
+  "feedGeneratedAt": "2026-11-22T15:14:06Z",
   "overallStatus": "PASS",
   "counts": {
     "records": 288,
@@ -10,7 +10,7 @@
     "WARN": 0,
     "INFO": 0
   },
-  "version": "v3.1.2",
+  "version": "v3.1.3",
   "sourceStatus": {
     "available": 219,
     "partial": 0,
@@ -23,7 +23,7 @@
       "label": "Feed 結構完整（circulars 陣列 + generated_at）",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "circulars=list generated_at='2026-11-22T15:07:45Z'",
+      "detail": "circulars=list generated_at='2026-11-22T15:14:06Z'",
       "offenders": [],
       "offender_total": 0
     },
@@ -272,7 +272,7 @@
       "label": "Dashboard 版本標記全部一致（無漂移）",
       "severity": "ERROR",
       "status": "PASS",
-      "detail": "v3.1.2 · 5/5 個標記命中",
+      "detail": "v3.1.3 · 5/5 個標記命中",
       "offenders": [],
       "offender_total": 0
     },
@@ -281,7 +281,7 @@
       "label": "版本不可倒退",
       "severity": "BLOCKER",
       "status": "PASS",
-      "detail": "上次 v3.1.1 → 本次 v3.1.2",
+      "detail": "上次 v3.1.2 → 本次 v3.1.3",
       "offenders": [],
       "offender_total": 0
     },

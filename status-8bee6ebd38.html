@@ -173,7 +173,7 @@
   <div class="card">
     <h2>⚙️ 機器可讀狀態<span class="hint">供 AI Agent 讀取</span></h2>
     <div class="body">
-      <p class="note">同樣內容可直接抓取：<span class="inline-code">circular.wongfu.net/qc_report.json</span></p>
+      <p class="note">同樣內容可直接抓取：<span class="inline-code">circular.minny.app/qc_report.json</span></p>
       <pre class="json" id="raw">載入中…</pre>
     </div>
   </div>
@@ -216,7 +216,7 @@ var COMMANDS = [
   {l:'查看公開站部署紀錄', d:'Pages 是否成功部署 —— 後端顯示成功不代表已經上線。',
    c:'gh run list --repo '+PUBLIC+' --limit 10'},
   {l:'本機對線上資料執行 QC', d:'無須等待排程，即時得知線上資料的狀態。',
-   c:'curl -s https://circular.wongfu.net/circulars.json -o /tmp/live.json && \\\n'+
+   c:'curl -s https://circular.minny.app/circulars.json -o /tmp/live.json && \\\n'+
      'python3.13 dev/tools/qc_circulars.py --json /tmp/live.json --dashboard edb-dashboard.html'},
   {l:'⚠️ 由歷史版本還原資料檔', d:'資料倒退時使用。先查看歷史、選定 SHA，再行還原。2026-09-01 曾經使用。',
    danger:true,

@@ -1,9 +1,9 @@
-# Embedding `circular.wongfu.net`
+# Embedding `circular.minny.app`
 
 > Single URL → context-aware behavior.
 > First introduced: **v3.0.49 (2026-05-27)**
 
-The same URL `https://circular.wongfu.net/` automatically adapts based on
+The same URL `https://circular.minny.app/` automatically adapts based on
 how it's consumed:
 
 | Consumer | What appears |
@@ -23,7 +23,7 @@ Paste this anywhere — that's it:
 
 ```html
 <iframe
-  src="https://circular.wongfu.net/"
+  src="https://circular.minny.app/"
   style="width:100%;border:0;border-radius:12px;min-height:700px;"
   loading="lazy"
   title="EDB 通告智能分析系統"
@@ -47,15 +47,15 @@ content height changes. Listen for it on the host page:
 ```html
 <iframe
   id="edbCircularFrame"
-  src="https://circular.wongfu.net/"
+  src="https://circular.minny.app/"
   style="width:100%;border:0;border-radius:12px;min-height:700px;"
   loading="lazy"
   title="EDB 通告智能分析系統"></iframe>
 
 <script>
   window.addEventListener('message', (e) => {
-    // Only accept messages from circular.wongfu.net
-    if (e.origin !== 'https://circular.wongfu.net') return;
+    // Only accept messages from circular.minny.app
+    if (e.origin !== 'https://circular.minny.app') return;
     if (e.data?.type !== 'edb-circular-height') return;
     const frame = document.getElementById('edbCircularFrame');
     if (frame && e.data.height) {
@@ -81,11 +81,11 @@ Sent on: `load`, `ResizeObserver` body resize, and twice after load
 The OG metadata (added in **v3.0.48**) is configured for:
 - `og:title` — EDB 通告智能分析系統
 - `og:description` — AI 即時解讀教育局通告，自動提取摘要、識別截止日期與角色職責
-- `og:image` — `https://circular.wongfu.net/assets/og-image.png` (1729×910)
+- `og:image` — `https://circular.minny.app/assets/og-image.png` (1729×910)
 - `og:url`, `og:site_name`, `og:locale=zh_HK`
 - `twitter:card=summary_large_image`, `twitter:image`
 
-Just pasting `https://circular.wongfu.net/` into Slack / WhatsApp /
+Just pasting `https://circular.minny.app/` into Slack / WhatsApp /
 Discord / Teams / Twitter will render a rich preview card automatically.
 
 ---
@@ -96,10 +96,10 @@ If you're building a project showcase grid and want a static tile that
 opens the dashboard in a new tab on click:
 
 ```html
-<a href="https://circular.wongfu.net/"
+<a href="https://circular.minny.app/"
    target="_blank" rel="noopener"
    class="project-card">
-  <img src="https://circular.wongfu.net/assets/og-image.png"
+  <img src="https://circular.minny.app/assets/og-image.png"
        alt="EDB 通告智能分析系統"
        loading="lazy">
   <div class="card-body">

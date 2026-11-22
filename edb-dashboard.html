@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
-<title>EDB 通告智能分析系統 v3.1.2</title>
+<title>EDB 通告智能分析系統 v3.1.3</title>
 
 <!-- PWA / Add to Home Screen -->
 <link rel="manifest" href="manifest.json">
@@ -1001,7 +1001,7 @@ body.is-embedded .embed-attribution:hover{
 <header class="header">
   <div class="brand" onclick="switchTab('home',document.getElementById('tabHome'))" style="cursor:pointer;" title="返回首頁">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="13" x2="12" y2="17"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg>
-    <span>EDB 通告智能分析系統<span class="brand-sub" id="brandVersion"> v3.1.2</span></span>
+    <span>EDB 通告智能分析系統<span class="brand-sub" id="brandVersion"> v3.1.3</span></span>
   </div>
 
   <select class="role-select" id="roleSelect" onchange="setRole(this.value)">
@@ -1210,7 +1210,7 @@ body.is-embedded .embed-attribution:hover{
         </div>
         <div style="padding:10px;background:var(--surface);border:1px solid var(--border);border-radius:8px;">
           <div style="font-weight:700;color:var(--accent);margin-bottom:4px;">基礎建設</div>
-          <div style="color:var(--text-muted);line-height:1.6;">GitHub Actions（cron 3×/日）<br>GitHub Pages（靜態 hosting）<br>circular.wongfu.net 自訂域名<br>Let's Encrypt SSL</div>
+          <div style="color:var(--text-muted);line-height:1.6;">GitHub Actions（cron 3×/日）<br>GitHub Pages（靜態 hosting）<br>circular.minny.app 自訂域名<br>Let's Encrypt SSL</div>
         </div>
       </div>
     </div>
@@ -1473,7 +1473,7 @@ body.is-embedded .embed-attribution:hover{
         </div>
         <div class="setting-row">
           <div class="setting-info"><div class="setting-lbl">版本</div></div>
-          <span id="versionLabel" style="font-size:12px;color:var(--text-muted)">v3.1.2</span>
+          <span id="versionLabel" style="font-size:12px;color:var(--text-muted)">v3.1.3</span>
         </div>
       </div>
 
@@ -1538,7 +1538,7 @@ body.is-embedded .embed-attribution:hover{
         <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border);font-size:11px;color:var(--text-muted);line-height:1.7">
           ⚠️ <strong>免責聲明：</strong>本系統 AI 摘要及分析由人工智能生成，僅供輔助參考，一切以
           <a href="https://www.edb.gov.hk/tc/circular/index.html" target="_blank" rel="noopener">教育局官方通告</a>為準。
-          &nbsp;|&nbsp; 系統設計：Leonard Wong &nbsp;|&nbsp; v3.1.2
+          &nbsp;|&nbsp; 系統設計：Leonard Wong &nbsp;|&nbsp; v3.1.3
         </div>
       </div>
 
@@ -1586,30 +1586,32 @@ body.is-embedded .embed-attribution:hover{
      ============================================================ -->
 <footer class="site-footer">
   <div>⚠️ <strong>免責聲明：</strong>本系統資料來源於<a href="https://www.edb.gov.hk" target="_blank" rel="noopener">香港特別行政區政府教育局（EDB）</a>官方網站，僅供參考及輔助管理用途，一切以教育局官方公告為準。本系統並非教育局官方產品。</div>
-  <div style="margin-top:4px;color:var(--border)"><a class="foot-m-link" href="https://minny.app/" target="_blank" rel="noopener"><img src="assets/brand/m.svg" alt="" width="18" height="12">minny.app 出品</a> &nbsp;|&nbsp; 系統設計：Leonard Wong &nbsp;|&nbsp; EDB 通告智能分析系統 v3.1.2 &nbsp;|&nbsp; &copy; 2026<span id="fbFoot" hidden> &nbsp;|&nbsp; <button type="button" class="fb-link" onclick="openFeedback(null)">提供意見</button></span></div>
+  <div style="margin-top:4px;color:var(--border)"><a class="foot-m-link" href="https://minny.app/" target="_blank" rel="noopener"><img src="assets/brand/m.svg" alt="" width="18" height="12">minny.app 出品</a> &nbsp;|&nbsp; 系統設計：Leonard Wong &nbsp;|&nbsp; EDB 通告智能分析系統 v3.1.3 &nbsp;|&nbsp; &copy; 2026<span id="fbFoot" hidden> &nbsp;|&nbsp; <button type="button" class="fb-link" onclick="openFeedback(null)">提供意見</button></span></div>
 </footer>
 
 <!-- Embed mode attribution corner (visible only when iframe'd) -->
-<a class="embed-attribution" href="https://circular.wongfu.net/" target="_blank" rel="noopener" title="開啟完整 dashboard（新分頁）">↗ 完整版</a>
+<a class="embed-attribution" href="https://circular.minny.app/" target="_blank" rel="noopener" title="開啟完整 dashboard（新分頁）">↗ 完整版</a>
 
-<!-- Non-canonical host warning (visible only when re-hosted off circular.wongfu.net) -->
-<div class="mirror-warning" role="alert">⚠️ 此為非官方鏡像，內容可能過時或被竄改。正本：<a href="https://circular.wongfu.net/" target="_blank" rel="noopener noreferrer">circular.wongfu.net</a></div>
+<!-- Non-canonical host warning (visible only when re-hosted off circular.minny.app) -->
+<div class="mirror-warning" role="alert">⚠️ 此為非官方鏡像，內容可能過時或被竄改。正本：<a href="https://circular.minny.app/" target="_blank" rel="noopener noreferrer">circular.minny.app</a></div>
 
 <script>
 /* ============================================================
    VERSION
    ============================================================ */
-const VERSION = 'v3.1.2';
+const VERSION = 'v3.1.3';
 
 /* ── Non-canonical host self-check (v3.0.69) ───────────────────
    When the dashboard is re-hosted off the canonical domain, surface a
-   "non-official mirror" banner pointing back to circular.wongfu.net.
+   "non-official mirror" banner pointing back to circular.minny.app.
    Allowlist covers the live domain + local dev + file:// preview
    (location.hostname === '') so legitimate use never triggers it.
    Runs independent of the embed / landing flow below.
    ─────────────────────────────────────────────────────────── */
 (function () {
-  var CANONICAL_HOSTS = ['circular.wongfu.net', 'localhost', '127.0.0.1', ''];
+  // circular.wongfu.net kept for the v3.1.3 cutover: the old host serves this build until
+  // GitHub Pages switches domain, and must not show the mirror banner meanwhile (KD#76).
+  var CANONICAL_HOSTS = ['circular.minny.app', 'circular.wongfu.net', 'localhost', '127.0.0.1', ''];
   var host;
   try { host = (location.hostname || '').toLowerCase(); } catch (e) { return; }
   if (CANONICAL_HOSTS.indexOf(host) !== -1) return;  // canonical / local / file:// → no warning
@@ -3305,7 +3307,7 @@ function exportICS(){
         `DTEND;VALUE=DATE:${dt}`,
         `SUMMARY:${summary}`,
         `DESCRIPTION:${desc}`,
-        `URL:https://circular.wongfu.net/`,
+        `URL:https://circular.minny.app/`,
         `UID:edb-${d.id}-${dl.type}-${dt}@edb-dashboard`,
         'END:VEVENT'
       ].join('\r\n'));
